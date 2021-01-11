@@ -1,0 +1,197 @@
+2021-01-10 19:19:49 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Loggers Instance with file name: DemoBlazeLogger_01_10_2021 19_19_49
+2021-01-10 19:19:49 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: DemoBlazeReport01_10_2021 19_19_49
+2021-01-10 19:19:52 INFO  - [class com.demoBlaze.libraries.GenericLib] : URL launched
+2021-01-10 19:19:52 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : Excepted : URL is launchedhttps://www.demoblaze.com
+2021-01-10 19:19:52 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 19:19:52 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkPhones
+2021-01-10 19:19:53 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Phones']
+2021-01-10 19:19:53 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Samsung galaxy s6'] is present/displayed in screen 
+2021-01-10 19:19:53 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 19:19:53 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 19:19:53 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 19:19:53 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkMonitors
+2021-01-10 19:19:53 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Monitors']
+2021-01-10 19:19:54 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Apple monitor 24'] is present/displayed in screen 
+2021-01-10 19:19:54 INFO  - [class com.demoBlaze.libraries.GenericLib] : URL launched
+2021-01-10 19:19:54 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : Excepted : URL is launchedhttps://www.demoblaze.com
+2021-01-10 19:19:54 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 19:19:54 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 19:19:55 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 19:19:55 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 19:19:55 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkSonyVaioI5
+2021-01-10 19:19:58 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Sony vaio i5']
+2021-01-10 19:19:59 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h2[@class='name' and text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 19:19:59 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 19:20:01 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //a[text()='Add to cart']
+2021-01-10 19:20:01 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert message is generated  Product added
+2021-01-10 19:20:01 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert is Accepted
+2021-01-10 19:20:01 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkHome
+2021-01-10 19:20:03 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //a[@class='nav-link'][contains(text(),'Home')]
+2021-01-10 19:20:03 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 19:20:03 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 19:20:04 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Dell i7 8gb'] is present/displayed in screen 
+2021-01-10 19:20:04 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDellI78GB
+2021-01-10 19:20:05 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Dell i7 8gb']
+2021-01-10 19:20:06 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h2[@class='name' and text()='Dell i7 8gb'] is present/displayed in screen 
+2021-01-10 19:20:06 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 19:20:08 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //a[text()='Add to cart']
+2021-01-10 19:20:08 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert message is generated  Product added
+2021-01-10 19:20:08 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert is Accepted
+2021-01-10 19:20:08 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 19:20:08 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkCart
+2021-01-10 19:20:09 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with id --- cartur
+2021-01-10 19:20:09 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page CartPage
+2021-01-10 19:20:09 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDeleteDelli78gb
+2021-01-10 19:20:10 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //td[text()='Dell i7 8gb']/following-sibling::td/a[text()='Delete']
+2021-01-10 19:20:11 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//td[text()='Dell i7 8gb']/following-sibling::td/a[text()='Delete'] is not present/displayed in screen 
+2021-01-10 19:20:11 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User captures text from lblTotalExpectedAmount.
+2021-01-10 19:20:13 INFO  - [class com.demoBlaze.webelement.BaseElement] : Waited till totalp is present in screen
+2021-01-10 19:20:13 INFO  - [class com.demoBlaze.webelement.BaseElement] : Get display Text : 790
+2021-01-10 19:20:13 INFO  - [class com.demoBlaze.webelement.BaseElement] : Get display Text : 790Text is found
+2021-01-10 19:20:13 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 19:20:13 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 19:20:13 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2021-01-10 19:20:13 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 19:20:13 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2021-01-10 19:20:13 INFO  - [class com.demoBlaze.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2021-01-10 19:20:13 INFO  - [class com.demoBlaze.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2021-01-10 19:20:13 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnPlaceOrder
+2021-01-10 19:20:15 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //button[text()='Place Order']
+2021-01-10 19:20:15 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//div[@class='modal fade show'] is present/displayed in screen 
+2021-01-10 19:20:15 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types Cucumber in textbox edtName.
+2021-01-10 19:20:15 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed Cucumber on element with id --- name
+2021-01-10 19:20:15 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types India in textbox edtCountry.
+2021-01-10 19:20:15 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed India on element with id --- country
+2021-01-10 19:20:15 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types Chandigarh in textbox edtCity.
+2021-01-10 19:20:16 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed Chandigarh on element with id --- city
+2021-01-10 19:20:16 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types 456789123456789632 in textbox edtCreditCard.
+2021-01-10 19:20:16 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed 456789123456789632 on element with id --- card
+2021-01-10 19:20:16 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types September in textbox edtMonth.
+2021-01-10 19:20:16 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed September on element with id --- month
+2021-01-10 19:20:16 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types 2056 in textbox edtyear.
+2021-01-10 19:20:16 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed 2056 on element with id --- country
+2021-01-10 19:20:16 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnPurchase
+2021-01-10 19:20:18 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //button[text()='Purchase']
+2021-01-10 19:20:18 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User captures text from lbldetails.
+2021-01-10 19:20:18 INFO  - [class com.demoBlaze.webelement.BaseElement] : Waited till //p[@class='lead text-muted '] is present in screen
+2021-01-10 19:20:18 INFO  - [class com.demoBlaze.webelement.BaseElement] : Get display Text : Id: 3795219
+Amount: 790 USD
+Card Number: 456789123456789632
+Name: Cucumber
+Date: 10/0/2021
+2021-01-10 19:20:18 INFO  - [class com.demoBlaze.webelement.BaseElement] : Get display Text : Id: 3795219
+Amount: 790 USD
+Card Number: 456789123456789632
+Name: Cucumber
+Date: 10/0/2021Text is found
+2021-01-10 19:20:18 INFO  - [class com.demoBlaze.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2021-01-10 19:20:18 INFO  - [class com.demoBlaze.webelement.BaseElement] : Inner text matched. 
+	Id: 3795219
+Amount: 790 USD
+Card Number: 456789123456789632
+Name: Cucumber
+Date: 10/0/2021
+	790
+2021-01-10 19:20:18 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnOk
+2021-01-10 19:20:21 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //button[text()='OK']
+2021-01-10 19:20:21 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 19:20:22 INFO  - [class com.demoBlaze.libraries.GenericLib] : URL launched
+2021-01-10 19:20:22 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : Excepted : URL is launchedhttps://www.demoblaze.com
+2021-01-10 19:20:22 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 19:20:22 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 19:20:22 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 19:20:23 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 19:20:23 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkSonyVaioI5
+2021-01-10 19:20:23 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Sony vaio i5']
+2021-01-10 19:20:24 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h2[@class='name' and text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 19:20:24 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 19:20:26 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //a[text()='Add to cart']
+2021-01-10 19:20:26 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert message is generated  Product added
+2021-01-10 19:20:26 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert is Accepted
+2021-01-10 19:20:26 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkHome
+2021-01-10 19:20:26 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //a[@class='nav-link'][contains(text(),'Home')]
+2021-01-10 19:20:26 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 19:20:26 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 19:20:27 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Dell i7 8gb'] is present/displayed in screen 
+2021-01-10 19:20:27 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDellI78GB
+2021-01-10 19:20:28 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Dell i7 8gb']
+2021-01-10 19:20:29 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h2[@class='name' and text()='Dell i7 8gb'] is present/displayed in screen 
+2021-01-10 19:20:29 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 19:20:31 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //a[text()='Add to cart']
+2021-01-10 19:20:31 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert message is generated  Product added
+2021-01-10 19:20:31 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert is Accepted
+2021-01-10 19:20:31 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 19:20:31 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkCart
+2021-01-10 19:20:32 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with id --- cartur
+2021-01-10 19:20:32 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page CartPage
+2021-01-10 19:20:32 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDeleteDelli78gb
+2021-01-10 19:20:34 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //td[text()='Dell i7 8gb']/following-sibling::td/a[text()='Delete']
+2021-01-10 19:20:35 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//td[text()='Dell i7 8gb']/following-sibling::td/a[text()='Delete'] is not present/displayed in screen 
+2021-01-10 19:20:35 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User captures text from lblTotalExpectedAmount.
+2021-01-10 19:20:36 INFO  - [class com.demoBlaze.webelement.BaseElement] : Waited till totalp is present in screen
+2021-01-10 19:20:36 INFO  - [class com.demoBlaze.webelement.BaseElement] : Get display Text : 790
+2021-01-10 19:20:36 INFO  - [class com.demoBlaze.webelement.BaseElement] : Get display Text : 790Text is found
+2021-01-10 19:20:36 INFO  - [class com.demoBlaze.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2021-01-10 19:20:36 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnPlaceOrder
+2021-01-10 19:20:38 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //button[text()='Place Order']
+2021-01-10 19:20:38 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//div[@class='modal fade show'] is present/displayed in screen 
+2021-01-10 19:20:38 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnPurchase
+2021-01-10 19:20:40 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //button[text()='Purchase']
+2021-01-10 19:20:40 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert message is generated  Please fill out Name and Creditcard.
+2021-01-10 19:20:40 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert is Accepted
+2021-01-10 19:20:41 INFO  - [class com.demoBlaze.libraries.GenericLib] : URL launched
+2021-01-10 19:20:41 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : Excepted : URL is launchedhttps://www.demoblaze.com
+2021-01-10 19:20:41 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 19:20:41 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 19:20:41 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 19:20:42 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 19:20:42 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkSonyVaioI5
+2021-01-10 19:20:43 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Sony vaio i5']
+2021-01-10 19:20:43 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h2[@class='name' and text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 19:20:43 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 19:20:46 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //a[text()='Add to cart']
+2021-01-10 19:20:46 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert message is generated  Product added
+2021-01-10 19:20:46 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert is Accepted
+2021-01-10 19:20:46 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkHome
+2021-01-10 19:20:46 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //a[@class='nav-link'][contains(text(),'Home')]
+2021-01-10 19:20:46 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 19:20:46 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 19:20:47 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Dell i7 8gb'] is present/displayed in screen 
+2021-01-10 19:20:47 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDellI78GB
+2021-01-10 19:20:47 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Dell i7 8gb']
+2021-01-10 19:20:48 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h2[@class='name' and text()='Dell i7 8gb'] is present/displayed in screen 
+2021-01-10 19:20:48 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 19:20:50 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //a[text()='Add to cart']
+2021-01-10 19:20:50 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert message is generated  Product added
+2021-01-10 19:20:50 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert is Accepted
+2021-01-10 19:20:50 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 19:20:50 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkCart
+2021-01-10 19:20:51 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with id --- cartur
+2021-01-10 19:20:51 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page CartPage
+2021-01-10 19:20:51 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDeleteDelli78gb
+2021-01-10 19:20:53 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //td[text()='Dell i7 8gb']/following-sibling::td/a[text()='Delete']
+2021-01-10 19:20:55 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//td[text()='Dell i7 8gb']/following-sibling::td/a[text()='Delete'] is not present/displayed in screen 
+2021-01-10 19:20:55 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User captures text from lblTotalExpectedAmount.
+2021-01-10 19:20:56 INFO  - [class com.demoBlaze.webelement.BaseElement] : Waited till totalp is present in screen
+2021-01-10 19:20:56 INFO  - [class com.demoBlaze.webelement.BaseElement] : Get display Text : 1580
+2021-01-10 19:20:56 INFO  - [class com.demoBlaze.webelement.BaseElement] : Get display Text : 1580Text is found
+2021-01-10 19:20:56 INFO  - [class com.demoBlaze.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2021-01-10 19:20:56 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnPlaceOrder
+2021-01-10 19:20:58 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //button[text()='Place Order']
+2021-01-10 19:20:58 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//div[@class='modal fade show'] is present/displayed in screen 
+2021-01-10 19:20:58 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types Java in textbox edtName.
+2021-01-10 19:20:58 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed Java on element with id --- name
+2021-01-10 19:20:58 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types India in textbox edtCountry.
+2021-01-10 19:20:59 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed India on element with id --- country
+2021-01-10 19:20:59 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types Chandigarh in textbox edtCity.
+2021-01-10 19:20:59 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed Chandigarh on element with id --- city
+2021-01-10 19:20:59 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types 459189123456789632 in textbox edtCreditCard.
+2021-01-10 19:20:59 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed 459189123456789632 on element with id --- card
+2021-01-10 19:20:59 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types September in textbox edtMonth.
+2021-01-10 19:20:59 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed September on element with id --- month
+2021-01-10 19:20:59 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User types 2085 in textbox edtyear.
+2021-01-10 19:20:59 INFO  - [class com.demoBlaze.webelement.TextBox] : TextBox: Typed 2085 on element with id --- country
+2021-01-10 19:20:59 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnClose
+2021-01-10 19:21:01 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //button[text()='Purchase']/preceding-sibling::button[text()='Close']
+2021-01-10 19:21:01 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page CartPage
+2021-01-10 19:21:02 INFO  - [class com.demoBlaze.libraries.GenericLib] : Browser is closed

@@ -1,0 +1,100 @@
+2020-07-27 17:10:41 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Loggers Instance with file name: ZelleLogger_07_27_2020 17_10_41
+2020-07-27 17:10:41 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: ZelleTestReport_07_27_2020 17_10_41
+2020-07-27 17:10:41 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-27 17:10:41 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-27 17:10:41 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2020-07-27 17:10:41 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-27 17:10:41 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2020-07-27 17:10:41 INFO  - [class com.epp.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2020-07-27 17:11:05 INFO  - [class com.epp.libraries.GenericLib] : URL launched
+2020-07-27 17:11:05 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page CommonPage
+2020-07-27 17:11:05 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User waited for 10 seconds 
+2020-07-27 17:11:15 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkActivity
+2020-07-27 17:11:15 INFO  - [class com.epp.webelement.Label] : Label: Clicked label with xpath --- //a[@id='PaymentActivityButtonLink']
+2020-07-27 17:11:15 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ActivityPage
+2020-07-27 17:11:18 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ActivityPage
+2020-07-27 17:11:18 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to ActivityPage
+2020-07-27 17:11:48 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep:  lblRequestDeclined Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_element_is_present(UniversalSteps.java:268)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='canceledExpiredDeclinedTile tile']"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.62.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 294a3e161e1615382a25248dbf835c21
+*** Element info: {Using=xpath, value=//div[@class='canceledExpiredDeclinedTile tile']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.elementIsPresent(BaseElement.java:256)
+	... 46 more
+...
+2020-07-27 17:13:00 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2020-07-27 17:13:00 INFO  - [class com.epp.initdriver.RDPDriver] : Setup the new driver
+2020-07-27 17:13:03 INFO  - [class com.epp.initdriver.RDPDriver] : Created Chrome driver instace
+2020-07-27 17:13:03 INFO  - [class com.epp.initdriver.RDPDriver] : Maximize the explorer window
+2020-07-27 17:13:03 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2020-07-27 17:13:03 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-27 17:13:03 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-27 17:13:03 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties at null: unknown protocol: c
+2020-07-27 17:13:03 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-27 17:13:03 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/java/com/epp/config/Logger.properties

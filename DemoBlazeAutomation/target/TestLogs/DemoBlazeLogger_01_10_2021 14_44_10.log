@@ -1,0 +1,50 @@
+2021-01-10 14:44:10 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Loggers Instance with file name: DemoBlazeLogger_01_10_2021 14_44_10
+2021-01-10 14:44:10 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: DemoBlazeReport01_10_2021 14_44_10
+2021-01-10 14:44:10 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 14:44:10 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 14:44:10 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2021-01-10 14:44:10 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 14:44:10 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2021-01-10 14:44:10 INFO  - [class com.epp.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2021-01-10 14:44:14 INFO  - [class com.epp.libraries.GenericLib] : URL launched
+2021-01-10 14:44:14 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 14:44:14 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 14:44:14 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 14:44:15 INFO  - [class com.epp.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 14:44:15 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkSonyVaioI5
+2021-01-10 14:44:18 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Sony vaio i5']
+2021-01-10 14:44:20 INFO  - [class com.epp.webelement.BaseElement] : Element//h2[@class='name' and text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 14:44:20 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 14:44:22 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //a[text()='Add to cart']
+2021-01-10 14:44:22 INFO  - [class com.epp.libraries.GenericLib] : Alert message is generated  Product added
+2021-01-10 14:44:22 INFO  - [class com.epp.libraries.GenericLib] : Alert is Accepted
+2021-01-10 14:44:22 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkHome
+2021-01-10 14:44:23 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //a[@class='nav-link'][contains(text(),'Home')]
+2021-01-10 14:44:23 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 14:44:23 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 14:44:24 INFO  - [class com.epp.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Dell i7 8gb'] is present/displayed in screen 
+2021-01-10 14:44:24 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDellI78GB
+2021-01-10 14:44:25 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Dell i7 8gb']
+2021-01-10 14:44:25 INFO  - [class com.epp.webelement.BaseElement] : Element//h2[@class='name' and text()='Dell i7 8gb'] is present/displayed in screen 
+2021-01-10 14:44:25 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 14:44:28 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //a[text()='Add to cart']
+2021-01-10 14:44:28 INFO  - [class com.epp.libraries.GenericLib] : Alert message is generated  Product added
+2021-01-10 14:44:28 INFO  - [class com.epp.libraries.GenericLib] : Alert is Accepted
+2021-01-10 14:44:28 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 14:44:28 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkCart
+2021-01-10 14:44:28 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with id --- cartur
+2021-01-10 14:44:28 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page CartPage
+2021-01-10 14:44:28 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDeleteDelli78gb
+2021-01-10 14:44:30 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //td[text()='Dell i7 8gb']/following-sibling::td/a[text()='Delete']
+2021-01-10 14:45:34 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2021-01-10 14:45:34 INFO  - [class com.epp.initdriver.DemoBlazeDriver] : Setup the new driver
+2021-01-10 14:45:36 INFO  - [class com.epp.initdriver.DemoBlazeDriver] : Created Chrome driver instace
+2021-01-10 14:45:36 INFO  - [class com.epp.initdriver.DemoBlazeDriver] : Maximize the explorer window
+2021-01-10 14:45:36 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 14:45:36 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2021-01-10 14:45:36 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 14:45:36 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\epp\config\Logger.properties
+2021-01-10 14:45:36 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\epp\config\Logger.properties
+2021-01-10 14:45:36 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\epp\config\Logger.properties at null: unknown protocol: c
+2021-01-10 14:45:36 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\epp\config\Logger.properties
+2021-01-10 14:45:36 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/java/com/epp/config/Logger.properties

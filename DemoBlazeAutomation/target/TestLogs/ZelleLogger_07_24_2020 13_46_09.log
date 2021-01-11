@@ -1,0 +1,1996 @@
+2020-07-24 13:46:09 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Loggers Instance with file name: ZelleLogger_07_24_2020 13_46_09
+2020-07-24 13:46:09 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: ZelleTestReport_07_24_2020 13_46_09
+2020-07-24 13:46:10 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Create user one using services and Launch URL
+2020-07-24 13:46:10 INFO  - [class com.epp.api.executor.APIExecutor] : API Executor constructor, assigning all the values to variable of API 
+2020-07-24 13:46:10 INFO  - [class com.epp.api.executor.APIExecutor] : Closing all the instances of Excel sheets
+2020-07-24 13:46:10 INFO  - [class com.epp.api.executor.APIExecutor] : Request which need to run: AddConsumer.xml
+2020-07-24 13:46:10 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 13:46:10 INFO  - [class com.epp.api.executor.APIExecutor] : Reading XML file into Document instance is done
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=, wsse:Username=, wsse:Password=, req:MtvnSvcVer=, req:ApplID=, req:SvcID=, req:SvcVer=, req:RoutingID=, com1:addr1=, com1:city=, com1:state=, com1:postalCode=, com1:country=, com1:type=, com1:number=, com1:isPrimary=, com1:email=, com1:userId=}
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=HOME, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=HOME, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphaNumeric generate: l77fqX
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphabet generate: nNxB
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 17217
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : Random email id generate: nNxB17217@yahoo.com
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 3499082
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : Random phone generate: 2013499082
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : Parcing of xml file is done
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 13:46:11 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xml file at run level
+2020-07-24 13:46:11 INFO  - [class com.epp.api.executor.APIExecutor] : Hitting the request using post method
+2020-07-24 13:46:11 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Into Post Method
+2020-07-24 13:46:11 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Base End Point URL: https://localhost:1122/services/port
+2020-07-24 13:46:11 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : XML request file path: C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\api\temp\Request_Zelle_AddConsumer_TC01_20200724_134611.xml
+2020-07-24 13:46:12 DEBUG - Get connection for route {s}->https://localhost:1122
+2020-07-24 13:46:12 DEBUG - Connecting to localhost:1122
+2020-07-24 13:46:14 DEBUG - CookieSpec selected: ignoreCookies
+2020-07-24 13:46:14 DEBUG - Auth cache not set in the context
+2020-07-24 13:46:14 DEBUG - Target auth state: UNCHALLENGED
+2020-07-24 13:46:14 DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-24 13:46:14 DEBUG - Attempt 1 to execute request
+2020-07-24 13:46:14 DEBUG - Sending request: POST /services/port/v1_6 HTTP/1.1
+2020-07-24 13:46:14 DEBUG -  >> "POST /services/port/v1_6 HTTP/1.1[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "SOAPAction: authenticate[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "Accept: */*[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "Content-Type: application/soap+xml; charset=UTF-8;[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "Content-Length: 5407[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "Host: localhost:1122[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "[\r][\n]"
+2020-07-24 13:46:14 DEBUG - >> POST /services/port/v1_6 HTTP/1.1
+2020-07-24 13:46:14 DEBUG - >> SOAPAction: authenticate
+2020-07-24 13:46:14 DEBUG - >> Accept: */*
+2020-07-24 13:46:14 DEBUG - >> Content-Type: application/soap+xml; charset=UTF-8;
+2020-07-24 13:46:14 DEBUG - >> Content-Length: 5407
+2020-07-24 13:46:14 DEBUG - >> Host: localhost:1122
+2020-07-24 13:46:14 DEBUG - >> Connection: Keep-Alive
+2020-07-24 13:46:14 DEBUG - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2020-07-24 13:46:14 DEBUG - >> Accept-Encoding: gzip,deflate
+2020-07-24 13:46:14 DEBUG -  >> "<?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://metavante.com/types/common" xmlns:com1="http://epayments.metavante.com/types/common" xmlns:req="http://epayments.metavante.com/types/request" xmlns:req1="http://epayments.metavante.com/types/consumerPayee/request" xmlns:req2="http://epayments.metavante.com/types/fi/request" xmlns:req3="http://epayments.metavante.com/types/fundingAccount/request" xmlns:req4="http://epayments.metavante.com/types/merchant/request" xmlns:req5="http://epayments.metavante.com/types/security/request" xmlns:req6="http://epayments.metavante.com/types/user/request" xmlns:req7="http://epayments.metavante.com/types/consumer/request" xmlns:req8="http://epayments.metavante.com/types/checkimage/request" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "   <soapenv:Header>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "      <wsse:Security>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "         <wsse:UsernameToken>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "            <wsse:Username>FISEPAY_DEV</wsse:Username>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "            <wsse:Password>RaDrup5E4awreP</wsse:Password>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "         </wsse:UsernameToken>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "      </wsse:Security>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "   </soapenv:Header>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "   <soapenv:Body>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "      <req:EbMtvnSvcReq>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "         <req:MtvnSvcVer>v1.6.0</req:MtvnSvcVer>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "         <req:MsgUUID>?</req:MsgUUID>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "         <req:PrcsParms>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "            <req:SrcID>MVEPAY</req:SrcID>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "         </req:PrcsParms>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "         <req:Svc>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "            <req:SvcParms>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "               <req:ApplID>ZELLE</req:ApplID>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "               <req:SvcID>AddConsumer</req:SvcID>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "               <req:SvcVer>v1.6.0</req:SvcVer>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "               <req:RoutingID>fis-50202</req:RoutingID>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "            </req:SvcParms>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "            <req:MsgData>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "               <req:AddConsumer>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                  <req1:locale>en-US</req1:locale>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                  <com:channelName/>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                  <req7:consumerInfo>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:individualConsumer>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:firstName>manjinder</com1:firstName>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:middleName>Y</com1:middleName>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:lastName>singh</com1:lastName>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:SSN>999-99-0000</com1:SSN>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:birthDate>1984-12-31</com1:birthDate>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     </com1:individualConsumer>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:address>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:addr1>10610 Faulkner Point way</com1:addr1>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:city>Irving</com1:city>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:state>TX</com1:state>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:postalCode>75063-1234</com1:postalCode>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:country>US</com1:country>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:phoneNumberList>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                           <com1:phoneNumber>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                              <com1:type>HOME</com1:type>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                            <com1:number>2013499082</com1:number>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                              <com1:isPrimary>true</com1:isPrimary>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                           </com1:phoneNumber>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        </com1:phoneNumberList>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     </com1:address>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:email>nNxB17217@yahoo.com</com1:email>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <!--com1:serviceId>1</com1:serviceId-->[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:termsAcceptedDate>2009-05-01T12:06:12Z</com1:termsAcceptedDate>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:paymentLimits>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:transactionLimit>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                           <com1:amount>1</com1:amount>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                           <com1:currencyCode>USD</com1:currencyCode>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        </com1:transactionLimit>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:dailyLimit>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                           <com1:amount>1</com1:amount>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                           <com1:currencyCode>USD</com1:currencyCode>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        </com1:dailyLimit>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     </com1:paymentLimits>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:emailFormatPreference>HTML</com1:emailFormatPreference>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                  </req7:consumerInfo>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                  <req7:userInfo>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:firstName>manjinder</com1:firstName>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:middleName>Y</com1:middleName>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:lastName>singh</com1:lastName>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:address>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:addr1>10610 Faulkner Point way</com1:addr1>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:city>Irving</com1:city>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:state>TX</com1:state>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:postalCode>75063-1234</com1:postalCode>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:country>US</com1:country>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:phoneNumberList>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                           <com1:phoneNumber>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                              <com1:type>HOME</com1:type>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                              <com1:number>2013499082</com1:number>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                              <com1:isPrimary>true</com1:isPrimary>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                           </com1:phoneNumber>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        </com1:phoneNumberList>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     </com1:address>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:email>nNxB17217@yahoo.com</com1:email>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:userIdentity>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                        <com1:userId>l77fqX</com1:userId>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     </com1:userIdentity>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                     <com1:password>abc123</com1:password>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "                  </req7:userInfo>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "               </req:AddConsumer>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "            </req:MsgData>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "         </req:Svc>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "      </req:EbMtvnSvcReq>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "   </soapenv:Body>[\r][\n]"
+2020-07-24 13:46:14 DEBUG -  >> "</soapenv:Envelope>"
+2020-07-24 13:46:25 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "X-Powered-By: Servlet/3.0[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "Content-Type: text/xml; charset=utf-8[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "Content-Encoding: gzip[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "Content-Language: en-US[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "Date: Fri, 24 Jul 2020 08:16:24 GMT[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "[\r][\n]"
+2020-07-24 13:46:25 DEBUG - Receiving response: HTTP/1.1 200 OK
+2020-07-24 13:46:25 DEBUG - << HTTP/1.1 200 OK
+2020-07-24 13:46:25 DEBUG - << X-Powered-By: Servlet/3.0
+2020-07-24 13:46:25 DEBUG - << Content-Type: text/xml; charset=utf-8
+2020-07-24 13:46:25 DEBUG - << Content-Encoding: gzip
+2020-07-24 13:46:25 DEBUG - << Content-Language: en-US
+2020-07-24 13:46:25 DEBUG - << Transfer-Encoding: chunked
+2020-07-24 13:46:25 DEBUG - << Date: Fri, 24 Jul 2020 08:16:24 GMT
+2020-07-24 13:46:25 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 13:46:25 DEBUG - Parsing response as: text/xml; charset=utf-8
+2020-07-24 13:46:25 DEBUG -  << "a[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-07-24 13:46:25 DEBUG -  << "[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "5ab[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "[0xad]Xm[0x93][0xda]6[0x10][0xfe][0xde]_[0xc1][0xd0][0xcf][0xc6][0x96][0xc1][0xbc]x[0x88]Sz![0x13]f[0xe0]z[0x13][0xe0][0x9a][0xe6][0x9b][0xce][0x16][0x87][[[0xa6][0x96][\r][0xc7][0xbf][0xef]j%[0xfc][0x6]ip&7[0xc3]a[0xed][0xcb][0xf3]H+iw[0xcd][0xf4][0xfd][[0x1c]u[0x8e],[0x15]a[0xc2][0xdf]uI[0xcf][0xea]v[0x18][0xf7][0x93] [0xe4][0xaf][0xef][0xba][0xdb][0xcd]Gc[0xdc]}[0xef][0xfd]2[0x15][0x9]=0~t[0xe7][0xfc][0xc8][0xa2][0xe4][0xc0]:[0xe0][0xc6][0x85][0xab][0xc5][0xef][0xba][0xfb],;[0xb8][0xa6])[0xfc]=[0x8b][0xa9][0xe8][0x81]V[0xaa]zI[0xfa]j[0xca][0x7][0x93]i?[0xb3][0xab]=[0xdf]DPx[0x9d]N[0xa7][0xde][0xa9][0x8f][0xc6][0xb6]e[0x11][0xf3][0xcb]j[0xb9]F[0xa0][0xd2]8[0xfc][0xbe][0xb1][0x11]r[0x91]Q[0xee][0xb3]ne[0xbe][0x9f][0x18][\r]X[\n]"
+2020-07-24 13:46:25 DEBUG -  << "[0x82][0x93][0x10][0xcc]]3?O[0xc3][0xec][0xac]a[0xa5][0xac][0xc0][\r][0x12]_[0xf4][0x12]*Ba[0xc0]<9[0x12][0x80][0x81]$[0x19][0x98][0xc0][0xa3]Trd[0x11][0x3][0x14][0xf2][0xa3][0xe1][0xc]x`o[0x99][0x1][0xd1][0xeb][0xc1][0xba][0xba][0x9d][0xb]{[0x9c][0x8b]l[0xcb]a[0x2]rb[0xb0]^[0xd2][0xf5]`"[0xb9][0xbb][0x9]c[0x6][0xa2][0xf8]PL$[0xff])[0xf3][0xc8][0xb3]0[0x92][0xdf][0xc5]D$[0xd9][0x2][0x88][0xb]B[0xc3] [0xc4][0x19]:[0x83][0xbe]5p[0xf4]d[0x1e]RF3[0x16]x[0xb6]e[[0x86]52[0xec][0xc1][0xc6][0x1a][0xbb]d[0xe8][0xda]N[0xcf][0x19][0x92][0xaf]S[0xb3]j[0x85].[0xf3][0xb7]C[0x98]2[0xd1]p[0xb1]I[0xdd][0xe5]b[0xa5]F[0xc5][0x14]p\[0xd9][0xc][0x18]7v[0xab][0xd8][0xbd][0xdf][0x93][0x0][0xd4][0xf3][0x97]Uv[0xe4][0xeb][0xa3][0xff][0x99][0x9][0x15][0xb0]"X[0xec]@[0xcf]1[0xe3][0x99][0xe8][0xc5],[0xa3]G[0xca]3[0xd6][0xf3][0x93][0xd8][0xcc][0xce][0x7]&L ?$\[0xc0][0x81][0x98]j[0x84]g@?[0x92][0xde][0xb0]gM[0xcd][0x8a]h[0xba][0x12][0xaf][0xdb][0xed][0xe2][0x83][0xf7][0x1e][0xc4][0xfa]q[\n]"
+2020-07-24 13:46:25 DEBUG -  << ":[0xfc][0xf7]D[0xd3][0x18][0x16]1;[0x1c]"[0x10][0x9d]/[0x97][0xf3][0xa9][0xa9]GR[0xf]_[0xb3] x[0x0][0xa2]<f[0xe9][0xd4]T[0xa2]i[0x83][0xed][0xc2]d[0x96][0x88][0xc0][0xf4][0x81]f[0x14][0xa0]Kwo[0xca][0x5]q!R[0x82][0xbe][0xb2]e(2}B@Z,[0xfa][0xd6]R[0xe1])N8,[0xd4]l[0xf8]K@[0xdb][0xe5][0xec]ta([0x0][0xed];[0xa3][0xe8]k[0xc7]j8[0xb9][0xe8][0xbb][0x17][0xf9]"[0x0][0xd7][0xf2]R[0x81][0xea]n`=[0xe7]:[0x9a]g[0x8f]&[0x4]>[0x96]\KM[0xd1][0x14](^[0xe9]?pC[0x1e][0x84][0xc7]0[0xc8]it[0xb5][0xd0]A[0xfb][0xf9][0xc][0xdc]][0x8][0x97][0xf6][0x91][0xc6][0xcc][0x8b])[0xff];[0x94][0x97]X[0xd2]W[0x15]h[0x17][0x87]A[0x10]1[0x1c][0xff][0xa5][0xc]*[0x12][0xb4][0x88][0xa8][0xb6][0x17][0x90]S[0xf7][0xca][0xa6][0x90][0xa1][0xc5]z[0xfd][0xe8]M[0xe4][0x9f][0x5][0xca]@[0x8a]P[0xf7][0x12][0xa6][0xd9][0x1e][0x8e][0x9][0xf3][0xc8]d<0[0x88]m[0xf4][0x89]2)5j|[0x1d][0x1][0x89][0xe0][0xb8]4[0x8]`[0xe7]D[0x11][0xe][0xa7]}8[0x14][0x8][0xf1][0x88]5$V[0xe7]#[0xcd][0xa3]8[0x4][0xf8])[0x9]y[0xd6]9[0xd1][0xb3][0x9c][0xc0][0xc5][0x6][0xcd]}[0xb9]/[0x8b][0xf4][0x8]+V:_o[0x94][0xe3]B[0xe][0x80])o[0xbe]([0xb9][0x1a][0xa1][0xe2][0x90][0xc0][0x0][0xe6][0x1e]0o[0xe4]X[0xc3]>[0xb1][0xfb][0x3]eT[0xd1]([0xf4]$[0xe7]Yz[0xf6][0xb6]k[\r][0xae][0xc7][\n]"
+2020-07-24 13:46:25 DEBUG -  << "f[0x9f]p[0xf6][0x98][0xc7]/,[0xbd][0x9c][0xff][0x9a]P[0x9][0xe4][0x12][0xbd]O[0xac][0xe6][\n]"
+2020-07-24 13:46:25 DEBUG -  << "[0x1][0x87][0xa8][0xe0][0xca][0xc8][0xb6]H[0x0][0x1b]2[0xb6][0x95][0x81][0x16][0xeb][0xf9]T[0xd1][0x9a][0x12]EjV"/[0x81][0x87].T[0xa8]0*6a[0xd8]r[0x13]8{!#[0x9b][0x8c]~;[0xd3]}[0x92]H[0xb][0xc9][0xa1]a%[0xc3][0xc8][0x15][0xc][0x2][0xee][0xb3]EP[0xb0][0x8c]Z[0xb2]8[0x16][0x9e][0xad][\n]"
+2020-07-24 13:46:25 DEBUG -  << "[0x94]D[0x1e][0x17]W[0xee][0xf7]0[0x8a]`K[0x9f]"[0xca][0xb][0x8e]qK[0x8e][0xa7][0xe5][0xec][0xb1][0xf3]+[0xf2][0xdc][0x4][0x96][0x8c][0x13]WC-[0xc3]8[0xcc][0xca][0xa3];it'n[0x96]R.[0xa8][0x9f]A[0x83][0x83]pJJcyh<[0xa8][0x94]x[0xe3][\n]"
+2020-07-24 13:46:25 DEBUG -  << "[0x1]*[0xa1]0[0xa5][0xd0][0x5][0x9d][0xf1][0xc8]m[0xd7][0x1f][0x94]EM[0xaa]D[0xb7][0xb1][0x3][0xd8][0x92][0xf3]O[0xe7][0xaa][0xa2][0x9a]W1[0xc2][0xc2]a[0xb9][0x19][0x83][0xd2]2[0xf3]}v[0x80]b-[0x93]CY?[0xac][0x96][0xc1][0x83][0x16]cbX[0x8e]a[0x91][\r][0xb1]]k[0xe8][0x12][0x1b][0x16]`}[0xc5][0x12]s[0x83][0x9]g@[0xd4][0x81][0xfc][0x98][0xa4]1[0xcd][0x9e]R[0xb6]cr[0x19][0x95]Y[0x90][0x96][0xb3][0xf8][0xb4]Y-[0x91][0xf1][0x1b][0xc8][0xc8]jc[0x1e][0xc9][0xcb][0x83]B[0xee]/n[0x8a]f[0xf6][0xb0]Y<c2([0xc0][0x10][0xb9][0xf]Q>[0xa8][0xf3][0xc9][0xd2]Y#[0x93][0x92][0x1f][0xa8]t[0x80][0xa8][0xf2][0xe4][0xea]b[0xd7][0xf9][0x93][0x9e];}K[0xd5]<[0xbc][0x17][0x85]Mio{[0x9d][0x8a][0xc6][0xd6][0x1a][0xcc][0xaa][0xeb]0[0xc9][0xdf] )G[0x91][0xd0]&[0x97]d[0xb][0x8f]*[0xbf][0xaa]SU[0xc][0xf5][0xc2][0xca][0xac][0xea][0x8c][0xc8]x[0xa8]M[0xea][0xc9]V[0xa2][0xd5][0xb2]mEpq[0xb8][\n]"
+2020-07-24 13:46:25 DEBUG -  << "[0x10]:[0xe]\[0x9a][0x7]a[0xb6][0xe0];[0xdc]1[0xb8]!e[0xdc]~[0xa0]"[0x3][0x9e][0x8f]-([0x1e][0xb5][0xab]^[0x95]L[0xca][0xb3]Y[0xb3][0xac][0xb8]&[0xcd][0xe6][0xa2][0xa6]P[0x86]1[0xbc][0xf9][0xec]B}[0xa0][0xbf][0xc3]R[0xb3][0xad][0xb9][0xdf] [0xaa]h[0xb4][0xa4][0x19][0x1e][0x94][0xd7]Z5[0x4]u[0xa4]d+*[0xfd][0xc][0xb9][0xbf][0x82][0xdf][0xea][0xdc]`[0x1d][0xb9][0xb8][0xd1][0xb6][0x91][0xb6]5[0xa9][0x8a][0xe5]E[0xa3][0xd1][0xee]_,[0xea][0xa5][0xac]6*[0x9b]52*[0x9b][0xa8][0x92][0xbd]m[0xad][0xaa][0xb5]eUH[0xa4][0x18]W[0xda][0xb0][0x92][0xa3]m[0xad][0xc2][0x8e][0xae][0x86][0x85][0xe0][0x93][0xa2]+[0xa1][0xdb][0x96][0xa6][0xa2][0x19][0xac][0xa0]a[0xaf]na[0xbc]6[0xe7]C[0x9]n[0xb7]M[0xdd][0xdb][0xf5][0xfc]3[0x9e][0xa6][0x12][0xc][0xb1]I3O[0xda]m[0xd3]q[0x99]'[0xb]0D[0xb6][0xbf]}[0xdb][0xed][0xb6][0xb9]X[0xe1][0xdd]y[0xdb][0xeb][0x96][0x15][0xd7][0xab][0xdb]^S([0xc3][0xbb]o{[0xd3][0xb6][0xe6]~[0x83][0xa8]q[0xdb]o[0x84][0x7]!dBN[0x13][0xfe]:[0xcb][0xb3][0xfd][0xba][0xb1]3mk[0xcb][0x8e]F[0x82]![0xd9]5*[0x92][0xa9][0xb7][0x8e]e[0xf2][0x1a][0xf2]Zc`[0xb7][0xcd][0xc6][0xff][0x1b][0xa8][0x6][0xb]2;[0xee][0xe]*7[0xb]P[0xfa] [0xab]GI[0xde][0xf6]mDE[0xf8][0x1a]Q%[0x9b]"Y[0xc2][0xb0][0xf6]Vm[0x16]/[0xdb][0xf3]4}[0x80][0xda][0xb6]~~[0xc0][0x97]-=[0x94]b0[0xf1][0xd6]9t4B[0xa0]\[0x8e][0xf1]}[0xbd]pZ=[0xcf][0xef]s[0xaa][0xfe]dQ[0xf9]}C[0xfd][0x9e]a6L[0xf3][0xfe][0x3][0x88]Yd<[0x86][0x13][0x0][0x0]"
+2020-07-24 13:46:25 DEBUG -  << "[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "0[\r][\n]"
+2020-07-24 13:46:25 DEBUG -  << "[\r][\n]"
+2020-07-24 13:46:25 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-24 13:46:25 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6ec63f8
+2020-07-24 13:46:25 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 13:46:26 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Got the response
+2020-07-24 13:46:26 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 13:46:26 INFO  - [class com.epp.api.utils.APIGenerics] : writting the xml file into XML format
+2020-07-24 13:46:26 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xlsx sheet
+2020-07-24 13:46:28 INFO  - [class com.epp.api.utils.APIGenerics] : All the services data is set to Excelsheet
+2020-07-24 13:46:28 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 13:46:28 INFO  - [class com.epp.api.utils.APIGenerics] : Getting the parsed data from response:  {userId=l77fqX, consumerId=27912790, email=nnxb17217@yahoo.com, number=2013499082}
+2020-07-24 13:46:28 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-24 13:46:28 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-24 13:46:28 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2020-07-24 13:46:28 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-24 13:46:28 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2020-07-24 13:46:28 INFO  - [class com.epp.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2020-07-24 13:46:28 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 13:46:28 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 13:46:28 INFO  - [class com.epp.libraries.GenericLib] : Fetching the Respones output Nodes
+2020-07-24 13:46:28 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 13:46:28 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 13:46:28 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 13:46:28 INFO  - [class com.epp.api.executor.APIExecutor] : Closing all the instances of Excel sheets
+2020-07-24 13:46:28 INFO  - [class com.epp.api.executor.APIExecutor] : Request which need to run: AddFundingProfile.xml
+2020-07-24 13:46:28 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 13:46:28 INFO  - [class com.epp.api.executor.APIExecutor] : Reading XML file into Document instance is done
+2020-07-24 13:46:28 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=, wsse:Username=, wsse:Password=, req:MtvnSvcVer=, req:ApplID=, req:SvcID=, req:SvcVer=, req:RoutingID=, q1:type=, q1:nickname=, q1:primary=, q1:bankName=, q1:accountNumber=, q1:routingNumber=, userID=}
+2020-07-24 13:46:28 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddFundingProfile_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddFundingProfile, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, q1:type=BANK_ACCOUNT, q1:nickname=Demo user, q1:primary=true, q1:bankName=HDFC, q1:accountNumber=100001111189, q1:routingNumber=959009990, userID=ccc}
+2020-07-24 13:46:28 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddFundingProfile_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddFundingProfile, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, q1:type=BANK_ACCOUNT, q1:nickname=Demo user, q1:primary=true, q1:bankName=HDFC, q1:accountNumber=100001111189, q1:routingNumber=959009990, userID=ccc}
+2020-07-24 13:46:28 INFO  - [class com.epp.api.utils.APIGenerics] : Parcing of xml file is done
+2020-07-24 13:46:28 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 13:46:28 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xml file at run level
+2020-07-24 13:46:28 INFO  - [class com.epp.api.executor.APIExecutor] : Hitting the request using post method
+2020-07-24 13:46:28 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Into Post Method
+2020-07-24 13:46:28 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Base End Point URL: https://localhost:1122/services/port
+2020-07-24 13:46:28 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : XML request file path: C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\api\temp\Request_Zelle_AddFundingProfile_TC01_20200724_134628.xml
+2020-07-24 13:46:28 DEBUG - Get connection for route {s}->https://localhost:1122
+2020-07-24 13:46:28 DEBUG - Connecting to localhost:1122
+2020-07-24 13:46:29 DEBUG - CookieSpec selected: ignoreCookies
+2020-07-24 13:46:29 DEBUG - Auth cache not set in the context
+2020-07-24 13:46:29 DEBUG - Target auth state: UNCHALLENGED
+2020-07-24 13:46:29 DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-24 13:46:29 DEBUG - Attempt 1 to execute request
+2020-07-24 13:46:29 DEBUG - Sending request: POST /services/port/v1_6 HTTP/1.1
+2020-07-24 13:46:29 DEBUG -  >> "POST /services/port/v1_6 HTTP/1.1[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "SOAPAction: authenticate[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "Accept: */*[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "Content-Type: application/soap+xml; charset=UTF-8;[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "Content-Length: 2867[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "Host: localhost:1122[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "[\r][\n]"
+2020-07-24 13:46:29 DEBUG - >> POST /services/port/v1_6 HTTP/1.1
+2020-07-24 13:46:29 DEBUG - >> SOAPAction: authenticate
+2020-07-24 13:46:29 DEBUG - >> Accept: */*
+2020-07-24 13:46:29 DEBUG - >> Content-Type: application/soap+xml; charset=UTF-8;
+2020-07-24 13:46:29 DEBUG - >> Content-Length: 2867
+2020-07-24 13:46:29 DEBUG - >> Host: localhost:1122
+2020-07-24 13:46:29 DEBUG - >> Connection: Keep-Alive
+2020-07-24 13:46:29 DEBUG - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2020-07-24 13:46:29 DEBUG - >> Accept-Encoding: gzip,deflate
+2020-07-24 13:46:29 DEBUG -  >> "<?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://metavante.com/types/common" xmlns:com1="http://epayments.metavante.com/types/common" xmlns:req="http://epayments.metavante.com/types/request" xmlns:req1="http://epayments.metavante.com/types/consumerPayee/request" xmlns:req2="http://epayments.metavante.com/types/fi/request" xmlns:req3="http://epayments.metavante.com/types/fundingAccount/request" xmlns:req4="http://epayments.metavante.com/types/merchant/request" xmlns:req5="http://epayments.metavante.com/types/security/request" xmlns:req6="http://epayments.metavante.com/types/user/request" xmlns:req7="http://epayments.metavante.com/types/consumer/request" xmlns:req8="http://epayments.metavante.com/types/checkimage/request" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "   <soapenv:Header>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "      <wsse:Security>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "         <wsse:UsernameToken>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "             <wsse:Username>FISEPAY_DEV</wsse:Username>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "            <wsse:Password>RaDrup5E4awreP</wsse:Password>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "         </wsse:UsernameToken>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "      </wsse:Security>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "   </soapenv:Header>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "   <soapenv:Body>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "      <EbMtvnSvcReq xmlns="http://epayments.metavante.com/types/request">[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "        <req:MtvnSvcVer>v1.6.0</req:MtvnSvcVer>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "         <MsgUUID>bc1ae59a-d0f3-4d80-9bf3-e83e1cb9c87a</MsgUUID>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "         <PrcsParms>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "            <SrcID>MVEPAY</SrcID>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "         </PrcsParms>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "         <Svc>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "            <SvcParms>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "               <req:ApplID>ZELLE</req:ApplID>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "               <req:SvcID>AddFundingProfile</req:SvcID>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "               <req:SvcVer>v1.6.0</req:SvcVer>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "               <RqstUUID>82f0d972-4c5b-4b5f-a0da-be4a9f3dc410</RqstUUID>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "               <req:RoutingID>fis-50202</req:RoutingID>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "            </SvcParms>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "            <MsgData>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "               <AddFundingProfile>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "                  <userId>l77fqX</userId>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "                  <fundingProfileInfo xmlns="http://epayments.metavante.com/types/fundingProfile/request" xmlns:q1="http://epayments.metavante.com/types/common" xsi:type="q1:BankFundingProfileInfoType">[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "                     <q1:type>BANK_ACCOUNT</q1:type>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "                     <q1:nickname>Demo user</q1:nickname>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "                     <q1:primary>true</q1:primary>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "                     <q1:bankName>HDFC</q1:bankName>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "                     <q1:accountNumber>100001111189</q1:accountNumber>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "                     <q1:routingNumber>959009990</q1:routingNumber>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "                     <q1:checkNumber>123461</q1:checkNumber>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "                     <q1:bankAccountType>CHECKING</q1:bankAccountType>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "                  </fundingProfileInfo>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "               </AddFundingProfile>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "            </MsgData>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "         </Svc>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "      </EbMtvnSvcReq>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "   </soapenv:Body>[\r][\n]"
+2020-07-24 13:46:29 DEBUG -  >> "</soapenv:Envelope>"
+2020-07-24 13:46:37 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "X-Powered-By: Servlet/3.0[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "Content-Type: text/xml; charset=utf-8[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "Content-Encoding: gzip[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "Content-Language: en-US[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "Date: Fri, 24 Jul 2020 08:16:36 GMT[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "[\r][\n]"
+2020-07-24 13:46:37 DEBUG - Receiving response: HTTP/1.1 200 OK
+2020-07-24 13:46:37 DEBUG - << HTTP/1.1 200 OK
+2020-07-24 13:46:37 DEBUG - << X-Powered-By: Servlet/3.0
+2020-07-24 13:46:37 DEBUG - << Content-Type: text/xml; charset=utf-8
+2020-07-24 13:46:37 DEBUG - << Content-Encoding: gzip
+2020-07-24 13:46:37 DEBUG - << Content-Language: en-US
+2020-07-24 13:46:37 DEBUG - << Transfer-Encoding: chunked
+2020-07-24 13:46:37 DEBUG - << Date: Fri, 24 Jul 2020 08:16:36 GMT
+2020-07-24 13:46:37 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 13:46:37 DEBUG - Parsing response as: text/xml; charset=utf-8
+2020-07-24 13:46:37 DEBUG -  << "a[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-07-24 13:46:37 DEBUG -  << "[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "436[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "[0xd5]W]o[0xa3]8[0x14]}[0xdf]_[0x11][0xf1][0xe][0x98][0x8f]|[0x80]([0xa3][0x94][0xa4][0xdb]h[0x9a][0xb4]j[0xd2]j[0xa7]/+[0x7][0x9c][0x94]m0,6i[0xfb][0xef][0xf7][0x9a][0xf][0x97]0T[0xd3]J}[0xd8][0xa9][0x94][0x6][0x9f]{[0xee][0xb9][0xc7][0xd7][0x6][0x1c][0xef][0xdb]Kr[0x18][0x1c]I[0xce][0xe2][0x94][0x9e])[0x86][0x86][0x94][0x1][0xa1]a[0x1a][0xc5]t[0xa6][0xdc]m.[0xd4][0x89][0xf2][0xcd][0xff][0xc3]c)[0xce][0x8]=[0xba]sz$[0x87]4#[0x3]H[0xa3][0xcc][0xad][0xe1]3[0xe5][0x91][0xf3][0xcc][0xd5]u[0x16]>[0x92][0x4]3[\r][0xa2]"[0xa4][0xa5][0xf9]^[0x17][0x17]:[0xa9][0xf3]t[0xa5][0xce]|a[0x91][0xcc]z~~[0xd6][0x9e][0xad][0x92]l"d[0xe8]-[0xaf][0xd6][0xa5][0xd0][0x1b]9[0xfe]5Y[0x8d])[0xe3][0x98][0x86]Di[0xf9][0xbd]$8"9[0x0][0xcf][0x8c][0x11]wM[0xc2]"[0x8f][0xf9]k-+0[0xa9][0x1b][0xa5]![0xd3]R[0xcc]b[0xa6][0x82]OZ[0x16][0x0][0x82](b[0xeb]P[0xa7][\n]"
+2020-07-24 13:46:37 DEBUG -  << "[0x89][0x11]2T[0x8][0x88]O-[0xa7][0xc2][0x5]y[0xe1]*tO[0x83]y)[0x83][0xa6]zR0~G[0xc1][0x80]0[0x6][0xf3]5[0x14][0x1f][0x8c][0x14][0xee]&N[0x8]@I&[0x8d][0x14]_[0xe2][0xa3][0xe0][0xf1]A|K#[0xa2][0xd8][0x2][\n]"
+2020-07-24 13:46:37 DEBUG -  << "[0xcb][0x82][0xaa][0x81][0x8c]![0x1a]!c2[0xac][0xbd][0x4]9[0xc1][0x9c]D[0xbe][0x89]L[0xa4][0xa2][0xb1]j[0xda][0x1b]4q[0x8d][0x91]k[0x8d]5[0xdb]2[0x1e]<[0xbd][0xcd]*S[0xe6]/Y[0x9c][0x13][0xd6]I1[0x8d][0xd3][0x94][0x86]U[0x8d][0xa4][0x83]r[0xdc]Z[0xb][0x18]w[0x16]K.[0xde]y[0x1a]Ax[0xbe]][0xf2]#][0x1f][0xc3][[0xc2][0xaa]~[0xc9]^[0x91][0xc][0xbf]&[0x84]r[0xa6]%[0x84][0xe3]#[0xa6][0x9c]ha[0x9a][0xe8][0xfc]5#L[0x87][0xe2]YJ[0x19][0xec][0x7][0xaf]V[0xb8][0x7][0xf5][0xa3][0xa1][0x8d]4[0xe4][0xe9]-[0xc8][[0xb2][0xfd][0xdd][0xdd]b[0xe6]oC[0x3][0x93][0xa1][0x83][0xd5][0x8][0xed],[0xd5][0x8e]&Hu[0xb6]pE&[0x16]1[0xc2][0xad][0x13]N[0xc6][0x18]2k[0xb6][0x7][0xe9][0xe5][0xbf][0x1b][0x9c]'0[0xcf]i[0x96][0x1d][0x0]~[0x98]_][0xcd]=[0xbd][0x1e][0x89]8|M[0xa3][0xe8][0xa2][0xa0][0xe2][0xae][0xba][0xc9][0xd3]]| [0x9e]^[0x5][0xbc][0x8e][0xad][0xc6][0xd2][0xed][0xbf][0xb0]uD[0x95][0x89][0xb9]C[0x91]36U;[0x1c]nU{;[0xdc][0xa9][0x18]EX[0xdd][0x12][0x1b];;+[\n]"
+2020-07-24 13:46:37 DEBUG -  << "m[0x3][0xd2]$[0xbd]T[0xa8][\r][0x81][0xd1][0x19][0xe6][0x18][0x9c]u[0xab][0xfb][0x1e]e[0x86][0xb]+[0xc2][0xf0][0x9e]\[0xc5][0x8c][0xd7][0x1b][0x11]P[0xd9][0xdc][0xbe][0x96][0xc2]U[0x92]Rh[0xa8][0xde][0xc9][0x17][0x82][0xa6][0xbb];)"5[0xcd][0xf].[0xd8]iz{[0xfd]([0xb3]:[0xe2][0x8b][0x8]d[0xde]ne |[0xb0][0x88][0x9c]B[0x9f][0xa6]o[\r]-gd[0xe][0xc7]b[0x82]=[0xe1]~[0xb8]r"[0x14]m[0x17][0xf6]8/[0x98]te[0xd2][0xd5][0xf4][0xe6][0xe6][0xf6][0xfa]~>[0x13][0x85][0x1a]1!<tc[0xba]K[0xa5][0xec][0xf0]s[0xb2][0x3]x[0x80][0xba][0x2]9S[0x84][0xd4]9[0xa6]O[0xa7][0xfb]a[0x1][0xe2][0x1b][0x88]+U-A[0xf5][0xcf][0xa7][0xab][0xef]O[0x83][0xe0][0xfa]n[0xb5][0x11]vj[0xb8]$[0xd0]8|[0xa2]8![0xfe][0x8c]$[0xe9][0xa0]`$[0xaf][0x18][0x12]/YY[0x1e]'8[0xf5]y^[0x90]*[0xde] ex[0xb]6V[0x82]|9[0xbb][0x8][0xaa][0xb8][0x84]J[0x2][0xe][0xc3][0xb4][0xa0]|U$[[0xb8]%[0xc][0x4][0x86][0xf8][0x9b]8[0x15][0xfb]4^[0xa6][0xe4])<[0x3][0xe9][0xbe][0x86][0x9c][0xa1][0x83][0x90][0xe3]8[0xa8][0xe2][0x9f][0x6]K>[0xbc]9[0xc2][0xa7][0xa6][0x80]i[0xd9]#[0xa3][0xa2][0xb6]qivZ[0xd5][0x13][0x8d][0xf2][0x83][0xcb]y[0xf0]}[0xb1][0xfa][0xf3][0xcd]w;Z5[0x9]&rM[0x3][0xa1][0xe4]'[0x98][0xfe][0x13][0x8b]7[0xc1][0xe0][0xc7][0x80][0x81][0x87][0xc7][0xba]_-J[0x85][0x88]e[0x16][0xe9][0xa3]f[0x97]-[0x9]L[0xa3]z[0x9d]Nn[0xd5][0xd1][0xe7]w|[0xbf]jO[0xa4][0x81]"*[0xa1][0xf6]>[0xef][0xb0][0xe1][0xce]0[0x90]i[0x8a][0x19][0xfc][0x1c]i[0xd0][0x8f]Im[0xfa][0xb6]^[0x1f][0xa7]w6[0xc7]X[0xbc]@.[0x16][0xeb][0x9e],[0x19]ng[0x6][0x8f][0x98]Rr[0xf0][0x17][0xab][0xf5]f[0xda])[0xd6][0xc4]z[0xb4][0xfa][0xb0][0xf7][0x9b][0xf9][0xa5]mF[0xce]o[0xdc][0xe6]ip[0xf9][0xbf]o[0xb1][0x85][0xd0][0xef][0xbc][0x93][0xbf][0xaa][0xc5][0xef][0x86][0x9a][0xd7][0xfd][0xd8][0xc5]E[0x14]s[0xf1][0xea][0xc8][0x13][0xcc][0xe1][0xf7][0x83]|2[0x8d]?[0xff]d[0x1a][0xbb]ay[0xc4][0x84][0x3][0xb][0xe9]9[0x8b][0xda][0x1a]<[0xfc][0x1f][0x84][0xa9][0x13][0xe2][b[0x9a][0xc3][0x2][0x99]c[0xc7][0x80][0xf]j[0xf1]J[0xbc][0xa4]%[0xf0][0xa3]f[0x17][0x93][0xe8][0x9d][\n]"
+2020-07-24 13:46:37 DEBUG -  << "[0xa3]V[0x85][0x13]j;[0xf9][0xe7]"[0xad]@[0x5]t[0x9b]R[0xc2][0xdd][0xa3][0x11][0x80]=g2][0x1e][0xd8][0xe6]y[0x1e]D[0xc4]_[0xdf][0x7]`[0xca][0xd3][0xeb][0xa1][0x80][0x81][0xe2][0xaf][0x8b]0[0x84][0xa3]W[0x89][0x8b]qy[0xe6][0x93]I[0xcb][0xfb][0xf9][0xc7][0x92][0xda][0x7][0xeb][0xd6])[0xbc]:u[0xeb][0xdd]_|[0xfe][0x88]n_[0xdb]+[0xe][0x0][0x0]"
+2020-07-24 13:46:37 DEBUG -  << "[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "0[\r][\n]"
+2020-07-24 13:46:37 DEBUG -  << "[\r][\n]"
+2020-07-24 13:46:37 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-24 13:46:37 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@36790bec
+2020-07-24 13:46:37 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 13:46:37 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Got the response
+2020-07-24 13:46:37 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 13:46:37 INFO  - [class com.epp.api.utils.APIGenerics] : writting the xml file into XML format
+2020-07-24 13:46:37 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xlsx sheet
+2020-07-24 13:46:39 INFO  - [class com.epp.api.utils.APIGenerics] : All the services data is set to Excelsheet
+2020-07-24 13:46:39 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 13:46:39 INFO  - [class com.epp.api.utils.APIGenerics] : Getting the parsed data from response:  {fundingProfileId=35396257}
+2020-07-24 13:46:39 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 13:46:39 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 13:46:39 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 13:46:39 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphabet generate: ReDE
+2020-07-24 13:46:39 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 81011
+2020-07-24 13:46:39 INFO  - [class com.epp.api.utils.APIGenerics] : Random email id generate: ReDE81011@yahoo.com
+2020-07-24 13:46:40 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 13:46:40 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 3141357
+2020-07-24 13:46:40 INFO  - [class com.epp.api.utils.APIGenerics] : Random phone generate: 2013141357
+2020-07-24 13:46:40 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 13:47:10 INFO  - [class com.epp.libraries.GenericLib] : userIDOne: l77fqX
+2020-07-24 13:47:10 INFO  - [class com.epp.libraries.GenericLib] : consumerIDOne: 27912790
+2020-07-24 13:47:10 INFO  - [class com.epp.libraries.GenericLib] : emailIDOne: nnxb17217@yahoo.com
+2020-07-24 13:47:10 INFO  - [class com.epp.libraries.GenericLib] : mobileNumberOne: 2013499082
+2020-07-24 13:47:10 INFO  - [class com.epp.libraries.GenericLib] : fundingProfileIDOne: 35396257
+2020-07-24 13:47:10 INFO  - [class com.epp.libraries.GenericLib] : URL launchedhttps://epayments-epayui-fnc-1.money-movement.com/TestPeoplePay50202X/DebugAccess?userName=l77fqX&productCode=Zelle&destination=Home
+2020-07-24 13:47:10 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page LandingPage
+2020-07-24 13:47:10 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnGetStarted
+2020-07-24 13:47:12 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ContinueButton
+2020-07-24 13:47:12 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SendMoneyWithZellePage
+2020-07-24 13:47:17 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SendMoneyWithZellePage
+2020-07-24 13:47:17 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to SendMoneyWithZellePage
+2020-07-24 13:47:17 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnContinue
+2020-07-24 13:47:17 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- AllDoneButton
+2020-07-24 13:47:17 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 444444 in textbox edtVerificationCode.
+2020-07-24 13:47:26 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed 444444 on element with xpath --- //input[@id='verificationCode']
+2020-07-24 13:47:26 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnVerify
+2020-07-24 13:47:27 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //button[@class='button primary verifyButton ui-btn ui-shadow ui-corner-all']
+2020-07-24 13:47:27 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnSendOrRequestMoney
+2020-07-24 13:47:32 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- YesCancel
+2020-07-24 13:47:32 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SelectRecipientPage
+2020-07-24 13:47:36 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SelectRecipientPage
+2020-07-24 13:47:36 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to SelectRecipientPage
+2020-07-24 13:47:36 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types random data starting with AUTO DEV1214.0 in textbox edtSearchfield.
+2020-07-24 13:47:36 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed AUTO DEV1214.0 on element with id --- autocomplete-input
+2020-07-24 13:47:36 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnContinue
+2020-07-24 13:47:36 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //button[@id='addNewContact']
+2020-07-24 13:47:36 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page AddContactInfoPage
+2020-07-24 13:47:37 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page AddContactInfoPage
+2020-07-24 13:47:37 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to AddContactInfoPage
+2020-07-24 13:47:37 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types EnvemailIDContact1 in textbox edtEmailField.
+2020-07-24 13:47:38 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed ReDE81011@yahoo.com on element with xpath --- //input[@name='EmailMobile']
+2020-07-24 13:47:38 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnDone
+2020-07-24 13:47:38 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ContinueButton
+2020-07-24 13:47:38 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnNext
+2020-07-24 13:47:39 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //div[@id='ReminderConfirmationModal']//a[text()='Next']
+2020-07-24 13:47:39 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User waited for 10 seconds 
+2020-07-24 13:47:49 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page EnterAmountPage
+2020-07-24 13:47:57 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page EnterAmountPage
+2020-07-24 13:47:57 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to EnterAmountPage
+2020-07-24 13:47:57 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 0.01 in textbox edtAmount.
+2020-07-24 13:47:57 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed 0.01 on element with id --- amountText
+2020-07-24 13:47:57 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnReview
+2020-07-24 13:47:58 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ReviewButton
+2020-07-24 13:47:58 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ReviewAndSendPage
+2020-07-24 13:47:59 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ReviewAndSendPage
+2020-07-24 13:47:59 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to ReviewAndSendPage
+2020-07-24 13:47:59 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnSend
+2020-07-24 13:47:59 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ConfirmPaymentButton
+2020-07-24 13:47:59 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User waited for 20 seconds 
+2020-07-24 13:48:19 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page PaymentSentPage
+2020-07-24 13:48:19 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page PaymentSentPage
+2020-07-24 13:48:19 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to PaymentSentPage
+2020-07-24 13:48:19 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAllDone
+2020-07-24 13:48:19 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- PaymentSentButton
+2020-07-24 13:48:19 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User waited for 10 seconds 
+2020-07-24 13:48:29 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SelectRecipientPage
+2020-07-24 13:48:29 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SelectRecipientPage
+2020-07-24 13:48:29 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to SelectRecipientPage
+2020-07-24 13:48:29 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lblContactdetail
+2020-07-24 13:48:30 INFO  - [class com.epp.webelement.Label] : Label: Clicked label with xpath --- //ul[@class='payeeList']/child::li[@class='payee']
+2020-07-24 13:48:30 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page EnterAmountPage
+2020-07-24 13:48:39 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page EnterAmountPage
+2020-07-24 13:48:39 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to EnterAmountPage
+2020-07-24 13:48:39 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 0.01 in textbox edtAmount.
+2020-07-24 13:48:39 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed 0.01 on element with id --- amountText
+2020-07-24 13:48:39 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnReview
+2020-07-24 13:48:39 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ReviewButton
+2020-07-24 13:48:39 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ReviewAndSendPage
+2020-07-24 13:48:41 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ReviewAndSendPage
+2020-07-24 13:48:41 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to ReviewAndSendPage
+2020-07-24 13:48:41 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnSend
+2020-07-24 13:48:41 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ConfirmPaymentButton
+2020-07-24 13:48:41 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User waited for 20 seconds 
+2020-07-24 13:49:01 INFO  - [class com.epp.webelement.BaseElement] : Inner text matched. 
+	You sent $0.01 to AUTO DEV1214.0 earlier today.
+	You sent
+2020-07-24 13:49:01 INFO  - [class com.epp.webelement.BaseElement] : Inner text matched. 
+	You sent $0.01 to AUTO DEV1214.0 earlier today.
+	$0.01
+2020-07-24 13:49:01 INFO  - [class com.epp.webelement.BaseElement] : Inner text matched. 
+	You sent $0.01 to AUTO DEV1214.0 earlier today.
+	earlier today.
+2020-07-24 13:49:01 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+...
+2020-07-24 13:49:01 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+...
+2020-07-24 13:49:01 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+...
+2020-07-24 13:49:01 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+...
+2020-07-24 13:49:01 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+...
+2020-07-24 13:49:01 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:119)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_has_inner_text(UniversalSteps.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class='instructionMessage']/p[contains(text),'To continue anyway'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='instructionMessage']/p[contains(text),'To continue anyway']' is not a valid XPath expression.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7f079152de1f5e0cd84238aa31ce622f
+*** Element info: {Using=xpath, value=//div[@class='instructionMessage']/p[contains(text),'To continue anyway']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.webelement.BaseElement.validateInnerText(BaseElement.java:66)
+	... 46 more
+...
+2020-07-24 13:49:01 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User waited for 10 seconds 
+2020-07-24 13:49:11 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnConfirm
+2020-07-24 13:49:12 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ConfirmButton
+2020-07-24 13:49:12 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User waited for 10 seconds 
+2020-07-24 13:49:22 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page PaymentSentPage
+2020-07-24 13:49:24 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page PaymentSentPage
+2020-07-24 13:49:24 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to PaymentSentPage
+2020-07-24 13:49:24 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAllDone
+2020-07-24 13:49:24 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- PaymentSentButton
+2020-07-24 14:25:17 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2020-07-24 14:25:17 INFO  - [class com.epp.initdriver.RDPDriver] : Setup the new driver
+2020-07-24 14:25:20 INFO  - [class com.epp.initdriver.RDPDriver] : Created Chrome driver instace
+2020-07-24 14:25:20 INFO  - [class com.epp.initdriver.RDPDriver] : Maximize the explorer window
+2020-07-24 14:25:20 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2020-07-24 14:25:20 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 14:25:20 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 14:25:20 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties at null: unknown protocol: c
+2020-07-24 14:25:20 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 14:25:20 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/java/com/epp/config/Logger.properties

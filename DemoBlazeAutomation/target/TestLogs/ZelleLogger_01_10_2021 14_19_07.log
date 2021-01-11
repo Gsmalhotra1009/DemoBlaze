@@ -1,0 +1,31 @@
+2021-01-10 14:19:07 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Loggers Instance with file name: ZelleLogger_01_10_2021 14_19_07
+2021-01-10 14:19:07 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: ZelleTestReport_01_10_2021 14_19_07
+2021-01-10 14:19:07 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\demoblaze\properties\PropertyCache.properties
+2021-01-10 14:19:07 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\demoblaze\properties\PropertyCache.properties
+2021-01-10 14:19:07 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\demoblaze\properties\PropertyCache.properties at null: unknown protocol: c
+2021-01-10 14:19:07 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\demoblaze\properties\PropertyCache.properties
+2021-01-10 14:19:07 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/resources/com/demoblaze/properties/PropertyCache.properties
+2021-01-10 14:19:07 INFO  - [class com.epp.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkSonyVaioI5
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkHome
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDellI78GB
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkCart
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page CartPage
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDeleteDelli78gb
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User captures text from lblTotalExpectedAmount.
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnPlaceOrder
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types Cucumber in textbox edtName.
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types India in textbox edtCountry.
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types Chandigarh in textbox edtCity.
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 456789123456789632 in textbox edtCreditCard.
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types September in textbox edtMonth.
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 2056 in textbox edtyear.
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnPurchase
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnOk
+2021-01-10 14:19:08 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage

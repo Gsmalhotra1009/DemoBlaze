@@ -1,0 +1,30 @@
+2021-01-10 18:53:42 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Loggers Instance with file name: DemoBlazeLogger_01_10_2021 18_53_42
+2021-01-10 18:53:42 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: DemoBlazeReport01_10_2021 18_53_42
+2021-01-10 18:53:43 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 18:53:43 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 18:53:43 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2021-01-10 18:53:43 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 18:53:43 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2021-01-10 18:53:43 INFO  - [class com.demoBlaze.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2021-01-10 18:53:43 ERROR - [class com.demoBlaze.libraries.GenericLib] : Error while launching unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT9Y5DWT2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\e3024561\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 12e4bc5724bcb58a52c413b57d78db5f
+2021-01-10 18:53:43 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 18:53:43 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkPhones
+2021-01-10 19:00:10 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating drivers
+2021-01-10 19:00:10 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Setup the new driver
+2021-01-10 19:00:12 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Created Chrome driver instace
+2021-01-10 19:00:12 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Maximize the explorer window
+2021-01-10 19:00:12 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 19:00:12 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating drivers
+2021-01-10 19:00:12 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 19:00:12 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 19:00:12 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 19:00:12 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties at null: unknown protocol: c
+2021-01-10 19:00:12 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 19:00:12 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/java/com/DemoBlaze/config/Logger.properties

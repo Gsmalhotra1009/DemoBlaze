@@ -1,0 +1,100 @@
+2020-07-27 14:45:11 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Loggers Instance with file name: ZelleLogger_07_27_2020 14_45_11
+2020-07-27 14:45:11 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: ZelleTestReport_07_27_2020 14_45_11
+2020-07-27 14:45:11 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-27 14:45:11 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-27 14:45:11 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2020-07-27 14:45:11 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-27 14:45:11 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2020-07-27 14:45:11 INFO  - [class com.epp.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2020-07-27 14:45:38 INFO  - [class com.epp.libraries.GenericLib] : URL launched
+2020-07-27 14:45:38 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page CommonPage
+2020-07-27 14:45:38 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User waited for 10 seconds 
+2020-07-27 14:45:48 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkActivity
+2020-07-27 14:45:48 INFO  - [class com.epp.webelement.Label] : Label: Clicked label with xpath --- //a[@id='PaymentActivityButtonLink']
+2020-07-27 14:45:48 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ActivityPage
+2020-07-27 14:45:52 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ActivityPage
+2020-07-27 14:45:52 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to ActivityPage
+2020-07-27 14:45:52 INFO  - [class com.epp.webelement.BaseElement] : Element//div[@class='canceledExpiredDeclinedTile tile'] is present/displayed in screen 
+2020-07-27 14:45:52 INFO  - [class com.epp.webelement.BaseElement] : Inner text matched. 
+	REQUEST DECLINED
+07/27/2020
+RT
+RandomName123 Test
+ulgr46290@yahoo.com
+Demo user, ...1189
+$0.01 Declined (07/27)
+$0.01
+Resend
+	REQUEST DECLINED
+2020-07-27 14:45:52 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnklblResend
+2020-07-27 14:45:52 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //a[@id='Resend']
+2020-07-27 14:45:52 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page EnterAmountPage
+2020-07-27 14:45:58 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep:  edtAmount Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native...
+2020-07-27 14:45:58 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep:  lblReadOnlyMemoNote Failed , java.lang.NoSuchFieldException: lblReadOnlyMemoNote
+	at java.lang.Class.getField(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:117)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_element_is_present(UniversalSteps.java:268)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+...
+2020-07-27 14:45:58 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 0.02 in textbox edtAmount.
+2020-07-27 14:45:58 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed 0.02 on element with id --- amountText
+2020-07-27 14:45:58 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnReview
+2020-07-27 14:45:58 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ReviewButton
+2020-07-27 14:45:58 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ReviewAndRequestPage
+2020-07-27 14:45:59 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ReviewAndRequestPage
+2020-07-27 14:45:59 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to ReviewAndRequestPage
+2020-07-27 14:45:59 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnConfirmationPaymentButton
+2020-07-27 14:46:00 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //button[@id='ConfirmPaymentButton']
+2020-07-27 14:46:00 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page RequestSentPage
+2020-07-27 14:46:00 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnPaymentSentButton
+2020-07-27 14:46:10 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- PaymentSentButton
+2020-07-27 15:01:28 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2020-07-27 15:01:28 INFO  - [class com.epp.initdriver.RDPDriver] : Setup the new driver
+2020-07-27 15:01:31 INFO  - [class com.epp.initdriver.RDPDriver] : Created Chrome driver instace
+2020-07-27 15:01:31 INFO  - [class com.epp.initdriver.RDPDriver] : Maximize the explorer window
+2020-07-27 15:01:31 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2020-07-27 15:01:32 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-27 15:01:32 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-27 15:01:32 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties at null: unknown protocol: c
+2020-07-27 15:01:32 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-27 15:01:32 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/java/com/epp/config/Logger.properties

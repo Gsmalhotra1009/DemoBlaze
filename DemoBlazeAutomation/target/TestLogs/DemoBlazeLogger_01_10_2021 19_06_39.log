@@ -1,0 +1,23 @@
+2021-01-10 19:06:39 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Loggers Instance with file name: DemoBlazeLogger_01_10_2021 19_06_39
+2021-01-10 19:06:39 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: DemoBlazeReport01_10_2021 19_06_39
+2021-01-10 19:06:39 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 19:06:39 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 19:06:39 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2021-01-10 19:06:39 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 19:06:39 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2021-01-10 19:06:39 INFO  - [class com.demoBlaze.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2021-01-10 19:06:42 INFO  - [class com.demoBlaze.libraries.GenericLib] : URL launched
+2021-01-10 19:06:42 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 19:06:42 INFO  - [class com.demoBlaze.libraries.GenericLib] : Browser is closed
+2021-01-10 19:07:34 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating drivers
+2021-01-10 19:07:34 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Setup the new driver
+2021-01-10 19:07:36 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Created Chrome driver instace
+2021-01-10 19:07:36 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Maximize the explorer window
+2021-01-10 19:07:36 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 19:07:36 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating drivers
+2021-01-10 19:07:36 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 19:07:37 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 19:07:37 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 19:07:37 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties at null: unknown protocol: c
+2021-01-10 19:07:37 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 19:07:37 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/java/com/DemoBlaze/config/Logger.properties

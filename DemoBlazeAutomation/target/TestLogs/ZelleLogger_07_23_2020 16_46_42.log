@@ -1,0 +1,416 @@
+2020-07-23 16:46:42 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Loggers Instance with file name: ZelleLogger_07_23_2020 16_46_42
+2020-07-23 16:46:42 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: ZelleTestReport_07_23_2020 16_46_42
+2020-07-23 16:46:42 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Create user one using services and Launch URL
+2020-07-23 16:46:42 INFO  - [class com.epp.api.executor.APIExecutor] : API Executor constructor, assigning all the values to variable of API 
+2020-07-23 16:46:42 INFO  - [class com.epp.api.executor.APIExecutor] : Closing all the instances of Excel sheets
+2020-07-23 16:46:42 INFO  - [class com.epp.api.executor.APIExecutor] : Request which need to run: AddConsumer.xml
+2020-07-23 16:46:42 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-23 16:46:42 INFO  - [class com.epp.api.executor.APIExecutor] : Reading XML file into Document instance is done
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=, wsse:Username=, wsse:Password=, req:MtvnSvcVer=, req:ApplID=, req:SvcID=, req:SvcVer=, req:RoutingID=, com1:addr1=, com1:city=, com1:state=, com1:postalCode=, com1:country=, com1:type=, com1:number=, com1:isPrimary=, com1:email=, com1:userId=}
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=HOME, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=HOME, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphaNumeric generate: CV4Plc
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphabet generate: pKoi
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 93956
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : Random email id generate: pKoi93956@yahoo.com
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 8234719
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : Random phone generate: 2018234719
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : Parcing of xml file is done
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-23 16:46:43 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xml file at run level
+2020-07-23 16:46:43 INFO  - [class com.epp.api.executor.APIExecutor] : Hitting the request using post method
+2020-07-23 16:46:43 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Into Post Method
+2020-07-23 16:46:43 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Base End Point URL: https://localhost:1122/services/port
+2020-07-23 16:46:43 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : XML request file path: C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\api\temp\Request_Zelle_AddConsumer_TC01_20200723_164643.xml
+2020-07-23 16:46:44 DEBUG - Get connection for route {s}->https://localhost:1122
+2020-07-23 16:46:44 DEBUG - Connecting to localhost:1122
+2020-07-23 16:46:45 DEBUG - CookieSpec selected: ignoreCookies
+2020-07-23 16:46:45 DEBUG - Auth cache not set in the context
+2020-07-23 16:46:45 DEBUG - Target auth state: UNCHALLENGED
+2020-07-23 16:46:45 DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-23 16:46:45 DEBUG - Attempt 1 to execute request
+2020-07-23 16:46:45 DEBUG - Sending request: POST /services/port/v1_6 HTTP/1.1
+2020-07-23 16:46:45 DEBUG -  >> "POST /services/port/v1_6 HTTP/1.1[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "SOAPAction: authenticate[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "Accept: */*[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "Content-Type: application/soap+xml; charset=UTF-8;[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "Content-Length: 5407[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "Host: localhost:1122[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "[\r][\n]"
+2020-07-23 16:46:45 DEBUG - >> POST /services/port/v1_6 HTTP/1.1
+2020-07-23 16:46:45 DEBUG - >> SOAPAction: authenticate
+2020-07-23 16:46:45 DEBUG - >> Accept: */*
+2020-07-23 16:46:45 DEBUG - >> Content-Type: application/soap+xml; charset=UTF-8;
+2020-07-23 16:46:45 DEBUG - >> Content-Length: 5407
+2020-07-23 16:46:45 DEBUG - >> Host: localhost:1122
+2020-07-23 16:46:45 DEBUG - >> Connection: Keep-Alive
+2020-07-23 16:46:45 DEBUG - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2020-07-23 16:46:45 DEBUG - >> Accept-Encoding: gzip,deflate
+2020-07-23 16:46:45 DEBUG -  >> "<?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://metavante.com/types/common" xmlns:com1="http://epayments.metavante.com/types/common" xmlns:req="http://epayments.metavante.com/types/request" xmlns:req1="http://epayments.metavante.com/types/consumerPayee/request" xmlns:req2="http://epayments.metavante.com/types/fi/request" xmlns:req3="http://epayments.metavante.com/types/fundingAccount/request" xmlns:req4="http://epayments.metavante.com/types/merchant/request" xmlns:req5="http://epayments.metavante.com/types/security/request" xmlns:req6="http://epayments.metavante.com/types/user/request" xmlns:req7="http://epayments.metavante.com/types/consumer/request" xmlns:req8="http://epayments.metavante.com/types/checkimage/request" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "   <soapenv:Header>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "      <wsse:Security>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "         <wsse:UsernameToken>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "            <wsse:Username>FISEPAY_DEV</wsse:Username>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "            <wsse:Password>RaDrup5E4awreP</wsse:Password>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "         </wsse:UsernameToken>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "      </wsse:Security>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "   </soapenv:Header>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "   <soapenv:Body>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "      <req:EbMtvnSvcReq>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "         <req:MtvnSvcVer>v1.6.0</req:MtvnSvcVer>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "         <req:MsgUUID>?</req:MsgUUID>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "         <req:PrcsParms>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "            <req:SrcID>MVEPAY</req:SrcID>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "         </req:PrcsParms>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "         <req:Svc>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "            <req:SvcParms>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "               <req:ApplID>ZELLE</req:ApplID>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "               <req:SvcID>AddConsumer</req:SvcID>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "               <req:SvcVer>v1.6.0</req:SvcVer>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "               <req:RoutingID>fis-50202</req:RoutingID>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "            </req:SvcParms>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "            <req:MsgData>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "               <req:AddConsumer>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                  <req1:locale>en-US</req1:locale>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                  <com:channelName/>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                  <req7:consumerInfo>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:individualConsumer>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:firstName>manjinder</com1:firstName>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:middleName>Y</com1:middleName>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:lastName>singh</com1:lastName>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:SSN>999-99-0000</com1:SSN>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:birthDate>1984-12-31</com1:birthDate>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     </com1:individualConsumer>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:address>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:addr1>10610 Faulkner Point way</com1:addr1>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:city>Irving</com1:city>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:state>TX</com1:state>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:postalCode>75063-1234</com1:postalCode>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:country>US</com1:country>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:phoneNumberList>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                           <com1:phoneNumber>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                              <com1:type>HOME</com1:type>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                            <com1:number>2018234719</com1:number>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                              <com1:isPrimary>true</com1:isPrimary>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                           </com1:phoneNumber>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        </com1:phoneNumberList>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     </com1:address>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:email>pKoi93956@yahoo.com</com1:email>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <!--com1:serviceId>1</com1:serviceId-->[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:termsAcceptedDate>2009-05-01T12:06:12Z</com1:termsAcceptedDate>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:paymentLimits>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:transactionLimit>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                           <com1:amount>1</com1:amount>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                           <com1:currencyCode>USD</com1:currencyCode>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        </com1:transactionLimit>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:dailyLimit>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                           <com1:amount>1</com1:amount>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                           <com1:currencyCode>USD</com1:currencyCode>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        </com1:dailyLimit>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     </com1:paymentLimits>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:emailFormatPreference>HTML</com1:emailFormatPreference>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                  </req7:consumerInfo>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                  <req7:userInfo>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:firstName>manjinder</com1:firstName>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:middleName>Y</com1:middleName>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:lastName>singh</com1:lastName>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:address>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:addr1>10610 Faulkner Point way</com1:addr1>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:city>Irving</com1:city>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:state>TX</com1:state>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:postalCode>75063-1234</com1:postalCode>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:country>US</com1:country>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:phoneNumberList>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                           <com1:phoneNumber>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                              <com1:type>HOME</com1:type>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                              <com1:number>2018234719</com1:number>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                              <com1:isPrimary>true</com1:isPrimary>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                           </com1:phoneNumber>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        </com1:phoneNumberList>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     </com1:address>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:email>pKoi93956@yahoo.com</com1:email>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:userIdentity>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                        <com1:userId>CV4Plc</com1:userId>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     </com1:userIdentity>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                     <com1:password>abc123</com1:password>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "                  </req7:userInfo>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "               </req:AddConsumer>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "            </req:MsgData>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "         </req:Svc>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "      </req:EbMtvnSvcReq>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "   </soapenv:Body>[\r][\n]"
+2020-07-23 16:46:45 DEBUG -  >> "</soapenv:Envelope>"
+2020-07-23 16:46:53 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "X-Powered-By: Servlet/3.0[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "Content-Type: text/xml; charset=utf-8[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "Content-Encoding: gzip[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "Content-Language: en-US[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "Date: Thu, 23 Jul 2020 11:16:52 GMT[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "[\r][\n]"
+2020-07-23 16:46:53 DEBUG - Receiving response: HTTP/1.1 200 OK
+2020-07-23 16:46:53 DEBUG - << HTTP/1.1 200 OK
+2020-07-23 16:46:53 DEBUG - << X-Powered-By: Servlet/3.0
+2020-07-23 16:46:53 DEBUG - << Content-Type: text/xml; charset=utf-8
+2020-07-23 16:46:53 DEBUG - << Content-Encoding: gzip
+2020-07-23 16:46:53 DEBUG - << Content-Language: en-US
+2020-07-23 16:46:53 DEBUG - << Transfer-Encoding: chunked
+2020-07-23 16:46:53 DEBUG - << Date: Thu, 23 Jul 2020 11:16:52 GMT
+2020-07-23 16:46:53 DEBUG - Connection can be kept alive indefinitely
+2020-07-23 16:46:53 DEBUG - Parsing response as: text/xml; charset=utf-8
+2020-07-23 16:46:53 DEBUG -  << "a[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-07-23 16:46:53 DEBUG -  << "[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "5ab[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "[0xad]X[0xdb][0x92][0xda]8[0x10]}[0xdf][0xaf][0xa0][0xd8]gc[0xcb][0xdc]][0xc4]YBH[0x85]*[0x98][0x9d][\n]"
+2020-07-23 16:46:53 DEBUG -  << "0[0x9b][0xcd][0x9b]bk[0x6]ml[0xd9]e[0xd9]0[0xfc]}Z[0x17][0xe4][0xb]d[0x83]S[0xa1]j[0x6][0xab]/[0xe7]H-[0xa9][0xbb][0xcd][0xec][0xed]k[0x1c]u[0x8e]$[0xe3]4ao[0xba][0xa8][0xe7]t;[0x84][0x5]IH[0xd9][0xcb][0x9b][0xee]~[0xf7][0xc1][0x9a]t[0xdf][0xfa][0xcc]x[0x82]S[0xc2][0x8e][0xde][0x92][0x1d]I[0x94][0xa4][0xa4][0x3]n[0x8c]{Z[0xfc][0xa6]{[0xc8][0xf3][0xd4][0xb3]m[0x1e][0x1c]H[0x8c]y[0xf][0xb4]B[0xd5]K[0xb2][0x17][<[0xd8]D[0xfb][0xd9]][0xed][0xf9][0xca]C[0xe3]u:[0x9d]z[0xa7][0xbe]4v[0x1d][0x7][0xd9][0x9f]7[0xeb][0xad][0x4]*[0x8d][0xe9][0xcf][0x8d]-[0xca]x[0x8e]Y@[0xba][0x95][0xf9]~$8$[0x19][0x8]N[0x9c][0x13]oK[0x82]"[0xa3][0xf9]Y[0xc3][\n]"
+2020-07-23 16:46:53 DEBUG -  << "[0x99][0xc1][\r][0x93][0x80][0xf7][0x12][0xcc])[0xb7]`[0x9e]L[0x12][0x80][0x81] [0x19][0xd8][0xc0][0xa3]Tb[0xe4] [0xb][0x14][0xe2]O[0xc3]Y[0xf0]@^s[0xb][0xa2][0xd7][0x83]uu;[0x17][0xf6][0xb8][0xe0][0xf9][0x9e][0xc1][0x4][0xc4][0xc4]`[0xbd][0xa8][0xeb][0xc3]D[\n]"
+2020-07-23 16:46:53 DEBUG -  << "oGc[0x2][0xa2]85[0x13])~[0xcb]<[0x8a][0x9c]F[0xe2][0xdb]LD[0x90][0xad][0x80][0xd8][0x10]Z[0x16][0x1a]O[0xc7][0x8e];[0xe9][0xf7]'z2[0x8b][0x8c][0xe0][0x9c][0x84][0xbe][0xeb][0xb8][0x8e][0xe5][0x8c]-[0xb7][0xbf]C[0xc8]C#o[0xd8][0xef][0xa1][0xfe][0xf8][0xcb][0xcc][0xae]ZI[0x97][0xe5]kJ3[0xc2][0x1b]..[0xaa][0xbb]\[0xac][0xd4][0xc8]LA[0x8e]+[0x9b][0x1][0xe3][0xc6]n[0x99][0xdd]{[0x97][0x84][0xa0]^~[0xdd][0xe4]G[0xb6]=[0x6][0x9f][0x8]W[0x1]3[0xc1]")>[0xc7][0x84][0xe5][0xbc][0x17][0x93][0x1c][0x1f]1[0xcb]I/Hb;?[0xa7][0x84][0xdb]@[0x9e]&[0x8c][0xc3][0x81][0x98]i[0x84]'@?[0xa2][0xde][0xa8][0xe7][0xcc][0xec][0x8a]h[0xb6][0xe1]/[0xfb][0xfd][0xea][0xbd][0xff][0x16][0xc4][0xfa]q[0x6]:[0xf9][0xef][0x11]g1,b[0x9e][0xa6][0x11][0x88][0xbf],[0xd7][0xeb][0xe5][0xcc][0xd6]#[0xa1][0x87][0xaf]y[0x18].[0x80][0xa8][0x88]I6[0xb3][0x95]h[0xd6]`[0xbb]0[0xd9]%"0[0xbd][0xc7]9[0x6][0xe8][0xd2][0xdd][0x9f]1[0x8e]<[0x88][0x14][0xc7]/dMy[0xae]O[0x8]H[0xcd][0xa2]o-[0x15][0x9e][0xe2][0x84][0xc1]B[0xed][0x86][0xbf][0x0]t=FN[0x17][0x6][0x3][0xe8][0xde][0x19][0xc5]@;V[0xc3][0xc9]x[0xdf][0xbb][0xc8]W![0xb8][0x96][0x97][\n]"
+2020-07-23 16:46:53 DEBUG -  << "Tw[0x3][0xeb]9[0xd7][0xd1]|w<E[0xae];v[0xc4]Zj[0x8a][0xa6]@[0xf1][\n]"
+2020-07-23 16:46:53 DEBUG -  << "[0xff][0x81]GYH[0x8f]4,pt[0xb5][0xd0]A[0xfb][0xf9][0xc][0xbc]g[\n]"
+2020-07-23 16:46:53 DEBUG -  << "[0x97][0xf6][0x1][0xc7][0xc4][0x8f]1[0xfb][0x8f][0x8a]K,[0xe8][0xab][\n]"
+2020-07-23 16:46:53 DEBUG -  << "i[0x17][0xd3]0[0x8c][0x88][0x1c][0xff][0xab][0xc]*[0x12]i[0x11]am[0xcf]![0xa7][0x1e][0x94][0x8d][0x91]I[0x8b][0xed][0xf6][0xc1][0x9f][0x8a][0x8f][0x3][0x1f]e DR[0xf7][0x95]f[0xf9][0x1][0x8e][0x9][0xf1][0xd1]t2[0xb0][0x90]k[0xf5][0x91]2)5j|[0x1d][0x1][0x81]0[0xf4]p[0x18][0xc2][0xce]q[0x13][0x8e]a[0xfb]p([0x10][0xe4]#g[0x84][0x9c][0xce][0x7]\D[0xdf][0x18][0x4][0xf8]1[0xa1],[0xef][0x9c][0xf0]YL[0xe0]b#[0xcd][0x3][0xb1]/[0xab][0xec][0x8]+V[0xba]@o[0xd4][0xd0][0x83][0x1c][0x0]S[0xde]}Vr5[0x92][0x8a]4[0x81][0x1][0xcc]=$[0xfe]x[0xe8][0x8c][0xfa][0xc8][0xed][0xf][0x94]QE[0xa3][0xd0][0x93][0x82][0xe5][0xd9][0xd9][0xdf]o5[0xb8][0x1e]+[0x98]C[0xc2][0xc8]C[0x11]%[0xd9][0xe5][0xfc][0xd7][0x84]J [0x96][0xe8][0xfc]{[0xb3]T[0x8]r([0x15]L[0x19][0xb9][0xe][0x9a][0x0][0xff][0x18]M[0x95][0x81][0x16][0xeb][0xf9]T[0xd1][0x9a][0x12]EjW"/[0x80]G[0x1e]T([0x1a][0x99]M[0x18][0xb5][0xdc][0x84][0xf4][B[0xa7][0xfd][0xe9]p[0xf4][0xd7][0x19][0x1f][0x92]DX[0x8][0xe][\r]+[0x18][0xc6][0x1e]'[0x10][0xf0][0x80][0xac]B[0xc3]2n[0xc9]2t[0xe4][0xd9][0xaa]@[0x9][0xe4][0x89][0xb9]r[0xef]h[0x14][0xc1][0x96]>F[0x98][0x19][0x8e]IK[0x8e][0xc7][0xf5][0xfc][0xa1][0xf3][0xa7][0xe4][0xb9][0x9],[0x18][0xa7][0x9e][0x86]Z[0xd3][0x98][0xe6][0xe5][0xd1][0x9d][0xb6]?[0xba]S/[0xcf]0[0xe3]8[0xc8][0xa1][0xc1][0x91]pJ[0x8a]cqh|[0xa8][0x94][0xf2][0xc6][0x19][0x81]TBa[0xca][0xa0][0xb]:[0xcb]#[0xb7][0xdf][0xbe]W[0x16]5[0xa9][0x12][0xdd][0xc6][0xe]aK[0xce][0xbf][0x9d][0xab][0x8a]j_[0xc5]H[0x16][0xe][0xc7][0xcb][0x9][0x94][0x96]y[0x10][0x90][0x14][0x8a][0xb5]H[0xe]e[0xfd]pZ[0x6][0xf]Z[0x8c][0xa9][0xe5][0xc]-[0x7][0xed][0x90][0xeb]9#[0xf][0xb9][0xb0][0x0][0xe7][0x8b],17[0x98][0xe4][0xc][0x90]:[0x90][0x1f][0x92],[0xc6][0xf9]cF[0x9e][0x89]XFe[0x16][0xa8][0xe5],>[0xee]6k[0xc9][0xf8][0x3]d[0xc9][0xea][0xca]<R[0x94][0x7][0x5][0xdd]_[0xdc][0x14][0xcd]|[0xb1][=[0xc9]d`[0xc0]$r[0x1f][0xa2][0x9c][0xaa][0xf3]I[0xb2]y#[0x93][0xa2]_[0xa8]t[0x80][0xa8][0xf2][0xe4][0xe6]b[0xd7][0xf9][0x7][0x9f];}G[0xd5]<[0x99][0xf1][0x8c]Mi[0xef][0xfa][0x9d][0x8a][0xc6][0xd5][0x1a][0x99]U[0xb7]4)^!)G[0x11][0xd7]&[0x97]d[0xb][0x8f]*[0xbf][0xaa]Se[0x86]zaeV[0x1d][0x8e][0xd1]d[0xa4]M[0xea][0xc9]V[0xa0][0xd5][0xb2]mEpq[0xb8][\n]"
+2020-07-23 16:46:53 DEBUG -  << "[0x90]t[0x1c]x[0xb8][0x8]i[0xbe]b[0xcf]r[0xc7][0xe0][0x86][0x94]q[0xfb][0x85][0x8a][0xc]x[0x81]lA[0xe5]Q[0xbb][0xea]U[0x7][0xe3][0xf2]l[0xd6],+[0xae]I[0xb3][0xb9][0xa8])[0x94]a[0xc]o>[0xcf]T[0x1f][0xe8][0x9f][0xb0][0xd4]lk[0xee]7[0x88]*[0x1a]-i[0x86]G[0xca]k[0xad][0x9a][0x4][0x1d][\n]"
+2020-07-23 16:46:53 DEBUG -  << "[0xc9][0x9e]W[0xfa][0x19]t[0x5][0xbf][0xd5][0xb9][0xc1]:[\n]"
+2020-07-23 16:46:53 DEBUG -  << "~[0xa3]mCmkR[0x15][0xcb]_<[\r][0x1e][0xa3]@.[0xcd][0xc8]j[0xa3][0xb2]YC[0xe3][0xb2][0x89]*[0xd9][0xdb][0xd6][0xaa]Z[V[0x85][0x94][0x14][0x93]J[0x1b]Vr[0xb4][0xad]U[0xb2][0xa3][0xab]aI[0xf0][0xa9][0xe9][0xdf]J[0xe8][0xb6][0xa5][0xc9]4[0x83][0x15]4[0xd9][0xab];2^[0xbb]sZ[0x82][0xbb]mS[0xf7]~[0xbb][0xfc]$OS[0x9]&[0xb1]Q3O[0xba]m[0xd3]q[0x99]'[\r][0x98]Dv|[0xdb][0xdd][0xb6][0xb9]X[0xe1][0xdd]y[0xdb][0xeb][0x96][0x15][0xd7][0xab][0xdb]^S([0xc3][0xbb]o{[0xd3][0xb6][0xe6]~[0x83][0xa8]q[0xdb]o[0x84]GB[0x88][0x84][0x9c]%[0xec]e^[0xe4][0x87]mcg[0xda][0xd6][0x96]g[0x1c]q"[0xc9][0xae]Q%[0x99]z[0xeb]X'/[0x94][0xd5][0x1a][0x3][0xb7]m6[0xfe][0xdf]@5X$[0xf3][0xd0]{[0x86][0xca]MB)][0x88][0xea]Q[0x92][0xb7]}[0x1b]Q[0x11][0xbe]FT[0xc9][0xc6]$K[0x18][0xd6][0xde][0xaa]m[0xf3][0xb2][0xbd][0xcc][0xb2][0x5][0xd4][0xb6][0xed][0xd3]B[0xbe]l[0xe9][0xa1][0x10][0x83][0x89][0xbf]-[0xa0][0xa3][0xe1]\[0xca][0xc5]X[0xbe][0xaf][0x1b][0xa7][0xcd][0xd3][0xf2]>[0xa7][0xea]O[0x16][0x95][0xdf]7[0xd4][0xef][0x19]v[0xf3][0xc7]4[0xff];z[0x18][0x14][0xa3][0x86][0x13][0x0][0x0]"
+2020-07-23 16:46:53 DEBUG -  << "[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "0[\r][\n]"
+2020-07-23 16:46:53 DEBUG -  << "[\r][\n]"
+2020-07-23 16:46:53 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-23 16:46:53 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@297c9a9b
+2020-07-23 16:46:53 DEBUG - Connection can be kept alive indefinitely
+2020-07-23 16:46:53 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Got the response
+2020-07-23 16:46:53 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-23 16:46:53 INFO  - [class com.epp.api.utils.APIGenerics] : writting the xml file into XML format
+2020-07-23 16:46:53 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xlsx sheet
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : All the services data is set to Excelsheet
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : Getting the parsed data from response:  {userId=CV4Plc, consumerId=27912270, email=pkoi93956@yahoo.com, number=2018234719}
+2020-07-23 16:46:55 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-23 16:46:55 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-23 16:46:55 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2020-07-23 16:46:55 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-23 16:46:55 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2020-07-23 16:46:55 INFO  - [class com.epp.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2020-07-23 16:46:55 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-23 16:46:55 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-23 16:46:55 INFO  - [class com.epp.libraries.GenericLib] : Fetching the Respones output Nodes
+2020-07-23 16:46:55 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-23 16:46:55 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-23 16:46:55 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-23 16:46:55 INFO  - [class com.epp.api.executor.APIExecutor] : Closing all the instances of Excel sheets
+2020-07-23 16:46:55 INFO  - [class com.epp.api.executor.APIExecutor] : Request which need to run: AddFundingProfile.xml
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-23 16:46:55 INFO  - [class com.epp.api.executor.APIExecutor] : Reading XML file into Document instance is done
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=, wsse:Username=, wsse:Password=, req:MtvnSvcVer=, req:ApplID=, req:SvcID=, req:SvcVer=, req:RoutingID=, q1:type=, q1:nickname=, q1:primary=, q1:bankName=, q1:accountNumber=, q1:routingNumber=, userID=}
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddFundingProfile_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddFundingProfile, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, q1:type=BANK_ACCOUNT, q1:nickname=Demo user, q1:primary=true, q1:bankName=HDFC, q1:accountNumber=100001111189, q1:routingNumber=959009990, userID=ccc}
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddFundingProfile_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddFundingProfile, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, q1:type=BANK_ACCOUNT, q1:nickname=Demo user, q1:primary=true, q1:bankName=HDFC, q1:accountNumber=100001111189, q1:routingNumber=959009990, userID=ccc}
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphabet generate: GhwG
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 71818
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : Random email id generate: GhwG71818@yahoo.com
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 3614901
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : Random phone generate: 2013614901
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : Parcing of xml file is done
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-23 16:46:55 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xml file at run level
+2020-07-23 16:46:55 INFO  - [class com.epp.api.executor.APIExecutor] : Hitting the request using post method
+2020-07-23 16:46:55 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Into Post Method
+2020-07-23 16:46:55 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Base End Point URL: https://localhost:1122/services/port
+2020-07-23 16:46:55 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : XML request file path: C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\api\temp\Request_Zelle_AddFundingProfile_TC01_20200723_164655.xml
+2020-07-23 16:46:55 DEBUG - Get connection for route {s}->https://localhost:1122
+2020-07-23 16:46:55 DEBUG - Connecting to localhost:1122
+2020-07-23 16:46:56 DEBUG - CookieSpec selected: ignoreCookies
+2020-07-23 16:46:56 DEBUG - Auth cache not set in the context
+2020-07-23 16:46:56 DEBUG - Target auth state: UNCHALLENGED
+2020-07-23 16:46:56 DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-23 16:46:56 DEBUG - Attempt 1 to execute request
+2020-07-23 16:46:56 DEBUG - Sending request: POST /services/port/v1_6 HTTP/1.1
+2020-07-23 16:46:56 DEBUG -  >> "POST /services/port/v1_6 HTTP/1.1[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "SOAPAction: authenticate[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "Accept: */*[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "Content-Type: application/soap+xml; charset=UTF-8;[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "Content-Length: 2867[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "Host: localhost:1122[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "[\r][\n]"
+2020-07-23 16:46:56 DEBUG - >> POST /services/port/v1_6 HTTP/1.1
+2020-07-23 16:46:56 DEBUG - >> SOAPAction: authenticate
+2020-07-23 16:46:56 DEBUG - >> Accept: */*
+2020-07-23 16:46:56 DEBUG - >> Content-Type: application/soap+xml; charset=UTF-8;
+2020-07-23 16:46:56 DEBUG - >> Content-Length: 2867
+2020-07-23 16:46:56 DEBUG - >> Host: localhost:1122
+2020-07-23 16:46:56 DEBUG - >> Connection: Keep-Alive
+2020-07-23 16:46:56 DEBUG - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2020-07-23 16:46:56 DEBUG - >> Accept-Encoding: gzip,deflate
+2020-07-23 16:46:56 DEBUG -  >> "<?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://metavante.com/types/common" xmlns:com1="http://epayments.metavante.com/types/common" xmlns:req="http://epayments.metavante.com/types/request" xmlns:req1="http://epayments.metavante.com/types/consumerPayee/request" xmlns:req2="http://epayments.metavante.com/types/fi/request" xmlns:req3="http://epayments.metavante.com/types/fundingAccount/request" xmlns:req4="http://epayments.metavante.com/types/merchant/request" xmlns:req5="http://epayments.metavante.com/types/security/request" xmlns:req6="http://epayments.metavante.com/types/user/request" xmlns:req7="http://epayments.metavante.com/types/consumer/request" xmlns:req8="http://epayments.metavante.com/types/checkimage/request" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "   <soapenv:Header>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "      <wsse:Security>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "         <wsse:UsernameToken>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "             <wsse:Username>FISEPAY_DEV</wsse:Username>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "            <wsse:Password>RaDrup5E4awreP</wsse:Password>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "         </wsse:UsernameToken>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "      </wsse:Security>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "   </soapenv:Header>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "   <soapenv:Body>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "      <EbMtvnSvcReq xmlns="http://epayments.metavante.com/types/request">[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "        <req:MtvnSvcVer>v1.6.0</req:MtvnSvcVer>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "         <MsgUUID>bc1ae59a-d0f3-4d80-9bf3-e83e1cb9c87a</MsgUUID>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "         <PrcsParms>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "            <SrcID>MVEPAY</SrcID>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "         </PrcsParms>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "         <Svc>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "            <SvcParms>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "               <req:ApplID>ZELLE</req:ApplID>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "               <req:SvcID>AddFundingProfile</req:SvcID>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "               <req:SvcVer>v1.6.0</req:SvcVer>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "               <RqstUUID>82f0d972-4c5b-4b5f-a0da-be4a9f3dc410</RqstUUID>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "               <req:RoutingID>fis-50202</req:RoutingID>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "            </SvcParms>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "            <MsgData>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "               <AddFundingProfile>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "                  <userId>CV4Plc</userId>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "                  <fundingProfileInfo xmlns="http://epayments.metavante.com/types/fundingProfile/request" xmlns:q1="http://epayments.metavante.com/types/common" xsi:type="q1:BankFundingProfileInfoType">[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "                     <q1:type>BANK_ACCOUNT</q1:type>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "                     <q1:nickname>Demo user</q1:nickname>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "                     <q1:primary>true</q1:primary>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "                     <q1:bankName>HDFC</q1:bankName>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "                     <q1:accountNumber>100001111189</q1:accountNumber>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "                     <q1:routingNumber>959009990</q1:routingNumber>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "                     <q1:checkNumber>123461</q1:checkNumber>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "                     <q1:bankAccountType>CHECKING</q1:bankAccountType>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "                  </fundingProfileInfo>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "               </AddFundingProfile>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "            </MsgData>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "         </Svc>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "      </EbMtvnSvcReq>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "   </soapenv:Body>[\r][\n]"
+2020-07-23 16:46:56 DEBUG -  >> "</soapenv:Envelope>"
+2020-07-23 16:47:02 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "X-Powered-By: Servlet/3.0[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "Content-Type: text/xml; charset=utf-8[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "Content-Encoding: gzip[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "Content-Language: en-US[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "Date: Thu, 23 Jul 2020 11:17:00 GMT[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "[\r][\n]"
+2020-07-23 16:47:02 DEBUG - Receiving response: HTTP/1.1 200 OK
+2020-07-23 16:47:02 DEBUG - << HTTP/1.1 200 OK
+2020-07-23 16:47:02 DEBUG - << X-Powered-By: Servlet/3.0
+2020-07-23 16:47:02 DEBUG - << Content-Type: text/xml; charset=utf-8
+2020-07-23 16:47:02 DEBUG - << Content-Encoding: gzip
+2020-07-23 16:47:02 DEBUG - << Content-Language: en-US
+2020-07-23 16:47:02 DEBUG - << Transfer-Encoding: chunked
+2020-07-23 16:47:02 DEBUG - << Date: Thu, 23 Jul 2020 11:17:00 GMT
+2020-07-23 16:47:02 DEBUG - Connection can be kept alive indefinitely
+2020-07-23 16:47:02 DEBUG - Parsing response as: text/xml; charset=utf-8
+2020-07-23 16:47:02 DEBUG -  << "a[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-07-23 16:47:02 DEBUG -  << "[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "43c[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "[0xd5]W[0xdf]S[0xab]8[0x14]~[0xdf][0xbf][0xa2][0xc3];[0x90]@[[\n]"
+2020-07-23 16:47:02 DEBUG -  << "[0x83][0xdc][0xa9]X[0xd7][0xce][0xd5][0xea][0xd8][0xea][0xec][0xfa][0xb2][0x93]B[0xaa][0xac]%[0xb0]$T[0xfd][0xef][0xf7][0x84][0x1f][0x91]r[0xb9][0xb3]:[0xe3][0xc3][0xde][0xce]h[0xc9]w[0xbe][0xf3][0x9d]/'[0x1]R[0xff][0xdb]k[0xba][0x1f][0x1d]h[0xc1][0x93][0x8c][0x9d]h[0xd8]@[0xda][0x88][0xb2]([0x8b][0x13][0xf6]x[0xa2][0xdd]m[0xce][0xf5][0x99][0xf6]-[0xf8][0xcd][0xe7][0x19][0xc9]);x[0xb]v[0xa0][0xfb],[0xa7]#Hc[0xdc]k[0xe0][0x13][0xed]I[0x88][0xdc]3M[0x1e]=[0xd1][0x94]p[0x3][0xa2]2dd[0xc5][0xa3])/L[0xda][0xe4][0x99]Z[0x93][0xf9][0xca]c[0x95][0xf5][0xf2][0xf2]b[0xbc][0xd8][0x15][0xd9]B[0x8][0x9b]\][0xae]+[0xa1]wr[0xf2][0xdf]d=a\[0x10][0x16]Q[0xad][0xe3][0xf7][0x82][0x92][0x98][0x16][0x0][0xbc]pN[0xbd]5[0x8d][0xca]"[0x11]o[0x8d][0xac][0xc4][0x94]n[0x9c]E[0xdc][0xc8][0x8]O[0xb8][0xe]>YU[0x0][0x8][0xb2][0xc8][0xd8][0x84]:uH[0x8e][0x10][0xd6]! [0xff][0x1a]9[0x1d].[0xe8][0xab][0xd0][0xa1]{[0x6][0xcc]K[0x1b][0xb5][0xd5][0xd3][0x92][0x8b];[0x6][0x6][0xa4]1[0x98]/[0xd6][0x2]0Rz[0x9b]$[0xa5][0x0][0xa5][0xb9]2R~[0x89][0x8f]R${[0xf9][0xad][0x8c][0xc8]bK([0xac][\n]"
+2020-07-23 16:47:02 DEBUG -  << "[0xea]:[0x9e]`4[0x9d]9[0x8e][0xed]6f[0xc2][0x82][0x12]A[0xe3][0xc0]B[0x16][0xd2][0x91][0xa3][[0xf6][0x6]c[0xf];[0x1e][0xc2][0x86]3[0xc5][0xf][0xbe][0xd9]eU)[0x8b][0xd7]<)([0xef][0xa5]X[0xd6]qJ[0xcb][0xaa]G[0xca]B5[0xee],[0x6][0x8c]{[0xab][0xa5]V[0xef]4[0x8b]![0xbc][0xd8]^[0x89][0x3][[0x1f][0xa2][[0xca][0xeb][0x86][0xa9]f[0xd1][0x9c][0xbc][0xa5][0x94][0x9]n[0xa4]T[0x90][0x3]a[0x82][0x1a]Q[0x96][0x9a][0xe2]-[0xa7][0xdc][0x84][0xe2]y[0xc6]8l[0x8][0xbf]Q[0xb8][0x7][0xf5][0x3]6[0xa6][0x6][0xf2][0xcd][0xe][0xe4]_[0xf1][0xc7][0xbb][0xbb][0xe5]Y[0xb0][0x8d]0[0xa1][0x13][0x97][0xe8]1[0xda][0xd9][0xfa]8[0x9e]![0xdd][0xdd][0xc2][0x15][0x9d][0xd9][0x14]G[7[0x9a]9[0x4]2[0x1b][0xb6][0xf][0xe9][0xd5][0xbf][0x1b]R[0xa4]0[0xcf]y[0x9e][0xef][0x1]~X\^.|[0xb3][0x19][0xc9]8|[0xcd][0xe3][0xf8][0xbc]d[0xf2][0xb6][0xba])[0xb2]][0xb2][0xa7][0xbe]Y[0x7][0xfc][0x9e][0xad][0xd6][0xd2][0xed]?[0xb0]wd[0x95][0x99][0xb5]C[0xb1][0xeb]X[0xfa]8[0x9a]l[0xf5][0xf1]v[0xb2][0xd3][0x9][0x8a][0x89][0xbe][0xa5]c[0xe2][0xee][0xec]8[0x1a]cHS[0xf4]J[0xa1]1[0x4]F[0xcf][0x88] [0xe0][0xac]_=[0xf0][0x19][0xc7][0x1e][0xac][0x8]'[0x8f][0xf4]2[0xe1][0xa2][0xd9][0x89][0x80][0xaa][0xe6][0xe][0xb5][0x14][0xae][0xd2][0x8c]AC[0xcd]^[0xbe][0x14][0xb4][0xbc][0xdd]Q[0x11][0xa5]i}p[0xc1][0x8e][0xd3][0xbb][0xeb][0xc7][0xb8][0xdd][0x13]_[0xc6] [0xf3]~/[0x3][0xe1][0x83]E[0xd4][0x14][0x86]4[0x3]{b[0xbb]S[0x84][0xa7]r[0x82][0x3][0xe1]a[0xb8]v"[0x15][0xc7][0x1e][0xec]qQr[0xe5]j[0xfc]IW[0xf3][0x9b][0x9b][0xdb][0xeb][0xfb][0xc5][0x99],[0xd4][0x8a]I[0xe1][0x89][0x97][0xb0]][0xa6]d'[0x9f][0x93][0x1d][0xc1][0x13][0xd4][0x93][0xc8][0x89]&[0xa5]N[0x9]{>[0xde][0xf]K[0x10][0xdf]@\[0xab]kIjp:_}[0xff]k[0x1e][0x86][0xd7]w[0xab][0x8d][0xb4][0xd3][0xc0][0x15][0x81]%[0xd1]3#)[\r][0xce]h[0x9a][0x8d]JN[0x8b][0x9a][0xa1][0xf0][0x8a][0x95][0x17]IJ[0x8a][0xb7]@[0x14]%[0xad][0xe3]-R[0x85][0xb7]`c%[0xc9][0x17]g[0xe7]a[0x1d]WPE Q[0x94][0x95]L[0xac][0xca]t[0xb][0xb7][0x4]F[0xf0][0xc1][0xf2]3sk[0xf6]q[0xbc]J)2x[0x8][0xb2][0xc7][0x6]r'.B[0xae][0xeb][0xa2][0x9a][0x1c][0xac][0xf8][0xf0][0xea][0x88][0x9e][0xdb][0x2][0x96]=[0x9e][0xe2][0x9a][0xda][0xc5][0x95][0xd9]y]O6*[0x8]/[0x16][0xe1][0xf7][0xe5][0xea][0xf7]w[0xdf][0xdd]h[0xdd]$[0x98][0xc8]5[0xb][0xa5]R[0x90][0x12][0xf6]w"_[0x5][0xa3]?G[0x1c]<<5[0xfd][0xea]PjD.[0xb3]L[0x9f][0xb6][0xbb][0xec][0x8a][0x8a][0xa7],n[0xd6][0xe9][0xe8]V[0x9d]~~[0xc7][0xf][0xab][0xe]DZ(f[\n]"
+2020-07-23 16:47:02 DEBUG -  << "[0xea][0xee][0xf3][0x1e][0x1b][0xee][0xc][0x8c],K[0xce][0xe0][0xc7]H[0x8b]~Lj3[0xb4][0xf5][0x86]8[0x83][0xb3]9$[0xf2][0x5]r[0xbe]\[0xf]d[0xa9]p73|"[0x8c][0xd1]}[0xb0]\[0xad]7[0xf3]^[0xb1]66[0xa0]5[0x84][0xfd][0xbc][0x99]_[0xda]f[0xe4][0xfe][0xc2]m[0x9e][0x87][0x17][0xff][0xfb][0x16][0xdb][0x8][0xfd][0xca];[0xf9][0xab]Z[0xfc][0xd3]P[0xfb][0xba]w<R[0xc6][0x89][0x90][0xaf][0x8e]"%[0x2]~@[0xa8]'[0x93][0xf3][0xf9]'[0x93][0xe3]E[0xd5][0x11][0x13][0xe],[0xb4][0x16][0x9d]z[0x93][0x99][0x1][0xf][0xff][0x7]i[0xea][0x88][0xf8][0x9e][0x98][0x15][0xb0]@[0x96][0xe3]b[0xcb]rP[0x87]W[0xe1][0x15]-[0x85]_5[0xbb][0x84][0xc6]C[0x15][0xe0][0xb4][0x8b]:[0x15][0x8e][0xa8][0xdd][0xe4][0x1f][0x8b]t[0x2]5[0xd0]oJ[0x5][0xf7][0x8f]F[0x0][0xe][0x9c][0xc9]Lu`[[0x14]E[0x18][0xd3]`}[0x1f][0x82])[0xdf]l[0x86][0x12][0x6]J[0xb0].[0xa3][0x8][0x8e]^[0x15].[0xc7][0xd5][0x99]O%][0xdd]/>[0x96][0xd4]=XwN[0xe1][0xf5][0xa9][0xdb][0xec][0xff][0xe4][0xb][0xfe][0x5]D[0xd1][0x11]l,[0xe][0x0][0x0]"
+2020-07-23 16:47:02 DEBUG -  << "[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "0[\r][\n]"
+2020-07-23 16:47:02 DEBUG -  << "[\r][\n]"
+2020-07-23 16:47:02 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-23 16:47:02 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@234c5e41
+2020-07-23 16:47:02 DEBUG - Connection can be kept alive indefinitely
+2020-07-23 16:47:02 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Got the response
+2020-07-23 16:47:02 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-23 16:47:02 INFO  - [class com.epp.api.utils.APIGenerics] : writting the xml file into XML format
+2020-07-23 16:47:02 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xlsx sheet
+2020-07-23 16:47:03 INFO  - [class com.epp.api.utils.APIGenerics] : All the services data is set to Excelsheet
+2020-07-23 16:47:03 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-23 16:47:03 INFO  - [class com.epp.api.utils.APIGenerics] : Getting the parsed data from response:  {fundingProfileId=35396016}
+2020-07-23 16:47:03 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-23 16:47:03 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-23 16:47:03 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphabet generate: DiBH
+2020-07-23 16:47:03 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 26100
+2020-07-23 16:47:03 INFO  - [class com.epp.api.utils.APIGenerics] : Random email id generate: DiBH26100@yahoo.com
+2020-07-23 16:47:03 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-23 16:47:03 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 4898675
+2020-07-23 16:47:03 INFO  - [class com.epp.api.utils.APIGenerics] : Random phone generate: 2014898675
+2020-07-23 16:47:03 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-23 16:47:28 INFO  - [class com.epp.libraries.GenericLib] : userIDOne: CV4Plc
+2020-07-23 16:47:28 INFO  - [class com.epp.libraries.GenericLib] : consumerIDOne: 27912270
+2020-07-23 16:47:28 INFO  - [class com.epp.libraries.GenericLib] : emailIDOne: pkoi93956@yahoo.com
+2020-07-23 16:47:28 INFO  - [class com.epp.libraries.GenericLib] : mobileNumberOne: 2018234719
+2020-07-23 16:47:28 INFO  - [class com.epp.libraries.GenericLib] : fundingProfileIDOne: 35396016
+2020-07-23 16:47:28 INFO  - [class com.epp.libraries.GenericLib] : URL launchedhttps://epayments-epayui-fnc-1.money-movement.com/TestPeoplePay50202X/DebugAccess?userName=CV4Plc&productCode=Zelle&destination=Home
+2020-07-23 16:47:28 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page LandingPage
+2020-07-23 16:47:28 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnGetStarted
+2020-07-23 16:47:29 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ContinueButton
+2020-07-23 16:47:29 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page SendMoneyWithZellePage
+2020-07-23 16:47:29 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnContinue
+2020-07-23 16:47:41 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- AllDoneButton
+2020-07-23 16:47:41 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 444444 in textbox edtVerificationCode.
+2020-07-23 16:47:54 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed 444444 on element with xpath --- //input[@id='verificationCode']
+2020-07-23 16:47:54 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnVerify
+2020-07-23 16:47:54 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //button[@class='button primary verifyButton ui-btn ui-shadow ui-corner-all']
+2020-07-23 16:47:54 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnSendOrRequestMoney
+2020-07-23 16:47:59 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- YesCancel
+2020-07-23 16:47:59 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page SelectRecipientPage
+2020-07-23 16:47:59 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types random data starting with Unreg28 Contact in textbox edtSearchfield.
+2020-07-23 16:48:03 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed Unreg28 Contact on element with id --- autocomplete-input
+2020-07-23 16:48:03 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnContinue
+2020-07-23 16:48:03 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //button[@id='addNewContact']
+2020-07-23 16:48:03 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page AddContactInfoPage
+2020-07-23 16:48:03 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 2025550164 in textbox edtEmailField.
+2020-07-23 16:48:04 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed 2025550164 on element with xpath --- //input[@name='EmailMobile']
+2020-07-23 16:48:04 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnDone
+2020-07-23 16:48:05 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ContinueButton
+2020-07-23 16:48:05 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnNext
+2020-07-23 16:48:06 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //div[@id='ReminderConfirmationModal']//a[text()='Next']
+2020-07-23 16:48:06 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page EnterAmountPage
+2020-07-23 16:48:06 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 0.12 in textbox edtAmount.
+2020-07-23 16:48:20 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed 0.12 on element with id --- amountText
+2020-07-23 16:48:20 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnReview
+2020-07-23 16:48:21 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ReviewButton
+2020-07-23 16:48:21 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page ReviewAndSendPage
+2020-07-23 16:48:22 INFO  - [class com.epp.webelement.BaseElement] : Inner text matched. 
+	Send $0.12
+UC
+to Unreg28 Contact
+The money will be available typically in minutes.
+	Send $0.12
+2020-07-23 16:48:22 INFO  - [class com.epp.webelement.BaseElement] : Inner text matched. 
+	Send $0.12
+UC
+to Unreg28 Contact
+The money will be available typically in minutes.
+	UC
+2020-07-23 16:48:22 INFO  - [class com.epp.webelement.BaseElement] : Inner text matched. 
+	Send $0.12
+UC
+to Unreg28 Contact
+The money will be available typically in minutes.
+	to Unreg
+2020-07-23 16:48:22 INFO  - [class com.epp.webelement.BaseElement] : Inner text matched. 
+	Send $0.12
+UC
+to Unreg28 Contact
+The money will be available typically in minutes.
+	Contact
+2020-07-23 16:48:22 ERROR - [class com.epp.webelement.BaseElement] : Inner text matched failed. 
+	Send $0.12
+UC
+to Unreg28 Contact
+The money will be available typically in minutes.
+	which will be deposited once 2025550164 is enrolled
+2020-07-24 13:17:47 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2020-07-24 13:17:47 INFO  - [class com.epp.initdriver.RDPDriver] : Setup the new driver
+2020-07-24 13:17:51 INFO  - [class com.epp.initdriver.RDPDriver] : Created Chrome driver instace
+2020-07-24 13:17:51 INFO  - [class com.epp.initdriver.RDPDriver] : Maximize the explorer window
+2020-07-24 13:17:51 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2020-07-24 13:17:52 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 13:17:52 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 13:17:52 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties at null: unknown protocol: c
+2020-07-24 13:17:52 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 13:17:52 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/java/com/epp/config/Logger.properties

@@ -1,0 +1,155 @@
+2020-07-20 16:30:23 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Loggers Instance with file name: ZelleLogger_07_20_2020 16_30_22
+2020-07-20 16:30:23 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: ZelleTestReport_07_20_2020 16_30_22
+2020-07-20 16:30:23 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Create user one using services and Launch URL
+2020-07-20 16:30:23 INFO  - [class com.epp.api.executor.APIExecutor] : API Executor constructor, assigning all the values to variable of API 
+2020-07-20 16:30:23 INFO  - [class com.epp.api.executor.APIExecutor] : Closing all the instances of Excel sheets
+2020-07-20 16:30:23 INFO  - [class com.epp.api.executor.APIExecutor] : Request which need to run: AddConsumer.xml
+2020-07-20 16:30:23 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-20 16:30:23 INFO  - [class com.epp.api.executor.APIExecutor] : Reading XML file into Document instance is done
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=, wsse:Username=, wsse:Password=, req:MtvnSvcVer=, req:ApplID=, req:SvcID=, req:SvcVer=, req:RoutingID=, com1:addr1=, com1:city=, com1:state=, com1:postalCode=, com1:country=, com1:type=, com1:number=, com1:isPrimary=, com1:email=, com1:userId=}
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=MOBILE, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=MOBILE, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphaNumeric generate: EiQtpU
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphabet generate: fXNv
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 57246
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : Random email id generate: fXNv57246@yahoo.com
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 7062699
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : Random phone generate: 2017062699
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : Parcing of xml file is done
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-20 16:30:24 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xml file at run level
+2020-07-20 16:30:24 INFO  - [class com.epp.api.executor.APIExecutor] : Hitting the request using post method
+2020-07-20 16:30:24 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Into Post Method
+2020-07-20 16:30:24 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Base End Point URL: https://localhost:1122/services/port
+2020-07-20 16:30:24 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : XML request file path: C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\api\temp\Request_Zelle_AddConsumer_TC01_20200720_163024.xml
+2020-07-20 16:30:25 DEBUG - Get connection for route {s}->https://localhost:1122
+2020-07-20 16:30:25 DEBUG - Connecting to localhost:1122
+2020-07-20 16:30:27 DEBUG - CookieSpec selected: ignoreCookies
+2020-07-20 16:30:27 DEBUG - Auth cache not set in the context
+2020-07-20 16:30:27 DEBUG - Target auth state: UNCHALLENGED
+2020-07-20 16:30:27 DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-20 16:30:27 DEBUG - Attempt 1 to execute request
+2020-07-20 16:30:27 DEBUG - Sending request: POST /services/port/v1_6 HTTP/1.1
+2020-07-20 16:30:27 DEBUG -  >> "POST /services/port/v1_6 HTTP/1.1[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "SOAPAction: authenticate[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "Accept: */*[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "Content-Type: application/soap+xml; charset=UTF-8;[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "Content-Length: 5411[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "Host: localhost:1122[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "[\r][\n]"
+2020-07-20 16:30:27 DEBUG - >> POST /services/port/v1_6 HTTP/1.1
+2020-07-20 16:30:27 DEBUG - >> SOAPAction: authenticate
+2020-07-20 16:30:27 DEBUG - >> Accept: */*
+2020-07-20 16:30:27 DEBUG - >> Content-Type: application/soap+xml; charset=UTF-8;
+2020-07-20 16:30:27 DEBUG - >> Content-Length: 5411
+2020-07-20 16:30:27 DEBUG - >> Host: localhost:1122
+2020-07-20 16:30:27 DEBUG - >> Connection: Keep-Alive
+2020-07-20 16:30:27 DEBUG - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2020-07-20 16:30:27 DEBUG - >> Accept-Encoding: gzip,deflate
+2020-07-20 16:30:27 DEBUG -  >> "<?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://metavante.com/types/common" xmlns:com1="http://epayments.metavante.com/types/common" xmlns:req="http://epayments.metavante.com/types/request" xmlns:req1="http://epayments.metavante.com/types/consumerPayee/request" xmlns:req2="http://epayments.metavante.com/types/fi/request" xmlns:req3="http://epayments.metavante.com/types/fundingAccount/request" xmlns:req4="http://epayments.metavante.com/types/merchant/request" xmlns:req5="http://epayments.metavante.com/types/security/request" xmlns:req6="http://epayments.metavante.com/types/user/request" xmlns:req7="http://epayments.metavante.com/types/consumer/request" xmlns:req8="http://epayments.metavante.com/types/checkimage/request" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "   <soapenv:Header>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "      <wsse:Security>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "         <wsse:UsernameToken>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "            <wsse:Username>FISEPAY_DEV</wsse:Username>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "            <wsse:Password>RaDrup5E4awreP</wsse:Password>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "         </wsse:UsernameToken>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "      </wsse:Security>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "   </soapenv:Header>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "   <soapenv:Body>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "      <req:EbMtvnSvcReq>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "         <req:MtvnSvcVer>v1.6.0</req:MtvnSvcVer>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "         <req:MsgUUID>?</req:MsgUUID>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "         <req:PrcsParms>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "            <req:SrcID>MVEPAY</req:SrcID>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "         </req:PrcsParms>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "         <req:Svc>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "            <req:SvcParms>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "               <req:ApplID>ZELLE</req:ApplID>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "               <req:SvcID>AddConsumer</req:SvcID>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "               <req:SvcVer>v1.6.0</req:SvcVer>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "               <req:RoutingID>fis-50202</req:RoutingID>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "            </req:SvcParms>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "            <req:MsgData>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "               <req:AddConsumer>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                  <req1:locale>en-US</req1:locale>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                  <com:channelName/>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                  <req7:consumerInfo>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:individualConsumer>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:firstName>manjinder</com1:firstName>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:middleName>Y</com1:middleName>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:lastName>singh</com1:lastName>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:SSN>999-99-0000</com1:SSN>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:birthDate>1984-12-31</com1:birthDate>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     </com1:individualConsumer>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:address>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:addr1>10610 Faulkner Point way</com1:addr1>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:city>Irving</com1:city>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:state>TX</com1:state>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:postalCode>75063-1234</com1:postalCode>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:country>US</com1:country>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:phoneNumberList>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                           <com1:phoneNumber>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                              <com1:type>MOBILE</com1:type>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                            <com1:number>2017062699</com1:number>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                              <com1:isPrimary>true</com1:isPrimary>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                           </com1:phoneNumber>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        </com1:phoneNumberList>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     </com1:address>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:email>fXNv57246@yahoo.com</com1:email>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <!--com1:serviceId>1</com1:serviceId-->[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:termsAcceptedDate>2009-05-01T12:06:12Z</com1:termsAcceptedDate>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:paymentLimits>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:transactionLimit>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                           <com1:amount>1</com1:amount>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                           <com1:currencyCode>USD</com1:currencyCode>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        </com1:transactionLimit>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:dailyLimit>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                           <com1:amount>1</com1:amount>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                           <com1:currencyCode>USD</com1:currencyCode>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        </com1:dailyLimit>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     </com1:paymentLimits>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:emailFormatPreference>HTML</com1:emailFormatPreference>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                  </req7:consumerInfo>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                  <req7:userInfo>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:firstName>manjinder</com1:firstName>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:middleName>Y</com1:middleName>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:lastName>singh</com1:lastName>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:address>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:addr1>10610 Faulkner Point way</com1:addr1>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:city>Irving</com1:city>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:state>TX</com1:state>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:postalCode>75063-1234</com1:postalCode>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:country>US</com1:country>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:phoneNumberList>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                           <com1:phoneNumber>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                              <com1:type>MOBILE</com1:type>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                              <com1:number>2017062699</com1:number>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                              <com1:isPrimary>true</com1:isPrimary>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                           </com1:phoneNumber>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        </com1:phoneNumberList>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     </com1:address>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:email>fXNv57246@yahoo.com</com1:email>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:userIdentity>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                        <com1:userId>EiQtpU</com1:userId>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     </com1:userIdentity>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                     <com1:password>abc123</com1:password>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "                  </req7:userInfo>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "               </req:AddConsumer>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "            </req:MsgData>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "         </req:Svc>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "      </req:EbMtvnSvcReq>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "   </soapenv:Body>[\r][\n]"
+2020-07-20 16:30:27 DEBUG -  >> "</soapenv:Envelope>"
+2020-07-20 16:30:44 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2020-07-20 16:30:44 INFO  - [class com.epp.initdriver.RDPDriver] : Setup the new driver
+2020-07-20 16:30:47 INFO  - [class com.epp.initdriver.RDPDriver] : Created Chrome driver instace
+2020-07-20 16:30:48 INFO  - [class com.epp.initdriver.RDPDriver] : Maximize the explorer window
+2020-07-20 16:30:48 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2020-07-20 16:30:48 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-20 16:30:48 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-20 16:30:48 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties at null: unknown protocol: c
+2020-07-20 16:30:48 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-20 16:30:48 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/java/com/epp/config/Logger.properties

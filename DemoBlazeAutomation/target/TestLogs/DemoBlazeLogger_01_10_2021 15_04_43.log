@@ -1,0 +1,29 @@
+2021-01-10 15:04:43 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Loggers Instance with file name: DemoBlazeLogger_01_10_2021 15_04_43
+2021-01-10 15:04:43 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: DemoBlazeReport01_10_2021 15_04_43
+2021-01-10 15:04:43 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 15:04:43 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 15:04:43 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2021-01-10 15:04:43 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 15:04:43 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2021-01-10 15:04:43 INFO  - [class com.demoBlaze.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2021-01-10 15:04:48 INFO  - [class com.demoBlaze.libraries.GenericLib] : URL launched
+2021-01-10 15:04:48 INFO  - [class com.demoBlaze.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 15:04:48 INFO  - [class com.demoBlaze.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 15:04:48 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 15:04:49 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 15:04:49 INFO  - [class com.demoBlaze.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkSonyVaioI5
+2021-01-10 15:04:52 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Sony vaio i5']
+2021-01-10 15:04:53 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h2[@class='name' and text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 15:04:53 INFO  - [class com.demoBlaze.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 15:06:13 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating drivers
+2021-01-10 15:06:13 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Setup the new driver
+2021-01-10 15:06:15 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Created Chrome driver instace
+2021-01-10 15:06:15 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Maximize the explorer window
+2021-01-10 15:06:15 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 15:06:15 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating drivers
+2021-01-10 15:06:15 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 15:06:15 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 15:06:15 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 15:06:15 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties at null: unknown protocol: c
+2021-01-10 15:06:15 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 15:06:15 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/java/com/DemoBlaze/config/Logger.properties

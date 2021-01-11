@@ -1,0 +1,18 @@
+2021-01-11 11:11:57 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Loggers Instance with file name: DemoBlazeLogger_01_11_2021 11_11_57
+2021-01-11 11:11:57 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: DemoBlazeReport01_11_2021 11_11_57
+2021-01-11 11:12:01 INFO  - [class com.demoBlaze.libraries.GenericLib] : URL launched
+2021-01-11 11:12:01 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : Excepted : URL is launchedhttps://www.demoblaze.com
+2021-01-11 11:12:01 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-11 11:12:02 INFO  - [class com.demoBlaze.libraries.GenericLib] : Browser is closed
+2021-01-11 11:21:42 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating drivers
+2021-01-11 11:21:42 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Setup the new driver
+2021-01-11 11:21:46 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Created Chrome driver instace
+2021-01-11 11:21:46 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Maximize the explorer window
+2021-01-11 11:21:46 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-11 11:21:46 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating drivers
+2021-01-11 11:21:46 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-11 11:21:47 DEBUG - FileName set to C:\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-11 11:21:47 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-11 11:21:47 DEBUG - Could not locate file C:\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties at null: unknown protocol: c
+2021-01-11 11:21:47 DEBUG - Loading configuration from the absolute path C:\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-11 11:21:47 DEBUG - Base path set to file:///C:/DemoBlazeAutomation/src/main/java/com/DemoBlaze/config/Logger.properties

@@ -1,0 +1,64 @@
+2021-01-10 18:25:31 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Loggers Instance with file name: DemoBlazeLogger_01_10_2021 18_25_31
+2021-01-10 18:25:31 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: DemoBlazeReport01_10_2021 18_25_31
+2021-01-10 18:25:32 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 18:25:32 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 18:25:32 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2021-01-10 18:25:32 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 18:25:32 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2021-01-10 18:25:32 INFO  - [class com.demoBlaze.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2021-01-10 18:25:41 INFO  - [class com.demoBlaze.libraries.GenericLib] : URL launched
+2021-01-10 18:25:41 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 18:25:41 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 18:25:41 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 18:25:42 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 18:25:42 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkSonyVaioI5
+2021-01-10 18:26:03 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Sony vaio i5']
+2021-01-10 18:26:06 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h2[@class='name' and text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 18:26:06 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 18:26:08 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //a[text()='Add to cart']
+2021-01-10 18:26:08 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert message is generated  Product added
+2021-01-10 18:26:08 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert is Accepted
+2021-01-10 18:26:08 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkHome
+2021-01-10 18:26:10 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //a[@class='nav-link'][contains(text(),'Home')]
+2021-01-10 18:26:10 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 18:26:10 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 18:26:11 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Dell i7 8gb'] is present/displayed in screen 
+2021-01-10 18:26:11 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDellI78GB
+2021-01-10 18:26:15 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Dell i7 8gb']
+2021-01-10 18:26:17 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//h2[@class='name' and text()='Dell i7 8gb'] is present/displayed in screen 
+2021-01-10 18:26:17 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 18:26:19 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //a[text()='Add to cart']
+2021-01-10 18:26:19 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert message is generated  Product added
+2021-01-10 18:26:19 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert is Accepted
+2021-01-10 18:26:19 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 18:26:19 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkCart
+2021-01-10 18:26:21 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with id --- cartur
+2021-01-10 18:26:21 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User is on page CartPage
+2021-01-10 18:26:21 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkDeleteDelli78gb
+2021-01-10 18:26:23 INFO  - [class com.demoBlaze.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //td[text()='Dell i7 8gb']/following-sibling::td/a[text()='Delete']
+2021-01-10 18:26:28 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//td[text()='Dell i7 8gb']/following-sibling::td/a[text()='Delete'] is not present/displayed in screen 
+2021-01-10 18:26:28 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User captures text from lblTotalExpectedAmount.
+2021-01-10 18:26:31 INFO  - [class com.demoBlaze.webelement.BaseElement] : Waited till totalp is present in screen
+2021-01-10 18:26:31 INFO  - [class com.demoBlaze.webelement.BaseElement] : Get display Text : 790
+2021-01-10 18:26:31 INFO  - [class com.demoBlaze.webelement.BaseElement] : Get display Text : 790Text is found
+2021-01-10 18:26:31 INFO  - [class com.demoBlaze.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2021-01-10 18:26:31 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnPlaceOrder
+2021-01-10 18:26:33 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //button[text()='Place Order']
+2021-01-10 18:26:33 INFO  - [class com.demoBlaze.webelement.BaseElement] : Element//div[@class='modal fade show'] is present/displayed in screen 
+2021-01-10 18:26:33 INFO  - [class com.ecommerce.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnPurchase
+2021-01-10 18:26:35 INFO  - [class com.demoBlaze.webelement.Button] : Button: Clicked Button with xpath --- //button[text()='Purchase']
+2021-01-10 18:26:35 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert message is generated  Please fill out Name and Creditcard.
+2021-01-10 18:26:35 INFO  - [class com.demoBlaze.libraries.GenericLib] : Alert is Accepted
+2021-01-10 18:26:36 INFO  - [class com.demoBlaze.libraries.GenericLib] : Browser is closed
+2021-01-10 18:30:55 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating drivers
+2021-01-10 18:30:55 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Setup the new driver
+2021-01-10 18:30:57 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Created Chrome driver instace
+2021-01-10 18:30:57 INFO  - [class com.demoBlaze.initdriver.DemoBlazeDriver] : Maximize the explorer window
+2021-01-10 18:30:57 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 18:30:57 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initiating drivers
+2021-01-10 18:30:57 INFO  - [class com.demoBlaze.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 18:30:58 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 18:30:58 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 18:30:58 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties at null: unknown protocol: c
+2021-01-10 18:30:58 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\DemoBlaze\config\Logger.properties
+2021-01-10 18:30:58 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/java/com/DemoBlaze/config/Logger.properties

@@ -1,0 +1,1364 @@
+2020-07-24 14:57:21 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Loggers Instance with file name: ZelleLogger_07_24_2020 14_57_21
+2020-07-24 14:57:21 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: ZelleTestReport_07_24_2020 14_57_21
+2020-07-24 14:57:22 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Create user one using services and Launch URL
+2020-07-24 14:57:22 INFO  - [class com.epp.api.executor.APIExecutor] : API Executor constructor, assigning all the values to variable of API 
+2020-07-24 14:57:22 INFO  - [class com.epp.api.executor.APIExecutor] : Closing all the instances of Excel sheets
+2020-07-24 14:57:22 INFO  - [class com.epp.api.executor.APIExecutor] : Request which need to run: AddConsumer.xml
+2020-07-24 14:57:22 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 14:57:22 INFO  - [class com.epp.api.executor.APIExecutor] : Reading XML file into Document instance is done
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=, wsse:Username=, wsse:Password=, req:MtvnSvcVer=, req:ApplID=, req:SvcID=, req:SvcVer=, req:RoutingID=, com1:addr1=, com1:city=, com1:state=, com1:postalCode=, com1:country=, com1:type=, com1:number=, com1:isPrimary=, com1:email=, com1:userId=}
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=HOME, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=HOME, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphaNumeric generate: yrmdaA
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphabet generate: Wmhe
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 13794
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : Random email id generate: Wmhe13794@yahoo.com
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 9106502
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : Random phone generate: 2019106502
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : Parcing of xml file is done
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 14:57:23 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xml file at run level
+2020-07-24 14:57:23 INFO  - [class com.epp.api.executor.APIExecutor] : Hitting the request using post method
+2020-07-24 14:57:23 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Into Post Method
+2020-07-24 14:57:23 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Base End Point URL: https://localhost:1122/services/port
+2020-07-24 14:57:23 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : XML request file path: C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\api\temp\Request_Zelle_AddConsumer_TC01_20200724_145723.xml
+2020-07-24 14:57:24 DEBUG - Get connection for route {s}->https://localhost:1122
+2020-07-24 14:57:24 DEBUG - Connecting to localhost:1122
+2020-07-24 14:57:25 DEBUG - CookieSpec selected: ignoreCookies
+2020-07-24 14:57:25 DEBUG - Auth cache not set in the context
+2020-07-24 14:57:25 DEBUG - Target auth state: UNCHALLENGED
+2020-07-24 14:57:25 DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-24 14:57:25 DEBUG - Attempt 1 to execute request
+2020-07-24 14:57:25 DEBUG - Sending request: POST /services/port/v1_6 HTTP/1.1
+2020-07-24 14:57:25 DEBUG -  >> "POST /services/port/v1_6 HTTP/1.1[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "SOAPAction: authenticate[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "Accept: */*[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "Content-Type: application/soap+xml; charset=UTF-8;[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "Content-Length: 5407[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "Host: localhost:1122[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "[\r][\n]"
+2020-07-24 14:57:25 DEBUG - >> POST /services/port/v1_6 HTTP/1.1
+2020-07-24 14:57:25 DEBUG - >> SOAPAction: authenticate
+2020-07-24 14:57:25 DEBUG - >> Accept: */*
+2020-07-24 14:57:25 DEBUG - >> Content-Type: application/soap+xml; charset=UTF-8;
+2020-07-24 14:57:25 DEBUG - >> Content-Length: 5407
+2020-07-24 14:57:25 DEBUG - >> Host: localhost:1122
+2020-07-24 14:57:25 DEBUG - >> Connection: Keep-Alive
+2020-07-24 14:57:25 DEBUG - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2020-07-24 14:57:25 DEBUG - >> Accept-Encoding: gzip,deflate
+2020-07-24 14:57:25 DEBUG -  >> "<?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://metavante.com/types/common" xmlns:com1="http://epayments.metavante.com/types/common" xmlns:req="http://epayments.metavante.com/types/request" xmlns:req1="http://epayments.metavante.com/types/consumerPayee/request" xmlns:req2="http://epayments.metavante.com/types/fi/request" xmlns:req3="http://epayments.metavante.com/types/fundingAccount/request" xmlns:req4="http://epayments.metavante.com/types/merchant/request" xmlns:req5="http://epayments.metavante.com/types/security/request" xmlns:req6="http://epayments.metavante.com/types/user/request" xmlns:req7="http://epayments.metavante.com/types/consumer/request" xmlns:req8="http://epayments.metavante.com/types/checkimage/request" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "   <soapenv:Header>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "      <wsse:Security>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "         <wsse:UsernameToken>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "            <wsse:Username>FISEPAY_DEV</wsse:Username>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "            <wsse:Password>RaDrup5E4awreP</wsse:Password>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "         </wsse:UsernameToken>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "      </wsse:Security>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "   </soapenv:Header>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "   <soapenv:Body>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "      <req:EbMtvnSvcReq>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "         <req:MtvnSvcVer>v1.6.0</req:MtvnSvcVer>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "         <req:MsgUUID>?</req:MsgUUID>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "         <req:PrcsParms>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "            <req:SrcID>MVEPAY</req:SrcID>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "         </req:PrcsParms>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "         <req:Svc>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "            <req:SvcParms>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "               <req:ApplID>ZELLE</req:ApplID>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "               <req:SvcID>AddConsumer</req:SvcID>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "               <req:SvcVer>v1.6.0</req:SvcVer>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "               <req:RoutingID>fis-50202</req:RoutingID>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "            </req:SvcParms>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "            <req:MsgData>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "               <req:AddConsumer>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                  <req1:locale>en-US</req1:locale>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                  <com:channelName/>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                  <req7:consumerInfo>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:individualConsumer>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:firstName>manjinder</com1:firstName>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:middleName>Y</com1:middleName>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:lastName>singh</com1:lastName>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:SSN>999-99-0000</com1:SSN>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:birthDate>1984-12-31</com1:birthDate>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     </com1:individualConsumer>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:address>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:addr1>10610 Faulkner Point way</com1:addr1>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:city>Irving</com1:city>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:state>TX</com1:state>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:postalCode>75063-1234</com1:postalCode>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:country>US</com1:country>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:phoneNumberList>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                           <com1:phoneNumber>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                              <com1:type>HOME</com1:type>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                            <com1:number>2019106502</com1:number>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                              <com1:isPrimary>true</com1:isPrimary>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                           </com1:phoneNumber>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        </com1:phoneNumberList>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     </com1:address>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:email>Wmhe13794@yahoo.com</com1:email>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <!--com1:serviceId>1</com1:serviceId-->[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:termsAcceptedDate>2009-05-01T12:06:12Z</com1:termsAcceptedDate>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:paymentLimits>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:transactionLimit>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                           <com1:amount>1</com1:amount>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                           <com1:currencyCode>USD</com1:currencyCode>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        </com1:transactionLimit>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:dailyLimit>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                           <com1:amount>1</com1:amount>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                           <com1:currencyCode>USD</com1:currencyCode>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        </com1:dailyLimit>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     </com1:paymentLimits>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:emailFormatPreference>HTML</com1:emailFormatPreference>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                  </req7:consumerInfo>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                  <req7:userInfo>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:firstName>manjinder</com1:firstName>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:middleName>Y</com1:middleName>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:lastName>singh</com1:lastName>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:address>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:addr1>10610 Faulkner Point way</com1:addr1>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:city>Irving</com1:city>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:state>TX</com1:state>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:postalCode>75063-1234</com1:postalCode>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:country>US</com1:country>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:phoneNumberList>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                           <com1:phoneNumber>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                              <com1:type>HOME</com1:type>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                              <com1:number>2019106502</com1:number>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                              <com1:isPrimary>true</com1:isPrimary>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                           </com1:phoneNumber>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        </com1:phoneNumberList>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     </com1:address>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:email>Wmhe13794@yahoo.com</com1:email>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:userIdentity>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                        <com1:userId>yrmdaA</com1:userId>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     </com1:userIdentity>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                     <com1:password>abc123</com1:password>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "                  </req7:userInfo>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "               </req:AddConsumer>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "            </req:MsgData>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "         </req:Svc>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "      </req:EbMtvnSvcReq>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "   </soapenv:Body>[\r][\n]"
+2020-07-24 14:57:25 DEBUG -  >> "</soapenv:Envelope>"
+2020-07-24 14:57:34 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "X-Powered-By: Servlet/3.0[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "Content-Type: text/xml; charset=utf-8[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "Content-Encoding: gzip[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "Content-Language: en-US[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "Date: Fri, 24 Jul 2020 09:27:34 GMT[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "[\r][\n]"
+2020-07-24 14:57:34 DEBUG - Receiving response: HTTP/1.1 200 OK
+2020-07-24 14:57:34 DEBUG - << HTTP/1.1 200 OK
+2020-07-24 14:57:34 DEBUG - << X-Powered-By: Servlet/3.0
+2020-07-24 14:57:34 DEBUG - << Content-Type: text/xml; charset=utf-8
+2020-07-24 14:57:34 DEBUG - << Content-Encoding: gzip
+2020-07-24 14:57:34 DEBUG - << Content-Language: en-US
+2020-07-24 14:57:34 DEBUG - << Transfer-Encoding: chunked
+2020-07-24 14:57:34 DEBUG - << Date: Fri, 24 Jul 2020 09:27:34 GMT
+2020-07-24 14:57:34 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 14:57:34 DEBUG - Parsing response as: text/xml; charset=utf-8
+2020-07-24 14:57:34 DEBUG -  << "a[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-07-24 14:57:34 DEBUG -  << "[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "5b1[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "[0xad]X[0xdb][0x92][0xda]8[0x10]}[0xdf][0xaf][0xa0][0xd8]g[0xb0]e[0xee].[0xe2],[0x99][0x90][\n]"
+2020-07-24 14:57:34 DEBUG -  << "U0;[0x15]`6[0x9b]7[0xc5][0xd6][0xc][0xde][0xb5]e[0x97]e[0xc3][0xf0][0xf7]i[0xb5][0x84]|[0x81]$[0xe3]T[0xa8][0x9a][0xc1][0xea][0xcb]9RK[0xea]n3[0xfb][0x12]G[0x9d]#[0xcb]D[0x98][0xf0]7][0xd2][0xb7][0xbb][0x1d][0xc6][0xfd]$[0x8][0xf9][0xf3][0x9b][0xee]~[0xf7][0xa1]7[0xed][0xbe][0xf5][0xfe][0x98][0x8b][0x84][0xa6][0x8c][0x1f][0xdd]%?[0xb2](IY[0x7][0xdc][0xb8]p[0xb5][0xf8]M[0xf7][0x90][0xe7][0xa9]kY[0xc2]?[0xb0][0x98][0x8a]>h[0xa5][0xaa][0x9f]d[0xcf][0x96]|[0xb0][0x98][0xf6][0xb3][0xba][0xda][0xf3]E[0x4][0xc6][0xeb]t:[0xf5]O[0x3]4vl[0x9b]X[0x9f]7[0xeb]-[0x2][0x95][0xc6][0xe1][0xcf][0x8d]{![0x17]9[0xe5]>[0xeb]V[0xe6][0xfb][0x91][0xd1][0x80]e 8[0x9][0xc1][0xdc]-[0xf3][0x8b],[0xcc][0xcf][0x1a]V[0xca][0xc]n[0x90][0xf8][0xa2][0x9f]P[0x11][0x8a][0x1e][0xcc][0x93]#[0x1][0x18]H[0x92][0xa1][0x5]<J%G6[0xe9][0x81]B[0xfe]i[0xb8][0x1e]<[0xb0][0x97][0xbc][0x7][0xd1][0xeb][0xc3][0xba][0xba][0x9d][0xb]{\[0x88]|[0xcf]a[0x2]rb[0xb0]^[0xd2][0xf5]`"[0x85][0xbb][0xb]c[0x6][0xa2]85[0x13])~[0xcb]<[0x8a]<[0x8c][0xe4][0xb7][0x99][0x88]$[[0x1][0xb1]![0xec][0x91][0xf1]t4[0x18][0x8f][0xec][0x81][0xad][0xe7]r[0x97]1[0x9a][0xb3][0xc0]sl[0xc7][0xee][0xd9][0x93][0x9e]3[0xdc][0xd9]3[0xd7][0x99][0xb8][0x83]a[0xdf][0x9e][0x91]/s[0xab]j[0x85].[0xcb][0x97]4[0xcc][0x98]h[0xb8][0xc][0x9c][0xba][0xcb][0xc5]J[0x8d][0xcc][0xc]p\[0xd9][0xb][0x18]76[0xcb]l[0xde][0xbb]$[0x0][0xf5][0xf2][0xeb]&?[0xf2][0xed][0xd1][0xff][0xc4][0x84][0x8a][0x97][0x89][0x15]K[0xe9]9f<[0x17][0xfd][0x98][0xe5][0xf4]Hy[0xce][0xfa]~[0x12][[0xf9]9e[0xc2][0x2][0xf2]4[0xe1][0x2][0xce][0xc3]\#<[0x2][0xfa][0x91][0xf4][0xc7]}{nUD[0xf3][0x8d]x[0xde][0xef]W[0xef][0xbd][0xb7] [0xd6][0x8f]s[0xd0][0xe1][0xbf][0x7][0x9a][0xc5][0xb0][0x88]E[0x9a]F [0xfe][0xb2]\[0xaf][0x97]sK[0x8f][0xa4][0x1e][0xbe][0x16]Ap[0x7]DE[0xcc][0xb2][0xb9][0xa5]D[0xf3][0x6][0xdb][0x85][0xc9]*[0x11][0x81][0xe9]=[0xcd])@[0x97][0xee][0xde][0x9c][0xb][0xe2]B[0xa4][0x4]}f[0xeb]P[0xe4][0xfa][0x80][0x80][0xd4],[0xfa][0xd6]R[0xe1])N8,[0xd4]j[0xf8]K@[0xc7][0xe5][0xec]ta0[0x80][0xce]+[0xa3][0xe8]k[0xc7]j8[0xb9][0x18][0xb8][0x17][0xf9]*[0x0][0xd7][0xf2]N[0x81][0xea][0xd5][0xc0]z[0xce]u4[0xcf][0x99][0xcc][0x88]3[0x9d][0xc][0xe4]Zj[0x8a][0xa6]@[0xf1]J[0xff][0xa1][0x1b][0xf2] <[0x86]AA[0xa3][0xab][0x85][0xe][0xdb][0xcf]g[0xe8]>[0x85]pg[0xef]i[0xcc][0xbc][0x98][0xf2][0xff]By[0x87]%}U[0x81]vq[0x18][0x4][0x11][0xc3][0xf1][0xbf][0xca][0xa0]"A[0x8b][0x88]j{[0x1])[0xf5][0xa0]l[0x8c][0xc]-[0xb6][0xdb]{o&?6|[0x94][0x81][0x14][0xa1][0xee]k[0x98][0xe5][0x7]8&[0xcc]#[0xb3][0xe9][0xb0]G[0x9c][0xde][0x80]([0x93]R[0xa3][0xc6][0xd7][0x11][0x90][0x8]#[0x97][0x6][0x1][0xec][0x9c]0[0xe1][0x18][0xb5][0xf][0x87][0x2]![0x1e][0xb1][0xc7][0xc4][0xee]|[0xa0]E[0xf4]?[0x87][0x0]?$![0xcf];'z[0x96][0x13][0xb8][0xd8][0xa0][0xb9]/[0xf7]e[0x95][0x1d]a[0xc5]J[0xe7][0xeb][0x8d][0x1a][0xb9][0x90][0x3]`[0xca][0xbb][0xcf]J[0xae]F[0xa8]H[0x13][0x18][0xc0][0xdc][0x3][0xe6]MF[0xf6]x@[0x9c][0xc1]P[0x19]U4[\n]"
+2020-07-24 14:57:34 DEBUG -  << "=)x[0x9e][0x9d][0xbd][0xfd]V[0x83][0xeb][0xb1][0x82]9$[0x9c][0xdd][0x17][0xf1]W[0x96]][0xce]M[0xa8][0x4]r[0x89][0xde][0xc7][0xbf]7K[0x85][0x80]CTpe[0xe4][0xd8]d[0x6][0xab][0x1d][0xd9][0x8e]2[0xd0]b=[0x9f]*ZS[0xa2]H[0xad]J[0xe4]%[0xf0][0xd8][0x85][0x2][0x15]Ff[0x13][0xc6]-7[0xe1][0x14][0x1f][0x18][0x19]Lf[0xc3][0xbf][0xce][0xf4][0x90]$[0xd2]BrhX[0xc9]0q[0x5][0x83][0x80][0xfb]l[0x15][0x18][0x96]IK[0x96][0x91][0x8d]g[0xab][0x2]%[0x91][0xa7][0xe6][0xca][0xbd][0xb][0xa3][0x8][0xb6][0xf4]![0xa2][0xdc]pL[r<[0xac][0x17][0xf7][0x9d]?[0x91][0xe7]&[0xb0]d[0x9c][0xb9][0x1a]j[0x1d][0xc6]a^[0x1e][0xdd]Y[0xfb][0xa3];s[0xf3][0x8c]rA[0xfd][0x1c][0xfa][0x1b][0x84]SR[0x1a][0xcb]C[0xe3]A[0xa1][0xc4][0x1b]g[0x4][0xa8][0x84][0xc2][0x94]A[0x13]t[0xc6]#[0xb7][0xdf][0xbe]W[0x16]5[0xa9][0x12][0xdd][0xc6][0xe]`K[0xce][0xbf][0x9d][0xab][0x8a]j][0xc5][0x8][0xb][0x87][0xed][0xe6][0xc]J[0xcb][0xc2][0xf7]Y[\n]"
+2020-07-24 14:57:34 DEBUG -  << "[0xc5]Z&[0x87][0xb2]~[0xd8]-[0x83][0x7][0x1d][0xc6][0xac]g[0x8f]z6[0xd9][0x11][0xc7][0xb5][0xc7].q`[0x1][0xf6][0x17],17[0x98]p[0x6]D[0x1d][0xc8][0xf]I[0x16][0xd3][0xfc]!cOL.[0xa3]2[0xb][0xd2]r[0x16][0x1f]w[0x9b]52~[0x7][0x19]Y[0x1d][0xcc]#EyP[0xc8][0xeb][0x8b][0x9b][0xa2]Y[0xdc][0xed]V[0x8f][0x98][0xc][0xc][0x18]"[0xf] [0xca][0xa9]:[0x9f],[42)[0xf9][0x85]J[0x7][0x88]*On.v[0x9d][0xe8][0xb9]3[0xb0]U[0xcd][0xc3][0xa2]glJ{[0xc7][0xeb]T4[0x8e][0xd6]`V[0xdd][0x86]I[0xf1][0x2]I9[0x8a][0x84]6[0xb9]$[xT[0xf9]U[0x9d]*3[0xd4][0xb]+[0xb3][0xea]hB[0xa6]cmRO[0xb6][0x12][0xad][0x96]m+[0x82][0x8b][0xc3]U[0x80][0xd0]q[0xe8][0xd2]"[0x8][0xf3][0x15][0xc2][0x1d][0x83][0x1b]R[0xc6][0xed][0x17]*2[0xe0][0xf9][0xd8][0x82][0xe2]Q[0xbb][0xea]U[0x9d]Iy6k[0x96][0x15][0xd7][0xa4][0xd9]\[0xd4][0x14][0xca]0[0x86][0x17][0x9f][0xa7]P[0x1f][0xe8][0x9f][0xb0][0xd4]lk[0xee]7[0x88]*[0x1a]-i[0x86][0x7][0xe5][0xb5]V[\r]AGR[0xb2][0x17][0x95]~[0x86][0xbc][0xbe][0x82][0xdf][0xea][0xdc][0xc8][0xd8]-[0xc4][0x8d][0xb6][0x8d][0xb4][0xad]IU,[0xef][0x9c][0xc5][0x1]][0xe0][0xd2][0x8c][0xac]6*[0x9b]52)[0x9b][0xa8][0x92][0xbd]m[0xad][0xaa][0xb5]eUH[0xa4][0x98]V[0xda][0xb0][0x92][0xa3]m[0xad][0xc2][0x8e][0xae][0x86][0x85][0xe0]3[0xd3][0xbf][0x95][0xd0]mK[0x93]i[0x6]+h[0xd8][0xab][0xdb][0x18][0xaf][0xdd]9-[0xc1][0x9d][0xb6][0xa9]{[0xbf]]~[0xc2][0xd3]T[0x82]!6i[0xe6]I[0xa7]m:.[0xf3][0xa4][0x1]Cd[0xe7][0xfb][0xb7][0xdd]i[0x9b][0x8b][0x15][0xde][0xf]o[0xfb][0xd4][0xdc][0xc3][0xba]e[0xc5][0xf5][0xea][0xb6][0xd7][0x14][0xca][0xf0]'[0xb7][0xbd][0xc6][0xd2][0xbc][0xed][0xa5][0xe8][0x6]Q[0xe3][0xb6][0xdf][0x8][0xf]B[0xc8][0x84][0x9c]%[0xfc]yQ[0xe4][0x87]mcg[0xda][0xd6][0x96]'[0x1a][0x9][0x86]d[0xd7][0xa8]H[0xa6][0xde]:[0xd6][0xc9]s[0xc8]k[0x8d][0x81][0xd3]6[0x1b][0xff]0P[\r][0x16]d[0x1e][0xb9]OP[0xb9]Y[0x80][0xd2];Y=J[0xf2][0xb6]o#[0xd8]A[0xdd]@T[0xc9][0xc6]$K[0x18][0xd6][0xde][0xaa]-[0xf3][0xb2][0xbd][0xcc][0xb2];[0xa8]m[0xdb][0xc7];|[0xd9][0xd2]C)[0x6][0x13]o[@G#[0x4][0xca][0xe5][0x18][0xdf][0xd7][0x8d][0xd3][0xe6]q[0xf9]:[0xa7][0xea]O[0x16][0x95][0xdf]7[0xd4][0xef][0x19]V[0xf3][0xb7]4[0xef][0x1b]f[0xb3][0xa6]1[0x85][0x13][0x0][0x0]"
+2020-07-24 14:57:34 DEBUG -  << "[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "0[\r][\n]"
+2020-07-24 14:57:34 DEBUG -  << "[\r][\n]"
+2020-07-24 14:57:34 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-24 14:57:34 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@20999517
+2020-07-24 14:57:34 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 14:57:34 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Got the response
+2020-07-24 14:57:34 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 14:57:34 INFO  - [class com.epp.api.utils.APIGenerics] : writting the xml file into XML format
+2020-07-24 14:57:34 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xlsx sheet
+2020-07-24 14:57:36 INFO  - [class com.epp.api.utils.APIGenerics] : All the services data is set to Excelsheet
+2020-07-24 14:57:36 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 14:57:36 INFO  - [class com.epp.api.utils.APIGenerics] : Getting the parsed data from response:  {userId=yrmdaA, consumerId=27912873, email=wmhe13794@yahoo.com, number=2019106502}
+2020-07-24 14:57:36 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-24 14:57:36 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-24 14:57:36 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2020-07-24 14:57:36 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2020-07-24 14:57:36 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2020-07-24 14:57:36 INFO  - [class com.epp.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2020-07-24 14:57:36 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:57:36 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:57:36 INFO  - [class com.epp.libraries.GenericLib] : Fetching the Respones output Nodes
+2020-07-24 14:57:36 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:57:36 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:57:36 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:57:36 INFO  - [class com.epp.api.executor.APIExecutor] : Closing all the instances of Excel sheets
+2020-07-24 14:57:36 INFO  - [class com.epp.api.executor.APIExecutor] : Request which need to run: AddFundingProfile.xml
+2020-07-24 14:57:36 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 14:57:36 INFO  - [class com.epp.api.executor.APIExecutor] : Reading XML file into Document instance is done
+2020-07-24 14:57:36 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=, wsse:Username=, wsse:Password=, req:MtvnSvcVer=, req:ApplID=, req:SvcID=, req:SvcVer=, req:RoutingID=, q1:type=, q1:nickname=, q1:primary=, q1:bankName=, q1:accountNumber=, q1:routingNumber=, userID=}
+2020-07-24 14:57:36 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddFundingProfile_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddFundingProfile, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, q1:type=BANK_ACCOUNT, q1:nickname=Demo user, q1:primary=true, q1:bankName=HDFC, q1:accountNumber=100001111189, q1:routingNumber=959009990, userID=ccc}
+2020-07-24 14:57:36 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddFundingProfile_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddFundingProfile, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, q1:type=BANK_ACCOUNT, q1:nickname=Demo user, q1:primary=true, q1:bankName=HDFC, q1:accountNumber=100001111189, q1:routingNumber=959009990, userID=ccc}
+2020-07-24 14:57:36 INFO  - [class com.epp.api.utils.APIGenerics] : Parcing of xml file is done
+2020-07-24 14:57:36 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 14:57:36 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xml file at run level
+2020-07-24 14:57:36 INFO  - [class com.epp.api.executor.APIExecutor] : Hitting the request using post method
+2020-07-24 14:57:36 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Into Post Method
+2020-07-24 14:57:36 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Base End Point URL: https://localhost:1122/services/port
+2020-07-24 14:57:36 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : XML request file path: C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\api\temp\Request_Zelle_AddFundingProfile_TC01_20200724_145736.xml
+2020-07-24 14:57:36 DEBUG - Get connection for route {s}->https://localhost:1122
+2020-07-24 14:57:36 DEBUG - Connecting to localhost:1122
+2020-07-24 14:57:38 DEBUG - CookieSpec selected: ignoreCookies
+2020-07-24 14:57:38 DEBUG - Auth cache not set in the context
+2020-07-24 14:57:38 DEBUG - Target auth state: UNCHALLENGED
+2020-07-24 14:57:38 DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-24 14:57:38 DEBUG - Attempt 1 to execute request
+2020-07-24 14:57:38 DEBUG - Sending request: POST /services/port/v1_6 HTTP/1.1
+2020-07-24 14:57:38 DEBUG -  >> "POST /services/port/v1_6 HTTP/1.1[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "SOAPAction: authenticate[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "Accept: */*[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "Content-Type: application/soap+xml; charset=UTF-8;[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "Content-Length: 2867[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "Host: localhost:1122[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "[\r][\n]"
+2020-07-24 14:57:38 DEBUG - >> POST /services/port/v1_6 HTTP/1.1
+2020-07-24 14:57:38 DEBUG - >> SOAPAction: authenticate
+2020-07-24 14:57:38 DEBUG - >> Accept: */*
+2020-07-24 14:57:38 DEBUG - >> Content-Type: application/soap+xml; charset=UTF-8;
+2020-07-24 14:57:38 DEBUG - >> Content-Length: 2867
+2020-07-24 14:57:38 DEBUG - >> Host: localhost:1122
+2020-07-24 14:57:38 DEBUG - >> Connection: Keep-Alive
+2020-07-24 14:57:38 DEBUG - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2020-07-24 14:57:38 DEBUG - >> Accept-Encoding: gzip,deflate
+2020-07-24 14:57:38 DEBUG -  >> "<?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://metavante.com/types/common" xmlns:com1="http://epayments.metavante.com/types/common" xmlns:req="http://epayments.metavante.com/types/request" xmlns:req1="http://epayments.metavante.com/types/consumerPayee/request" xmlns:req2="http://epayments.metavante.com/types/fi/request" xmlns:req3="http://epayments.metavante.com/types/fundingAccount/request" xmlns:req4="http://epayments.metavante.com/types/merchant/request" xmlns:req5="http://epayments.metavante.com/types/security/request" xmlns:req6="http://epayments.metavante.com/types/user/request" xmlns:req7="http://epayments.metavante.com/types/consumer/request" xmlns:req8="http://epayments.metavante.com/types/checkimage/request" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "   <soapenv:Header>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "      <wsse:Security>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "         <wsse:UsernameToken>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "             <wsse:Username>FISEPAY_DEV</wsse:Username>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "            <wsse:Password>RaDrup5E4awreP</wsse:Password>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "         </wsse:UsernameToken>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "      </wsse:Security>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "   </soapenv:Header>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "   <soapenv:Body>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "      <EbMtvnSvcReq xmlns="http://epayments.metavante.com/types/request">[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "        <req:MtvnSvcVer>v1.6.0</req:MtvnSvcVer>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "         <MsgUUID>bc1ae59a-d0f3-4d80-9bf3-e83e1cb9c87a</MsgUUID>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "         <PrcsParms>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "            <SrcID>MVEPAY</SrcID>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "         </PrcsParms>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "         <Svc>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "            <SvcParms>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "               <req:ApplID>ZELLE</req:ApplID>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "               <req:SvcID>AddFundingProfile</req:SvcID>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "               <req:SvcVer>v1.6.0</req:SvcVer>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "               <RqstUUID>82f0d972-4c5b-4b5f-a0da-be4a9f3dc410</RqstUUID>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "               <req:RoutingID>fis-50202</req:RoutingID>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "            </SvcParms>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "            <MsgData>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "               <AddFundingProfile>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "                  <userId>yrmdaA</userId>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "                  <fundingProfileInfo xmlns="http://epayments.metavante.com/types/fundingProfile/request" xmlns:q1="http://epayments.metavante.com/types/common" xsi:type="q1:BankFundingProfileInfoType">[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "                     <q1:type>BANK_ACCOUNT</q1:type>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "                     <q1:nickname>Demo user</q1:nickname>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "                     <q1:primary>true</q1:primary>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "                     <q1:bankName>HDFC</q1:bankName>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "                     <q1:accountNumber>100001111189</q1:accountNumber>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "                     <q1:routingNumber>959009990</q1:routingNumber>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "                     <q1:checkNumber>123461</q1:checkNumber>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "                     <q1:bankAccountType>CHECKING</q1:bankAccountType>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "                  </fundingProfileInfo>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "               </AddFundingProfile>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "            </MsgData>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "         </Svc>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "      </EbMtvnSvcReq>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "   </soapenv:Body>[\r][\n]"
+2020-07-24 14:57:38 DEBUG -  >> "</soapenv:Envelope>"
+2020-07-24 14:57:43 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "X-Powered-By: Servlet/3.0[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "Content-Type: text/xml; charset=utf-8[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "Content-Encoding: gzip[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "Content-Language: en-US[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "Date: Fri, 24 Jul 2020 09:27:42 GMT[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "[\r][\n]"
+2020-07-24 14:57:43 DEBUG - Receiving response: HTTP/1.1 200 OK
+2020-07-24 14:57:43 DEBUG - << HTTP/1.1 200 OK
+2020-07-24 14:57:43 DEBUG - << X-Powered-By: Servlet/3.0
+2020-07-24 14:57:43 DEBUG - << Content-Type: text/xml; charset=utf-8
+2020-07-24 14:57:43 DEBUG - << Content-Encoding: gzip
+2020-07-24 14:57:43 DEBUG - << Content-Language: en-US
+2020-07-24 14:57:43 DEBUG - << Transfer-Encoding: chunked
+2020-07-24 14:57:43 DEBUG - << Date: Fri, 24 Jul 2020 09:27:42 GMT
+2020-07-24 14:57:43 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 14:57:43 DEBUG - Parsing response as: text/xml; charset=utf-8
+2020-07-24 14:57:43 DEBUG -  << "a[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-07-24 14:57:43 DEBUG -  << "[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "439[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "[0xd5]W]o[0xa3]8[0x14]}[0xdf]_[0x11][0xf1][0xe][0x98][0x8f][0x84][0x80]([0xa3][0x94][0xa6][0xdb]h[0x9a][0xb4]j[0xd2]j[0xa7]/+[0x7][0x9c][0x96]m0,6i[0xfb][0xef][0xf7][0x9a][0xf][0x97]PF[0xd3]J}[0xd8][0x89][0xd4][0x6][0x9f]{[0xee][0xb9][0xc7][0xd7][0x6][0x1c][0xff][0xdb]K[0xba][0x1f][0x1d]H[0xc1][0x92][0x8c][0x9e]([0x86][0x86][0x94][0x11][0xa1]Q[0x16]'[0xf4][0xe1]D[0xb9][0xdd][0x9c][0xab]S[0xe5][[0xf0][0x87][0xcf]2[0x9c][0x13]z[0xf0][0xe6][0xf4]@[0xf6]YNF[0x90]F[0x99][0xd7][0xc0]'[0xca]#[0xe7][0xb9][0xa7][0xeb],z$)f[0x1a]DEH[0xcb][0x8a][0x7]]\[0xe8][0xa4][0xc9][0xd3][0x95]&[0xf3][0x85][0xc5]2[0xeb][0xf9][0xf9]Y{[0xb6]*[0xb2][0x89][0x90][0xa1][0xff][0xb5][0xbc]\WBo[0xe4][0xe4][0xd7]d5[0xa1][0x8c]c[0x1a][0x11][0xa5][0xe3][0xf7][0x82][0xe0][0x98][0x14][0x0]<3F[0xbc]5[0x89][0xca]"[0xe1][0xaf][0x8d][0xac][0xc0][0xa4]n[0x9c]EL[0xcb]0K[0x98][\n]"
+2020-07-24 14:57:43 DEBUG -  << ">iU[0x0][0x8][0xa2][0x88][0xad]C[0x9d]:$F[0xc8]P! [0xfe][0x1a]9[0x15].[0xc8][0xb]W[0xa1]{[0x1a][0xcc]K[0x19][0xb5][0xd5][0xd3][0x92][0xf1][[\n]"
+2020-07-24 14:57:43 DEBUG -  << "[0x6][0x84]1[0x98][0xaf][0xa1][0x4]`[0xa4][0xf4]6IJ[0x0]Jsi[0xa4][0xfc][0x12][0x1f]%O[0xf6][0xe2][[0x1a][0x11][0xc5][0x16]PX[0x16]T[\r][0xcb][0x19][0xbb][0xd3][0x89]5v[0x1a]/aA0'q`"[0x13][0xa9][0xc8]QM{[0x83]\[0xcf]t<[0xdb][0xd2]L[0xdb][0xbc][0xf7][0xf5].[0xab]J[0x99][0xbf][0xe4]IAX/[0xc5]2[0x8f]SZV=[0x92][0xe][0xaa]qg-`[0xdc][,[0xb9]x[0xa7]Y[0xc][0xe1][0xf9]v[0xc9][0xf]t}[0x88]n[0x8][0xab][0xfb]%{Er[0xfc][0x9a][0x12][0xca][0x99][0x96][0x12][0x8e][0xf][0x98]r[0xa2]EY[0xaa][0xf3][0xd7][0x9c]0[0x1d][0x8a][0xe7][0x19]e[0xb0][0x1f][0xfc]F[0xe1][0xe][0xd4][0xf][0x86]6[0xd1][0x90][0xaf]w [0xc9][0x1e]no[0x17]g[0xc1]620[0x19][0xbb]X[0x8d][0xd1][0xce]R[0xed]x[0x8a]Tw[0xb]Wdj[0x11]#[0xda][0xba][0xd1][0xd4][0xc1][0x90][0xd9][0xb0]}H[0xaf][0xfe]][0xe3]"[0x85]y[0xce][0xf2]|[0xf][0xf0][0xfd][0xfc][0xf2]r[0xee][0xeb][0xcd]H[0xc4][0xe1]k[0x16][0xc7][0xe7]%[0x15]w[0xd5]u[0x91][0xed][0x92]=[0xf1][0xf5]:[0xe0][0xf7]l[0xb5][0x96]n[0xfe][0x85][0xad]#[0xaa]L[0xcd][0x1d][0x8a]][0xc7]T[0xed]h[0xbc]U[0xed][0xed]x[0xa7]b[0x14]cuKl[0xec][0xee][0xac]8[0xb2][\r]H[0x93][0xf4]J[0xa1]1[0x4]F[0xcf]0[0xc7][0xe0][0xac]_=[0xf0])3<X[0x11][0x86][0x1f][0xc8]e[0xc2]x[0xb3][0x11][0x1][0x95][0xcd][0x1d]j)\[0xa5][0x19][0x85][0x86][0xea][0xbd]|!hz[0xbb][0xa3]"R[0xd3][0xfc][0xe0][0x82][0x1d][0xa7]w[0xd7][0x8f]2[0xab]'[0xbe][0x88]A[0xe6][0xed]V[0x6][0xc2][0x7][0x8b][0xc8])[0xc]i[0x6][0xd6][0xd8]r'[0x96]i[0x8b][0x9][0xe][0x84][0x87][0xe1][0xda][0x89]P[0xb4]=[0xd8][0xe3][0xbc]d[0xd2][0x95][0xfd]IW[0xb3][0xeb][0xeb][0x9b][0xab][0xbb][0xf9][0x99]([0xd4][0x8a][0x9][0xe1][0xb1][0x97][0xd0]]&e[0xc7][0x9f][0x93][0x1d][0xc1][0x3][0xd4][0x13][0xc8][0x89]"[0xa4]N1}:[0xde][0xf][0xb][0x10][0xdf]@\[0xa9]k[0x9]jp:[}[0xff]{[0x16][0x86]W[0xb7][0xab][0x8d][0xb0][0xd3][0xc0][0x15][0x81]&[0xd1][0x13][0xc5])[0x9][0xce]H[0x9a][0x8d]JF[0x8a][0x9a]![0xf1][0x8a][0x95][0x17]I[0x8a][0x8b][0xd7][0x80][0x17]%[0xa9][0xe3]-R[0x85][0xb7]`c%[0xc8][0x17]g[0xe7]a[0x1d][0x97]PE[0xc0]Q[0x94][0x95][0x94][0xaf][0xca]t[0xb][0xb7][0x84][0x81][0xe0]c[0x88][0xcf][0xd4][0xad][0xd9][0xc7][0xf1]*[0xa5][0xc8][0xe0][0x19]H[0x1f][0x1a][0xc8][0x1d][0xbb][0x8][0xb9][0xae][0x8b]j[0xfe]q[0xb0][0xe2][0xc3][0x9b]#zj[0xb][0x98][0x96]=1jj[0x17][0x97]fgu=[0xd1][0xa8] [0xbc][0x98][0x87][0xdf][0x17][0xab]?[0xdf]|w[0xa3]u[0x93]`"W4[0x14]JA[0x8a][0xe9]?[0x89]x[0x13][0x8c]~[0x8c][0x18]xxl[0xfa][0xd5][0xa1][0xd4][0x88]Xf[0x91]>iw[0xd9][0x92][0xf0][0xc7],n[0xd6][0xe9][0xe8]V[0x9d]|~[0xc7][0xf][0xab][0xe]DZ([0xa6][0x12][0xea][0xee][0xf3][0x1e][0x1b][0xee][0xc][0x3][0x99][0xa6][0x98][0xc1][0xfb]H[0x8b]~Lj3[0xb4][0xf5][0x86]8[0x83][0xb3]9$[0xe2][0x5]r[0xbe]X[0xf]d[0xc9]p73|[0xc4][0x94][0x92]}[0xb0]X[0xad]7[0xb3]^[0xb1]66[0xa0]5[0x84][0xfd][0xbc][0x99]_[0xda]f[0xe4][0xfe][0xc6]m[0x9e][0x85][0x17][0xff][0xfb][0x16][[0x8][0xfd][0xce];[0xf9][0xab]Z[0xfc][0xd3]P[0xfb][0xba]w<\[0xc6][0x9][0x17][0xaf][0x8e]"[0xc5][0x1c]~?[0xc8]'[0x93][0xf3][0xf9]'[0x93][0xe3]E[0xd5][0x11][0x13][0xe],[0xe4][0xfd]Y[0xd4]r5x[0xf8][0xdf][0xb]SG[0xc4][0xb7][0xc4][0xac][0x80][0x5]2[0x1d][0xd7]0[0xa7][0x8e][0xd5][0xe1]UxEK[0xe1]G[0xcd].![0xf1]p[0x5][0xdb][0xec]T8[0xa2]v[0x93][0xdf][0x17][0xe9][0x4]j[0xa0][0xdf][0x94][\n]"
+2020-07-24 14:57:43 DEBUG -  << "[0xee][0x1f][0x8d][0x0][0x1c]8[0x93][0xe9][0xf2][0xc0]6/[0x8a]0&[0xc1][0xfa].[0x4]S[0xbe][0xde][0xc][0x5][0xc][0x94]`]F[0x11][0x1c][0xbd]*\[0x8c][0xab]3[0x9f]LZ[0xde][0xcd]?[0x96][0xd4]=XwN[0xe1][0xf5][0xa9][[0xef][0xff][0xe2][0xb][0xfe][0x3][0x81]1[0xcb][0xd9]+[0xe][0x0][0x0]"
+2020-07-24 14:57:43 DEBUG -  << "[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "0[\r][\n]"
+2020-07-24 14:57:43 DEBUG -  << "[\r][\n]"
+2020-07-24 14:57:43 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-24 14:57:43 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@40ef0af8
+2020-07-24 14:57:43 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 14:57:43 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Got the response
+2020-07-24 14:57:43 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 14:57:43 INFO  - [class com.epp.api.utils.APIGenerics] : writting the xml file into XML format
+2020-07-24 14:57:43 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xlsx sheet
+2020-07-24 14:57:44 INFO  - [class com.epp.api.utils.APIGenerics] : All the services data is set to Excelsheet
+2020-07-24 14:57:44 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 14:57:44 INFO  - [class com.epp.api.utils.APIGenerics] : Getting the parsed data from response:  {fundingProfileId=35396324}
+2020-07-24 14:57:44 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:57:44 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:57:44 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:57:44 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphabet generate: vWMX
+2020-07-24 14:57:44 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 76607
+2020-07-24 14:57:44 INFO  - [class com.epp.api.utils.APIGenerics] : Random email id generate: vWMX76607@yahoo.com
+2020-07-24 14:57:44 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:57:44 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 3903672
+2020-07-24 14:57:44 INFO  - [class com.epp.api.utils.APIGenerics] : Random phone generate: 2013903672
+2020-07-24 14:57:44 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:58:07 INFO  - [class com.epp.libraries.GenericLib] : userIDOne: yrmdaA
+2020-07-24 14:58:07 INFO  - [class com.epp.libraries.GenericLib] : consumerIDOne: 27912873
+2020-07-24 14:58:07 INFO  - [class com.epp.libraries.GenericLib] : emailIDOne: wmhe13794@yahoo.com
+2020-07-24 14:58:07 INFO  - [class com.epp.libraries.GenericLib] : mobileNumberOne: 2019106502
+2020-07-24 14:58:07 INFO  - [class com.epp.libraries.GenericLib] : fundingProfileIDOne: 35396324
+2020-07-24 14:58:07 INFO  - [class com.epp.libraries.GenericLib] : URL launchedhttps://epayments-epayui-fnc-1.money-movement.com/TestPeoplePay50202X/DebugAccess?userName=yrmdaA&productCode=Zelle&destination=Home
+2020-07-24 14:58:07 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page LandingPage
+2020-07-24 14:58:07 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnGetStarted
+2020-07-24 14:58:09 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ContinueButton
+2020-07-24 14:58:09 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SendMoneyWithZellePage
+2020-07-24 14:58:14 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SendMoneyWithZellePage
+2020-07-24 14:58:14 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to SendMoneyWithZellePage
+2020-07-24 14:58:14 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnContinue
+2020-07-24 14:58:14 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- AllDoneButton
+2020-07-24 14:58:14 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 444444 in textbox edtVerificationCode.
+2020-07-24 14:58:20 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed 444444 on element with xpath --- //input[@id='verificationCode']
+2020-07-24 14:58:20 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnVerify
+2020-07-24 14:58:20 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //button[@class='button primary verifyButton ui-btn ui-shadow ui-corner-all']
+2020-07-24 14:58:20 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnSendOrRequestMoney
+2020-07-24 14:58:25 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- YesCancel
+2020-07-24 14:58:25 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Create user one using services and Launch URL
+2020-07-24 14:58:25 INFO  - [class com.epp.api.executor.APIExecutor] : API Executor constructor, assigning all the values to variable of API 
+2020-07-24 14:58:25 INFO  - [class com.epp.api.executor.APIExecutor] : Closing all the instances of Excel sheets
+2020-07-24 14:58:25 INFO  - [class com.epp.api.executor.APIExecutor] : Request which need to run: AddConsumer.xml
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 14:58:25 INFO  - [class com.epp.api.executor.APIExecutor] : Reading XML file into Document instance is done
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=, wsse:Username=, wsse:Password=, req:MtvnSvcVer=, req:ApplID=, req:SvcID=, req:SvcVer=, req:RoutingID=, com1:addr1=, com1:city=, com1:state=, com1:postalCode=, com1:country=, com1:type=, com1:number=, com1:isPrimary=, com1:email=, com1:userId=}
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=HOME, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=HOME, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphaNumeric generate: jSYyp9
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphabet generate: bCmK
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 75621
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : Random email id generate: bCmK75621@yahoo.com
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 9869517
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : Random phone generate: 2019869517
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : Parcing of xml file is done
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 14:58:25 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xml file at run level
+2020-07-24 14:58:25 INFO  - [class com.epp.api.executor.APIExecutor] : Hitting the request using post method
+2020-07-24 14:58:25 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Into Post Method
+2020-07-24 14:58:25 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Base End Point URL: https://localhost:1122/services/port
+2020-07-24 14:58:25 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : XML request file path: C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\api\temp\Request_Zelle_AddConsumer_TC01_20200724_145825.xml
+2020-07-24 14:58:25 DEBUG - Get connection for route {s}->https://localhost:1122
+2020-07-24 14:58:25 DEBUG - Connecting to localhost:1122
+2020-07-24 14:58:26 DEBUG - CookieSpec selected: ignoreCookies
+2020-07-24 14:58:26 DEBUG - Auth cache not set in the context
+2020-07-24 14:58:26 DEBUG - Target auth state: UNCHALLENGED
+2020-07-24 14:58:26 DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-24 14:58:26 DEBUG - Attempt 1 to execute request
+2020-07-24 14:58:26 DEBUG - Sending request: POST /services/port/v1_6 HTTP/1.1
+2020-07-24 14:58:26 DEBUG -  >> "POST /services/port/v1_6 HTTP/1.1[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "SOAPAction: authenticate[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "Accept: */*[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "Content-Type: application/soap+xml; charset=UTF-8;[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "Content-Length: 5407[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "Host: localhost:1122[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "[\r][\n]"
+2020-07-24 14:58:26 DEBUG - >> POST /services/port/v1_6 HTTP/1.1
+2020-07-24 14:58:26 DEBUG - >> SOAPAction: authenticate
+2020-07-24 14:58:26 DEBUG - >> Accept: */*
+2020-07-24 14:58:26 DEBUG - >> Content-Type: application/soap+xml; charset=UTF-8;
+2020-07-24 14:58:26 DEBUG - >> Content-Length: 5407
+2020-07-24 14:58:26 DEBUG - >> Host: localhost:1122
+2020-07-24 14:58:26 DEBUG - >> Connection: Keep-Alive
+2020-07-24 14:58:26 DEBUG - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2020-07-24 14:58:26 DEBUG - >> Accept-Encoding: gzip,deflate
+2020-07-24 14:58:26 DEBUG -  >> "<?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://metavante.com/types/common" xmlns:com1="http://epayments.metavante.com/types/common" xmlns:req="http://epayments.metavante.com/types/request" xmlns:req1="http://epayments.metavante.com/types/consumerPayee/request" xmlns:req2="http://epayments.metavante.com/types/fi/request" xmlns:req3="http://epayments.metavante.com/types/fundingAccount/request" xmlns:req4="http://epayments.metavante.com/types/merchant/request" xmlns:req5="http://epayments.metavante.com/types/security/request" xmlns:req6="http://epayments.metavante.com/types/user/request" xmlns:req7="http://epayments.metavante.com/types/consumer/request" xmlns:req8="http://epayments.metavante.com/types/checkimage/request" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "   <soapenv:Header>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "      <wsse:Security>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "         <wsse:UsernameToken>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "            <wsse:Username>FISEPAY_DEV</wsse:Username>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "            <wsse:Password>RaDrup5E4awreP</wsse:Password>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "         </wsse:UsernameToken>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "      </wsse:Security>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "   </soapenv:Header>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "   <soapenv:Body>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "      <req:EbMtvnSvcReq>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "         <req:MtvnSvcVer>v1.6.0</req:MtvnSvcVer>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "         <req:MsgUUID>?</req:MsgUUID>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "         <req:PrcsParms>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "            <req:SrcID>MVEPAY</req:SrcID>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "         </req:PrcsParms>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "         <req:Svc>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "            <req:SvcParms>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "               <req:ApplID>ZELLE</req:ApplID>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "               <req:SvcID>AddConsumer</req:SvcID>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "               <req:SvcVer>v1.6.0</req:SvcVer>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "               <req:RoutingID>fis-50202</req:RoutingID>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "            </req:SvcParms>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "            <req:MsgData>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "               <req:AddConsumer>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                  <req1:locale>en-US</req1:locale>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                  <com:channelName/>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                  <req7:consumerInfo>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:individualConsumer>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:firstName>manjinder</com1:firstName>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:middleName>Y</com1:middleName>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:lastName>singh</com1:lastName>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:SSN>999-99-0000</com1:SSN>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:birthDate>1984-12-31</com1:birthDate>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     </com1:individualConsumer>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:address>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:addr1>10610 Faulkner Point way</com1:addr1>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:city>Irving</com1:city>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:state>TX</com1:state>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:postalCode>75063-1234</com1:postalCode>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:country>US</com1:country>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:phoneNumberList>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                           <com1:phoneNumber>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                              <com1:type>HOME</com1:type>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                            <com1:number>2019869517</com1:number>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                              <com1:isPrimary>true</com1:isPrimary>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                           </com1:phoneNumber>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        </com1:phoneNumberList>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     </com1:address>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:email>bCmK75621@yahoo.com</com1:email>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <!--com1:serviceId>1</com1:serviceId-->[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:termsAcceptedDate>2009-05-01T12:06:12Z</com1:termsAcceptedDate>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:paymentLimits>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:transactionLimit>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                           <com1:amount>1</com1:amount>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                           <com1:currencyCode>USD</com1:currencyCode>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        </com1:transactionLimit>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:dailyLimit>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                           <com1:amount>1</com1:amount>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                           <com1:currencyCode>USD</com1:currencyCode>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        </com1:dailyLimit>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     </com1:paymentLimits>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:emailFormatPreference>HTML</com1:emailFormatPreference>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                  </req7:consumerInfo>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                  <req7:userInfo>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:firstName>manjinder</com1:firstName>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:middleName>Y</com1:middleName>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:lastName>singh</com1:lastName>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:address>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:addr1>10610 Faulkner Point way</com1:addr1>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:city>Irving</com1:city>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:state>TX</com1:state>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:postalCode>75063-1234</com1:postalCode>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:country>US</com1:country>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:phoneNumberList>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                           <com1:phoneNumber>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                              <com1:type>HOME</com1:type>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                              <com1:number>2019869517</com1:number>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                              <com1:isPrimary>true</com1:isPrimary>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                           </com1:phoneNumber>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        </com1:phoneNumberList>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     </com1:address>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:email>bCmK75621@yahoo.com</com1:email>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:userIdentity>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                        <com1:userId>jSYyp9</com1:userId>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     </com1:userIdentity>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                     <com1:password>abc123</com1:password>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "                  </req7:userInfo>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "               </req:AddConsumer>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "            </req:MsgData>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "         </req:Svc>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "      </req:EbMtvnSvcReq>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "   </soapenv:Body>[\r][\n]"
+2020-07-24 14:58:26 DEBUG -  >> "</soapenv:Envelope>"
+2020-07-24 14:58:34 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "X-Powered-By: Servlet/3.0[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "Content-Type: text/xml; charset=utf-8[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "Content-Encoding: gzip[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "Content-Language: en-US[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "Date: Fri, 24 Jul 2020 09:28:33 GMT[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "[\r][\n]"
+2020-07-24 14:58:34 DEBUG - Receiving response: HTTP/1.1 200 OK
+2020-07-24 14:58:34 DEBUG - << HTTP/1.1 200 OK
+2020-07-24 14:58:34 DEBUG - << X-Powered-By: Servlet/3.0
+2020-07-24 14:58:34 DEBUG - << Content-Type: text/xml; charset=utf-8
+2020-07-24 14:58:34 DEBUG - << Content-Encoding: gzip
+2020-07-24 14:58:34 DEBUG - << Content-Language: en-US
+2020-07-24 14:58:34 DEBUG - << Transfer-Encoding: chunked
+2020-07-24 14:58:34 DEBUG - << Date: Fri, 24 Jul 2020 09:28:33 GMT
+2020-07-24 14:58:34 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 14:58:34 DEBUG - Parsing response as: text/xml; charset=utf-8
+2020-07-24 14:58:34 DEBUG -  << "a[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-07-24 14:58:34 DEBUG -  << "[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "5ae[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "[0xad]X[0xdb][0x92][0xda]8[0x10]}[0xdf][0xaf][0xa0][0xd8]gc[0xcb][0xdc]][0xc4]Y2![0x15][0xaa]`v*[0xc0]l[0x92]7[0x8d][0xad][0x19][0x9c][0xd8][0xb2][0xcb][0xb2]a[0xf8][0xfb][0xb4]ZF[0xbe]@68[0x15][0xaa]f[0xb0][0xfa]r[0x8e][0xd4][0x92][0xba][0xdb][0xcc][0xde][0xbe]Fa[0xe7][0xc0]R[0x11][0xc4][0xfc]M[0x97][0xf4][0xac]n[0x87]q/[0xf6][0x3][0xfe][0xf2][0xa6][0xbb][0xdb]~0&[0xdd][0xb7][0xee]_3[0x11][0xd3][0x84][0xf1][0x83][0xb3][0xe0][0x7][0x16][0xc6][0x9][0xeb][0x80][0x1b][0x17]N!~[0xd3][0xdd]gY[0xe2][0x98][0xa6][0xf0][0xf6],[0xa2][0xa2][0x7]Z[0xa9][0xea][0xc5][0xe9][0x8b])[0x1f]LV[0xf8][0x99][0xdd][0xc2][0xf3]U[0xf8][0xda][0xeb]x<[0xf6][0x8e]}4[0xb6]-[0x8b][0x98][0x9f][0xd7][0xab][\r][0x2][0x95][0xc6][0xc1][0xaf][0x8d][0x8d][0x80][0x8b][0x8c]r[0x8f]u+[0xf3][0xfd][0xc8][0xa8][0xcf]R[0x10][0x1c][0x85]`[0xce][0x86]yy[0x1a]d[0xa7][0x2]V[0xca]4[0xae][0x1f]{[0xa2][0x17]S[0x11][0x8][0x3][0xe6][0xc9][0x91][0x0][0xc]$[0xc9][0xc0][0x4][0x1e][0xa5][0x92]#[0x8b][0x18][0xa0][0x90][0x5][0x9c][0x1][0xf][0xec]53 z=XW[0xb7]sf[0x8f]r[0x91][0xed]8L@N[0xc][0xd6]K[0xba].L$w[0xb6]A[0xc4]@[0x14]%z"[0xf9][0x1f][0x99]G[0x9e][0x5][0xa1][0xfc][0xd6][0x13][0x91]dK [0xd6][0x84][0x86]A[0x86][0xd3][0xc9][0xd4][0x9a][0x8c][0xed]Q1[0x99][0xbb][0x94][0xd1][0x8c][0xf9][0xae]m[0xd9][0x96]a[0x8d][\r]{[0xb0][0xb5][0xa6][0x8e]=q[0xfa][0x83][0xde][0x88][0x90][0xaf]3[0xb3]j[0x85].[0x8b][0xd7]$H[0x99]h[0xb8][0xf4][0xfb]u[0x97][0xb3][0x95][0x1a][0xe9])[0xe0][0xb8][0xb2][0x19]0n[0xec][0x96][0xde][0xbd]w[0xb1][0xf][0xea][0xc5][0xd3]:;[0xf0][0xcd][0xc1][0xfb][0xc4][0x84][\n]"
+2020-07-24 14:58:34 DEBUG -  << "[0x98][0xe][0x16]K[0xe8])b<[0x13][0xbd][0x88]e[0xf4]@y[0xc6]z^[0x1c][0x99][0xd9])a[0xc2][0x4][0xf2]$[0xe6][0x2][0xe][0xc4][0xac]@x[0x4][0xf4][0x3][0xe9][0x8d]z[0xd6][0xcc][0xac][0x88]fk[0xf1][0xb2][0xdb]-[0xdf][0xbb]oA\<[0xce]@[0x87][0xff][0x1e]h[0x1a][0xc1]"[0xe6]I[0x12][0x82][0xf8][0xeb]b[0xb5]Z[0xcc][0xcc]b$[0xf5][0xf0]5[0xf7][0xfd]; [0xca]#[0x96][0xce]L%[0x9a]5[0xd8][0xce]Lf[0x89][0x8]L[0xef]iF[0x1][0xba]twg\[0x10][0x7]"%[0xe8][0xb][[0x5]"+N[0x8]H[0xf5][0xa2][0xaf]-[0x15][0x9e][0xa2][0x98][0xc3]B[0xcd][0x86][0xbf][0x4][0xb4][0x1d][0xce][0x8e]g[0x6][\r]h[0xdf][0x18]E[0xaf]p[0xac][0x86][0x93][0x8b][0xbe]s[0x96]/}p-/[0x15][0xa8]n[0x6].[0xe6]\Gs[0xed][0xf1][0x94][0xd8][0x93][0xf1]@[0xae][0xa5][0xa6]h[\n]"
+2020-07-24 14:58:34 DEBUG -  << "[0x14][0xaf][0xf4][0x1f]8[0x1][0xf7][0x83]C[0xe0][0xe7]4[0xbc]X[0xe8][0xa0][0xfd]|[0x6][0xce]s[0x0][0x97][0xf6][0x9e]F[0xcc][0x8d]([0xff][0x16][0xc8]K,[0xe9][0xab][\n]"
+2020-07-24 14:58:34 DEBUG -  << "[0xb4][0x8b][0x2][0xdf][0xf][0x19][0x8e][0xbf]([0x83][0x8a][0x4]-BZ[0xd8][0xb][0xc8][0xa9]{e[0xa3]eh[0xb1][0xd9][0xdc][0xbb]S[0xf9][0xb1][0xe0][0xa3][0xc][0xa4][0x8]uOA[0x9a][0xed][0xe1][0x98]0[0x97]L'[0x3][0x83][0xd8]F[0x9f]([0x93]R[0xa3][0xc6][0x97][0x11][0x90][0x8]C[0x87][0xfa]>[0xec][0x9c][0xd0][0xe1][0x18][0xb6][0xf][0x87][0x2]!.[0xb1]F[0xc4][0xea]|[0xa0]y[0xf8][0x9d]C[0x80][0x1f][0xe2][0x80]g[0x9d]#=[0xc9][0x9][0x9c]m[0xd0][0xdc][0x93][0xfb][0xb2]L[0xf][0xb0]b[0xa5][0xf3][0x8a][0x8d][0x1a]:[0x90][0x3]`[0xca][0xdb][0xcf]J[0xae]F[0xa8]Hb[0x18][0xc0][0xdc]}[0xe6][0x8e][0x87][0xd6][0xa8]O[0xec][0xfe]@[0x19]U4[\n]"
+2020-07-24 14:58:34 DEBUG -  << "=[0xce]y[0x96][0x9e][0xdc][0xdd][0xa6][0x0]/[0xc6][\n]"
+2020-07-24 14:58:34 DEBUG -  << "f[0x1f]sv[0x9f]GO,=[0x9f][0xff][0x9a]P[0x9][0xe4][0x12][0xdd][0x8f][0xff][0xae][0x17][\n]"
+2020-07-24 14:58:34 DEBUG -  << "[0x1][0x87][0xa8][0xe0][0xca][0xc8][0xb6] [0xdc][0xa3][0xe9][0x90][0x8c][0x95]A!.[0xe6]SEkJ[0x14][0xa9]Y[0x89][0xbc][0x4][0x1e]9P[0xa1][0x82]Po[0xc2][0xa8][0xe5]&<y[0xd1][0xf7][0xf1]pd[0x93]Nt[0x1f][0xc7][0xd2]Br[0x14][0xb0][0x92]a[0xec][0x8][0x6][0x1][0xf7][0xd8][0xd2][0xd7],[0xe3][0x96],C[0xb][0xcf]V[0x5]J"O[0xf4][0x95]{[0x17][0x84]!l[0xe9]CH[0xb9][0xe6][0x98][0xb4][0xe4]xX[0xcd][0xef];#[0xcf]U`[0xc9]8u[\n]"
+2020-07-24 14:58:34 DEBUG -  << "[0xa8]U[0x10][0x5]Yyt[0xa7][0xed][0x8f][0xee][0xd4][0xc9]R[0xca][0x5][0xf5]2hp[0x10]NIi$[0xf][0x8d][0xb][0x95][0x12]o[0x9c][0x16][0xa0][0x12][\n]"
+2020-07-24 14:58:34 DEBUG -  << "S[\n]"
+2020-07-24 14:58:34 DEBUG -  << "][0xd0][0x9][0x8f][0xdc]n[0xf3]^Y[0xd4][0xa4]Jt[0x1d][0xdb][0x87]-9[0xfd]q[0xae]*[0xaa]y[0x11]#,[0x1c][0x96][0x93]1(-s[0xcf]c[0x9][0x14]k[0x99][0x1c][0xca][0xfa]a[0xb5][0xc][0x1e][0xb4][0x18]S[0xc3][0x1a][0x1a][0x16][0xd9][0x12][0xdb][0xb1]F[0xe][0xb1]a[0x1][0xd6]W,1W[0x98]p[0x6]D[0x1d][0xc8][0xf]q[0x1a][0xd1][0xec]!e[0xcf]L.[0xa3]2[0xb][0xd2]r[0x16][0x1f][0xb7][0xeb][0x15]2[0xfe][0x4][0x19]Ym[0xcc]#yyP[0xc8][0xed][0xc5]M[0xd1][0xcc][0xef][0xb6][0xcb]GL[0x6][0x1a][0xc][0x91][0xfb][0x10][0xe5]D[0x9d]O[0x96][0xce][0x1b][0x99][0x94][0xfc]F[0xa5][0x3]D[0x95]'[0xd7]g[0xbb][0xce][0xf4][0xd4][0xe9][[0xaa][0xe6]a[0xc6][0xd3]6[0xa5][0xbd][0xed]v*[0x1a][0xbb][0xd0]`V[0xdd][0x4]q[0xfe][\n]"
+2020-07-24 14:58:34 DEBUG -  << "I9[0xc]EarN[0xb6][0xf0][0xa8][0xf2][0xab]:UzX,[0xac][0xcc][0xaa][0xc3]1[0x99][0x8c][\n]"
+2020-07-24 14:58:34 DEBUG -  << "[0x93]z[0xb2][0x95]h[0xb5]l[[0x11][0x9c][0x1d].[0x2][0x84][0x8e][0x3][0x87][0xe6]~[0x90]-[0xf9]3[0xee][0x18][0xdc][0x90]2n[0xbf]Q[0x91][0x1][0xcf][0xc3][0x16][0x14][0x8f][0xda]E[0xaf]jO[0xca][0xb3]Y[0xb3][0xac][0xb8][0xc6][0xcd][0xe6][0xa2][0xa6]P[0x86][0x11][0xbc][0xf9]<[0x7][0xc5][0x81][0xfe][0x5]K[0xcd][0xb6][0xe6]~[0x85][0xa8][0xa2])$[0xcd][0xf0][0xa0][0xbc][0xd6][0xaa]![0xe8]PJv[0xa2][0xd2][0xcf][0x90][0xdb]+[0xf8][0xb5][0xce][0x8d][0x8c][0x9c]\\i[0xdb]H[0xdb][0x9a]T[0xc5]r[0xbf]m[0xbe][0x9c][0x92]).M[0xcb]j[0xa3][0xb2]Y#[0xe3][0xb2][0x89]*[0xd9][0xdb][0xd6][0xaa]Z[V[0x85]D[0x8a]I[0xa5][\r]+9[0xda][0xd6]*[0xec][0xe8]jX[0x8]>[0xd5][0xfd][[0x9][0xdd][0xb6]4[0xe9]f[0xb0][0x82][0x86][0xbd][0xba][0x85][0xf1][0xda][0x9e][0x92][0x12][0xdc]n[0x9b][0xba]w[0x9b][0xc5]'<M%[0x18]b[0x93]f[0x9e][0xb4][0xdb][0xa6][0xe3]2Oj0D[0xb6]~[0xdb][0xed][0xb6][0xb9]X[0xe1][0xdd]x[0xdb][0xeb][0x96][0x15][0xd7][0x8b][0xdb]^S([0xc3][0x9b]o{[0xd3][0xb6][0xe6]~[0x85][0xa8]q[0xdb][0xaf][0x84][0x7]!dBNc[0xfe]2[0xcf][0xb3][0xfd][0xa6][0xb1]3mk[0xcb]3[\r][0x5]C[0xb2]KT$So[0x1d][0xab][0xf8]%[0xe0][0xb5][0xc6][0xc0]n[0x9b][0x8d][0xff]7P[\r][0x16]d[0x1e]:[0xcf]P[0xb9][0x99][0x8f][0xd2];Y=J[0xf2][0xb6]o#[0xd8]A]AT[0xc9]F'K[0x18][0xd6][0xde][0xaa]M[0xfd][0xb2][0xbd]H[0xd3];[0xa8]m[0x9b][0xc7];|[0xd9]*[0x86]R[0xc]&[0xee]&[0x87][0x8e]F[0x8][0x94][0xcb]1[0xbe][0xaf]k[0xa7][0xf5][0xe3][0xe2]6[0xa7][0xea]O[0x16][0x95][0xdf]7[0xd4][0xef][0x19]f[0xf3][0xc7]4[0xf7][0x7]`[0xa7][0x0][0x80][0x86][0x13][0x0][0x0]"
+2020-07-24 14:58:34 DEBUG -  << "[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "0[\r][\n]"
+2020-07-24 14:58:34 DEBUG -  << "[\r][\n]"
+2020-07-24 14:58:34 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-24 14:58:34 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@778a1250
+2020-07-24 14:58:34 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 14:58:34 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Got the response
+2020-07-24 14:58:34 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 14:58:34 INFO  - [class com.epp.api.utils.APIGenerics] : writting the xml file into XML format
+2020-07-24 14:58:34 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xlsx sheet
+2020-07-24 14:58:35 DEBUG - Connection 0.0.0.0:56027<->127.0.0.1:1122 closed
+2020-07-24 14:58:35 INFO  - [class com.epp.api.utils.APIGenerics] : All the services data is set to Excelsheet
+2020-07-24 14:58:35 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 14:58:35 INFO  - [class com.epp.api.utils.APIGenerics] : Getting the parsed data from response:  {userId=jSYyp9, consumerId=27912874, email=bcmk75621@yahoo.com, number=2019869517}
+2020-07-24 14:58:35 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:58:35 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:58:35 INFO  - [class com.epp.libraries.GenericLib] : Fetching the Respones output Nodes
+2020-07-24 14:58:35 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:58:35 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:58:35 INFO  - [class com.epp.api.executor.APIExecutor] : Closing all the instances of Excel sheets
+2020-07-24 14:58:35 INFO  - [class com.epp.api.executor.APIExecutor] : Request which need to run: AddFundingProfile.xml
+2020-07-24 14:58:35 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 14:58:35 INFO  - [class com.epp.api.executor.APIExecutor] : Reading XML file into Document instance is done
+2020-07-24 14:58:35 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=, wsse:Username=, wsse:Password=, req:MtvnSvcVer=, req:ApplID=, req:SvcID=, req:SvcVer=, req:RoutingID=, q1:type=, q1:nickname=, q1:primary=, q1:bankName=, q1:accountNumber=, q1:routingNumber=, userID=}
+2020-07-24 14:58:35 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=, wsse:Username=, wsse:Password=, req:MtvnSvcVer=, req:ApplID=, req:SvcID=, req:SvcVer=, req:RoutingID=, q1:type=, q1:nickname=, q1:primary=, q1:bankName=, q1:accountNumber=, q1:routingNumber=, userID=}
+2020-07-24 14:58:35 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddFundingProfile_TC02, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddFundingProfile, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, q1:type=BANK_ACCOUNT, q1:nickname=Demo user, q1:primary=true, q1:bankName=HDFC, q1:accountNumber=100001111189, q1:routingNumber=959009990, userID=ccc}
+2020-07-24 14:58:35 INFO  - [class com.epp.api.utils.APIGenerics] : Parcing of xml file is done
+2020-07-24 14:58:35 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 14:58:35 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xml file at run level
+2020-07-24 14:58:35 INFO  - [class com.epp.api.executor.APIExecutor] : Hitting the request using post method
+2020-07-24 14:58:35 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Into Post Method
+2020-07-24 14:58:35 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Base End Point URL: https://localhost:1122/services/port
+2020-07-24 14:58:35 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : XML request file path: C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\api\temp\Request_Zelle_AddFundingProfile_TC02_20200724_145835.xml
+2020-07-24 14:58:35 DEBUG - Get connection for route {s}->https://localhost:1122
+2020-07-24 14:58:35 DEBUG - Connecting to localhost:1122
+2020-07-24 14:58:36 DEBUG - CookieSpec selected: ignoreCookies
+2020-07-24 14:58:36 DEBUG - Auth cache not set in the context
+2020-07-24 14:58:36 DEBUG - Target auth state: UNCHALLENGED
+2020-07-24 14:58:36 DEBUG - Proxy auth state: UNCHALLENGED
+2020-07-24 14:58:36 DEBUG - Attempt 1 to execute request
+2020-07-24 14:58:36 DEBUG - Sending request: POST /services/port/v1_6 HTTP/1.1
+2020-07-24 14:58:36 DEBUG -  >> "POST /services/port/v1_6 HTTP/1.1[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "SOAPAction: authenticate[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "Accept: */*[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "Content-Type: application/soap+xml; charset=UTF-8;[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "Content-Length: 2867[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "Host: localhost:1122[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "[\r][\n]"
+2020-07-24 14:58:36 DEBUG - >> POST /services/port/v1_6 HTTP/1.1
+2020-07-24 14:58:36 DEBUG - >> SOAPAction: authenticate
+2020-07-24 14:58:36 DEBUG - >> Accept: */*
+2020-07-24 14:58:36 DEBUG - >> Content-Type: application/soap+xml; charset=UTF-8;
+2020-07-24 14:58:36 DEBUG - >> Content-Length: 2867
+2020-07-24 14:58:36 DEBUG - >> Host: localhost:1122
+2020-07-24 14:58:36 DEBUG - >> Connection: Keep-Alive
+2020-07-24 14:58:36 DEBUG - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2020-07-24 14:58:36 DEBUG - >> Accept-Encoding: gzip,deflate
+2020-07-24 14:58:36 DEBUG -  >> "<?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://metavante.com/types/common" xmlns:com1="http://epayments.metavante.com/types/common" xmlns:req="http://epayments.metavante.com/types/request" xmlns:req1="http://epayments.metavante.com/types/consumerPayee/request" xmlns:req2="http://epayments.metavante.com/types/fi/request" xmlns:req3="http://epayments.metavante.com/types/fundingAccount/request" xmlns:req4="http://epayments.metavante.com/types/merchant/request" xmlns:req5="http://epayments.metavante.com/types/security/request" xmlns:req6="http://epayments.metavante.com/types/user/request" xmlns:req7="http://epayments.metavante.com/types/consumer/request" xmlns:req8="http://epayments.metavante.com/types/checkimage/request" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "   <soapenv:Header>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "      <wsse:Security>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "         <wsse:UsernameToken>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "             <wsse:Username>FISEPAY_DEV</wsse:Username>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "            <wsse:Password>RaDrup5E4awreP</wsse:Password>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "         </wsse:UsernameToken>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "      </wsse:Security>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "   </soapenv:Header>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "   <soapenv:Body>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "      <EbMtvnSvcReq xmlns="http://epayments.metavante.com/types/request">[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "        <req:MtvnSvcVer>v1.6.0</req:MtvnSvcVer>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "         <MsgUUID>bc1ae59a-d0f3-4d80-9bf3-e83e1cb9c87a</MsgUUID>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "         <PrcsParms>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "            <SrcID>MVEPAY</SrcID>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "         </PrcsParms>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "         <Svc>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "            <SvcParms>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "               <req:ApplID>ZELLE</req:ApplID>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "               <req:SvcID>AddFundingProfile</req:SvcID>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "               <req:SvcVer>v1.6.0</req:SvcVer>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "               <RqstUUID>82f0d972-4c5b-4b5f-a0da-be4a9f3dc410</RqstUUID>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "               <req:RoutingID>fis-50202</req:RoutingID>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "            </SvcParms>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "            <MsgData>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "               <AddFundingProfile>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "                  <userId>jSYyp9</userId>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "                  <fundingProfileInfo xmlns="http://epayments.metavante.com/types/fundingProfile/request" xmlns:q1="http://epayments.metavante.com/types/common" xsi:type="q1:BankFundingProfileInfoType">[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "                     <q1:type>BANK_ACCOUNT</q1:type>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "                     <q1:nickname>Demo user</q1:nickname>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "                     <q1:primary>true</q1:primary>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "                     <q1:bankName>HDFC</q1:bankName>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "                     <q1:accountNumber>100001111189</q1:accountNumber>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "                     <q1:routingNumber>959009990</q1:routingNumber>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "                     <q1:checkNumber>123461</q1:checkNumber>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "                     <q1:bankAccountType>CHECKING</q1:bankAccountType>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "                  </fundingProfileInfo>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "               </AddFundingProfile>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "            </MsgData>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "         </Svc>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "      </EbMtvnSvcReq>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "   </soapenv:Body>[\r][\n]"
+2020-07-24 14:58:36 DEBUG -  >> "</soapenv:Envelope>"
+2020-07-24 14:58:42 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "X-Powered-By: Servlet/3.0[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "Content-Type: text/xml; charset=utf-8[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "Content-Encoding: gzip[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "Content-Language: en-US[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "Date: Fri, 24 Jul 2020 09:28:41 GMT[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "[\r][\n]"
+2020-07-24 14:58:42 DEBUG - Receiving response: HTTP/1.1 200 OK
+2020-07-24 14:58:42 DEBUG - << HTTP/1.1 200 OK
+2020-07-24 14:58:42 DEBUG - << X-Powered-By: Servlet/3.0
+2020-07-24 14:58:42 DEBUG - << Content-Type: text/xml; charset=utf-8
+2020-07-24 14:58:42 DEBUG - << Content-Encoding: gzip
+2020-07-24 14:58:42 DEBUG - << Content-Language: en-US
+2020-07-24 14:58:42 DEBUG - << Transfer-Encoding: chunked
+2020-07-24 14:58:42 DEBUG - << Date: Fri, 24 Jul 2020 09:28:41 GMT
+2020-07-24 14:58:42 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 14:58:42 DEBUG - Parsing response as: text/xml; charset=utf-8
+2020-07-24 14:58:42 DEBUG -  << "a[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0]"
+2020-07-24 14:58:42 DEBUG -  << "[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "438[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "[0xd5]W]o[0xa3]8[0x14]}[0xdf]_[0x11][0xf1][0xe][0x98][0x8f]$[0x80]([0xa3][0x94][0xa6][0xdb]h[0x9a][0xb4]j[0xd2]j[0xa7]/+[0x7][0x9c][0x96]m0,6i[0xfb][0xef][0xf7][0x9a][0xf][0x97]PF[0xd3]J}[0xd8][0x89][0xd4][0x6][0x9f]{[0xee][0xb9][0xc7][0xd7][0x6][0x1c][0xff][0xdb]K[0xba][0x1f][0x1d]H[0xc1][0x92][0x8c][0x9e]([0x86][0x86][0x94][0x11][0xa1]Q[0x16]'[0xf4][0xe1]D[0xb9][0xdd][0x9c][0xab][0x8e][0xf2]-[0xf8][0xc3]g[0x19][0xce][0x9]=xsz [0xfb],'#H[0xa3][0xcc]k[0xe0][0x13][0xe5][0x91][0xf3][0xdc][0xd3]u[0x16]=[0x92][0x14]3[\r][0xa2]"[0xa4]e[0xc5][0x83]..t[0xd2][0xe4][0xe9]J[0x93][0xf9][0xc2]b[0x99][0xf5][0xfc][0xfc][0xac]=[[0x15][0xd9]D[0xc8][0xd0][0xff]Z^[0xae]+[0xa1]7r[0xf2]k[0xb2][0x9a]P[0xc6]1[0x8d][0x88][0xd2][0xf1]{ApL[\n]"
+2020-07-24 14:58:42 DEBUG -  << "[0x0][0x9e][0x19]#[0xde][0x9a]De[0x91][0xf0][0xd7]FV`R7[0xce]"[0xa6]e[0x98]%L[0x5][0x9f][0xb4]*[0x0][0x4]Q[0xc4][0xd6][0xa1]N[0x1d][0x12]#d[0xa8][0x10][0x10][0x8d][0x9c][\n]"
+2020-07-24 14:58:42 DEBUG -  << "[0x17][0xe4][0x85][0xab][0xd0]=[\r][0xe6][0xa5][0x8c][0xda][0xea]i[0xc9][0xf8]-[0x5][0x3][0xc2][0x18][0xcc][0xd7]P[0x2]0Rz[0x9b]$%[0x0][0xa5][0xb9]4R~[0x89][0x8f][0x92]'{[0xf1]-[0x8d][0x88]b[0xb](,[0xb][0xaa][0xea]d[0xea]@[0xea][0xd4][0xb1][0x1b]/aA0'q`"[0x13][0xa9]h[0xaa][0x9a][0xf6][0x6][0xb9][0x9e][0xe9]x[0xb6][0xa1][0xb9][0xe3][0xf1][0xbd][0xaf]wYU[0xca][0xfc]%O[\n]"
+2020-07-24 14:58:42 DEBUG -  << "[0xc2]z)[0x96]u[0x9c][0xd2][0xb2][0xea][0x91]tP[0x8d];k[0x1][0xe3][0xde]b[0xc9][0xc5];[0xcd]b[0x8][0xcf][0xb7]K~[0xa0][0xeb]CtCX[0xdd]/[0xd9]+[0x92][0xe3][0xd7][0x94]P[0xce][0xb4][0x94]p|[0xc0][0x94][0x13]-[0xca]R[0x9d][0xbf][0xe6][0x84][0xe9]P<[0xcf]([0x83][0xfd][0xe0]7[\n]"
+2020-07-24 14:58:42 DEBUG -  << "w[0xa0]~0[0xb4][0x89][0x86]|[0xbd][0x3][0xf9]K[0xf6]p{[0xbb]8[0xb][0xb6][0x91][0x81][0xc9][0xd8][0xc5]j[0x8c]v[0x96]j[0xc7][0xe]R[0xdd]-\[0x11][0xc7]"F[0xb4]u#g[0x8a]![0xb3]a[0xfb][0x90]^[0xfd][0xbb][0xc6]E[\n]"
+2020-07-24 14:58:42 DEBUG -  << "[0xf3][0x9c][0xe5][0xf9][0x1e][0xe0][0xfb][0xf9][0xe5][0xe5][0xdc][0xd7][0x9b][0x91][0x88][0xc3][0xd7],[0x8e][0xcf]K*[0xee][0xaa][0xeb]"[0xdb]%{[0xe2][0xeb]u[0xc0][0xef][0xd9]j-[0xdd][0xfc][0xb][GTq[0xcc][0x1d][0x8a][0xdd][0xa9][0xa9][0xda][0xd1]x[0xab][0xda][0xdb][0xf1]N[0xc5]([0xc6][0xea][0x96][0xd8][0xd8][0xdd]Yqd[0x1b][0x90]&[0xe9][0x95]Bc[0x8][0x8c][0x9e]a[0x8e][0xc1]Y[0xbf]z[0xe0]Sfx[0xb0]"[0xc]?[0x90][0xcb][0x84][0xf1]f#[0x2]*[0x9b];[0xd4]R[0xb8]J3[\n]"
+2020-07-24 14:58:42 DEBUG -  << "[\r][0xd5]{[0xf9]B[0xd0][0xf4]vGE[0xa4][0xa6][0xf9][0xc1][0x5];N[0xef][0xae][0x1f]eVO|[0x11][0x83][0xcc][0xdb][0xad][0xc][0x84][0xf][0x16][0x91]S[0x18][0xd2][0xc][0xac][0xb1][0xe5]N,s,&8[0x10][0x1e][0x86]k'B[0xd1][0xf6]`[0x8f][0xf3][0x92]IW[0xf6]'][0xcd][0xae][0xaf]o[0xae][0xee][0xe6]g[0xa2]P+&[0x84][0xc7]^Bw[0x99][0x94][0x1d]Nv[0x4][0xf]PO '[0x8a][0x90]:[0xc5][0xf4][0xe9]x?,@|[0x3]q[0xa5][0xae]%[0xa8][0xc1][0xe9]l[0xf5][0xfd][0xef]Y[0x18]^[0xdd][0xae]6[0xc2]N[0x3]W[0x4][0x9a]DO[0x14][0xa7]$8#i6*[0x19])j[0x86][0xc4]+V^$).^[0x3]^[0x94][0xa4][0x8e][0xb7]H[0x15][0xde][0x82][0x8d][0x95] _[0x9c][0x9d][0x87]u\B[0x15][0x1]GQVR[0xbe]*[0xd3]-[0xdc][0x12][0x6][0x82][0x8f]!>[0x8e][[0xb3][0x8f][0xe3]UJ[0x91][0xc1]3[0x90]>4[0x90];v[0x11]r][0x17][0xd5][0xfc][0xe3]`[0xc5][0x87]7G[0xf4][0xd4][0x16]0-{b[0xd4][0xd4]..[0xcd][0xce][0xea]z[0xa2]QAx1[0xf][0xbf]/V[0xbe][0xf9][0xee]F[0xeb]&[0xc1]D[0xae]h([0x94][0x82][0x14][0xd3][0x12][0xf1]&[0x18][0xfd][0x18]1[0xf0][0xf0][0xd8][0xf4][0xab]C[0xa9][0x11][0xb1][0xcc]"}[0xd2][0xee][0xb2]%[0xe1][0x8f]Y[0xdc][0xac][0xd3][0xd1][0xad]:[0xf9][0xfc][0x8e][0x1f]V[0x1d][0x88][0xb4]PL%[0xd4][0xdd][0xe7]=6[0xdc][0x19][0x6]2M1[0x83][0xf7][0x91][0x16][0xfd][0x98][0xd4]fh[0xeb][\r]q[0x6]gsH[0xc4][0xb][0xe4]|[0xb1][0x1e][0xc8][0x92][0xe1]nf[0xf8][0x88])%[0xfb]`[0xb1]Zof[0xbd]bml@k[0x8][0xfb]y3[0xbf][0xb4][0xcd][0xc8][0xfd][0x8d][0xdb]<[0xb]/[0xfe][0xf7]-[0xb6][0x10][0xfa][0x9d]w[0xf2]W[0xb5][0xf8][0xa7][0xa1][0xf6]u?[0xf5]p[0x19]'\[0xbc]:[0x8a][0x14]s[0xf8][0xfd] [0x9f]L[0xd3][0xcf]?[0x99][0xa6]^T[0x1d]1[0xe1][0xc0]B[0xde][0x9f]E-G[0x83][0x87][0xff][0xbd]0uD|K[0xcc][\n]"
+2020-07-24 14:58:42 DEBUG -  << "X s[0xea][0x1a][0xa6]3[0xb5];[0xbc][\n]"
+2020-07-24 14:58:42 DEBUG -  << "[0xaf]h)[0xfc][0xa8][0xd9]%$[0x1e][0xae]`[0xa3]N[0x85]#j7[0xf9]}[0x91]N[0xa0][0x6][0xfa]M[0xa9][0xe0][0xfe][0xd1][0x8][0xc0][0x81]3[0x99].[0xf]l[0xf3][0xa2][0x8]c[0x12][0xac][0xef]B0[0xe5][0xeb][0xcd]P[0xc0]@[0x9][0xd6]e[0x14][0xc1][0xd1][0xab][0xc2][0xc5][0xb8]:[0xf3][0xc9][0xa4][0xe5][0xdd][0xfc]cI[0xdd][0x83]u[0xe7][0x14]^[0x9f][0xba][0xf5][0xfe]/[0xbe][0xe0]?[0xce]I=[0x86]+[0xe][0x0][0x0]"
+2020-07-24 14:58:42 DEBUG -  << "[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "0[\r][\n]"
+2020-07-24 14:58:42 DEBUG -  << "[\r][\n]"
+2020-07-24 14:58:42 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-07-24 14:58:42 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1e3f0aea
+2020-07-24 14:58:42 DEBUG - Connection can be kept alive indefinitely
+2020-07-24 14:58:42 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Got the response
+2020-07-24 14:58:42 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 14:58:42 INFO  - [class com.epp.api.utils.APIGenerics] : writting the xml file into XML format
+2020-07-24 14:58:42 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xlsx sheet
+2020-07-24 14:58:42 INFO  - [class com.epp.api.utils.APIGenerics] : All the services data is set to Excelsheet
+2020-07-24 14:58:42 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 14:58:42 INFO  - [class com.epp.api.utils.APIGenerics] : Getting the parsed data from response:  {fundingProfileId=35396325}
+2020-07-24 14:58:42 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:58:42 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:58:42 INFO  - [class com.epp.config.PropertiesCache] : New Properties Cache Log file is created: PropertyCache.properties
+2020-07-24 14:58:45 INFO  - [class com.epp.libraries.GenericLib] : userIDOne: jSYyp9
+2020-07-24 14:58:45 INFO  - [class com.epp.libraries.GenericLib] : consumerIDOne: 27912874
+2020-07-24 14:58:45 INFO  - [class com.epp.libraries.GenericLib] : emailIDOne: bcmk75621@yahoo.com
+2020-07-24 14:58:45 INFO  - [class com.epp.libraries.GenericLib] : mobileNumberOne: 2019869517
+2020-07-24 14:58:45 INFO  - [class com.epp.libraries.GenericLib] : fundingProfileIDOne: 35396325
+2020-07-24 14:58:45 INFO  - [class com.epp.libraries.GenericLib] : URL launchedhttps://epayments-epayui-fnc-1.money-movement.com/TestPeoplePay50202X/DebugAccess?userName=jSYyp9&productCode=Zelle&destination=Home
+2020-07-24 14:58:45 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page LandingPage
+2020-07-24 14:58:45 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnGetStarted
+2020-07-24 14:58:46 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ContinueButton
+2020-07-24 14:58:46 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SendMoneyWithZellePage
+2020-07-24 14:58:51 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SendMoneyWithZellePage
+2020-07-24 14:58:51 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to SendMoneyWithZellePage
+2020-07-24 14:58:51 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnContinue
+2020-07-24 14:58:51 DEBUG - Connection 0.0.0.0:56067<->127.0.0.1:1122 closed
+2020-07-24 14:58:51 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- AllDoneButton
+2020-07-24 14:58:51 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 444444 in textbox edtVerificationCode.
+2020-07-24 14:58:57 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed 444444 on element with xpath --- //input[@id='verificationCode']
+2020-07-24 14:58:57 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnVerify
+2020-07-24 14:58:57 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //button[@class='button primary verifyButton ui-btn ui-shadow ui-corner-all']
+2020-07-24 14:58:57 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User waited for 5 seconds 
+2020-07-24 14:59:02 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnSendOrRequestMoney
+2020-07-24 14:59:02 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- YesCancel
+2020-07-24 14:59:02 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page CommonPage
+2020-07-24 14:59:02 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkRequest
+2020-07-24 14:59:02 INFO  - [class com.epp.webelement.Label] : Label: Clicked label with xpath --- //a[@id='RequestMoneyButtonLink']
+2020-07-24 14:59:02 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SelectRecipientPage
+2020-07-24 14:59:05 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SelectRecipientPage
+2020-07-24 14:59:05 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to SelectRecipientPage
+2020-07-24 14:59:05 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types RandomEmailID@gd.com in textbox edtSearchfield.
+2020-07-24 14:59:06 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed RandomEmailID@gd.com on element with id --- autocomplete-input
+2020-07-24 14:59:06 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnContinue
+2020-07-24 14:59:06 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //button[@id='addNewContact']
+2020-07-24 14:59:06 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page AddContactInfoPage
+2020-07-24 14:59:07 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page AddContactInfoPage
+2020-07-24 14:59:07 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to AddContactInfoPage
+2020-07-24 14:59:07 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types RandomName in textbox edtNameField.
+2020-07-24 14:59:07 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed RandomName on element with id --- NameField
+2020-07-24 14:59:07 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnDone
+2020-07-24 14:59:07 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ContinueButton
+2020-07-24 14:59:07 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnNext
+2020-07-24 14:59:32 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //div[@id='ReminderConfirmationModal']//a[text()='Next']
+2020-07-24 14:59:32 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page EnterAmountPage
+2020-07-24 14:59:44 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page EnterAmountPage
+2020-07-24 14:59:44 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to EnterAmountPage
+2020-07-24 14:59:44 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User types 200.10 in textbox edtAmount.
+2020-07-24 14:59:44 INFO  - [class com.epp.webelement.TextBox] : TextBox: Typed 200.10 on element with id --- amountText
+2020-07-24 14:59:44 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnReview
+2020-07-24 14:59:44 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with id --- ReviewButton
+2020-07-24 14:59:44 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ReviewAndRequestPage
+2020-07-24 15:00:14 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep:  ReviewAndRequestPage Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeMethod(UniversalSteps.java:104)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_user_is_on_page(UniversalSteps.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='centerNavigationSection']/span[text()='Review & Request']"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c95fd6a18a4fdd7d119c03abd787b2da
+*** Element info: {Using=xpath, value=//div[@class='centerNavigationSection']/span[text()='Review & Request']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.zelle.pages.BasePage.isOpen(BasePage.java:28)
+	... 46 more
+...
+2020-07-24 15:00:14 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnRequest
+2020-07-24 15:00:14 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep:  btnRequest Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeMethod(UniversalSteps.java:104)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_user_is_on_page(UniversalSteps.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='centerNavigationSection']/span[text()='Review & Request']"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c95fd6a18a4fdd7d119c03abd787b2da
+*** Element info: {Using=xpath, value=//div[@class='centerNavigationSection']/span[text()='Review & Request']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.zelle.pages.BasePage.isOpen(BasePage.java:28)
+	... 46 more
+java.lang.NoSuchFieldException: btnRequest
+	at java.lang.Class.getField(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:117)
+	at com.zelle.stepdefinition.UniversalSteps.user_clicks_on_element(UniversalSteps.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+...
+2020-07-24 15:00:14 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page RequestSentPage
+2020-07-24 15:00:44 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep:  RequestSentPage Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeMethod(UniversalSteps.java:104)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_user_is_on_page(UniversalSteps.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='centerNavigationSection']/span[text()='Review & Request']"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c95fd6a18a4fdd7d119c03abd787b2da
+*** Element info: {Using=xpath, value=//div[@class='centerNavigationSection']/span[text()='Review & Request']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.zelle.pages.BasePage.isOpen(BasePage.java:28)
+	... 46 more
+java.lang.NoSuchFieldException: btnRequest
+	at java.lang.Class.getField(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:117)
+	at com.zelle.stepdefinition.UniversalSteps.user_clicks_on_element(UniversalSteps.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeMethod(UniversalSteps.java:104)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_user_is_on_page(UniversalSteps.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='centerNavigationSection']/span[text()='Request Sent']"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c95fd6a18a4fdd7d119c03abd787b2da
+*** Element info: {Using=xpath, value=//div[@class='centerNavigationSection']/span[text()='Request Sent']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.zelle.pages.BasePage.isOpen(BasePage.java:28)
+	... 46 more
+...
+2020-07-24 15:00:44 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAlldone
+2020-07-24 15:00:44 ERROR - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep:  btnAlldone Failed , java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeMethod(UniversalSteps.java:104)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_user_is_on_page(UniversalSteps.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='centerNavigationSection']/span[text()='Review & Request']"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c95fd6a18a4fdd7d119c03abd787b2da
+*** Element info: {Using=xpath, value=//div[@class='centerNavigationSection']/span[text()='Review & Request']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.zelle.pages.BasePage.isOpen(BasePage.java:28)
+	... 46 more
+java.lang.NoSuchFieldException: btnRequest
+	at java.lang.Class.getField(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:117)
+	at com.zelle.stepdefinition.UniversalSteps.user_clicks_on_element(UniversalSteps.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeMethod(UniversalSteps.java:104)
+	at com.zelle.stepdefinition.UniversalSteps.validate_that_user_is_on_page(UniversalSteps.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='centerNavigationSection']/span[text()='Request Sent']"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT3WBDWT2', ip: '100.77.5.242', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\e3019085\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c95fd6a18a4fdd7d119c03abd787b2da
+*** Element info: {Using=xpath, value=//div[@class='centerNavigationSection']/span[text()='Request Sent']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.epp.webelement.BaseElement.get(BaseElement.java:46)
+	at com.epp.zelle.pages.BasePage.isOpen(BasePage.java:28)
+	... 46 more
+java.lang.NoSuchFieldException: btnAlldone
+	at java.lang.Class.getField(Unknown Source)
+	at com.zelle.stepdefinition.UniversalSteps.invokeElementMethod(UniversalSteps.java:117)
+	at com.zelle.stepdefinition.UniversalSteps.user_clicks_on_element(UniversalSteps.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:41)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:314)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+...
+2020-07-24 15:00:48 INFO  - [class com.epp.libraries.GenericLib] : URL launched
+2020-07-24 15:00:48 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SelectRecipientPage
+2020-07-24 15:00:52 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page SelectRecipientPage
+2020-07-24 15:00:52 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Changed the current page to SelectRecipientPage
+2020-07-24 15:00:52 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page CommonPage
+2020-07-24 15:00:52 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkActivity
+2020-07-24 15:00:52 INFO  - [class com.epp.webelement.Label] : Label: Clicked label with xpath --- //a[@id='PaymentActivityButtonLink']
+2020-07-24 15:00:52 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Validate that user is on page ActivityPage
+2020-07-24 15:07:16 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2020-07-24 15:07:16 INFO  - [class com.epp.initdriver.RDPDriver] : Setup the new driver
+2020-07-24 15:07:19 INFO  - [class com.epp.initdriver.RDPDriver] : Created Chrome driver instace
+2020-07-24 15:07:19 INFO  - [class com.epp.initdriver.RDPDriver] : Maximize the explorer window
+2020-07-24 15:07:19 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2020-07-24 15:07:19 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 15:07:19 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 15:07:19 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties at null: unknown protocol: c
+2020-07-24 15:07:19 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 15:07:19 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/java/com/epp/config/Logger.properties

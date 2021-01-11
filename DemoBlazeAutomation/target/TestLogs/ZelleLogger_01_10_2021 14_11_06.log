@@ -1,0 +1,30 @@
+2021-01-10 14:11:06 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Loggers Instance with file name: ZelleLogger_01_10_2021 14_11_06
+2021-01-10 14:11:06 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: ZelleTestReport_01_10_2021 14_11_06
+2021-01-10 14:11:07 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 14:11:07 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 14:11:07 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2021-01-10 14:11:07 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 14:11:07 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2021-01-10 14:11:07 INFO  - [class com.epp.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2021-01-10 14:11:10 INFO  - [class com.epp.libraries.GenericLib] : URL launched
+2021-01-10 14:11:10 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 14:11:10 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 14:11:10 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 14:11:11 INFO  - [class com.epp.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 14:11:11 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkSonyVaioI5
+2021-01-10 14:11:13 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Sony vaio i5']
+2021-01-10 14:11:14 INFO  - [class com.epp.webelement.BaseElement] : Element//h2[@class='name' and text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 14:11:14 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 14:16:05 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2021-01-10 14:16:05 INFO  - [class com.epp.initdriver.DemoBlazeDriver] : Setup the new driver
+2021-01-10 14:16:05 ERROR - [class com.epp.initdriver.DemoBlazeDriver] : The driver executable does not exist: C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\BrowserDrivers\chromedriver.exe
+2021-01-10 14:16:05 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 14:16:05 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2021-01-10 14:16:05 INFO  - [class com.epp.initdriver.DemoBlazeDriver] : Setup the new driver
+2021-01-10 14:16:05 ERROR - [class com.epp.initdriver.DemoBlazeDriver] : The driver executable does not exist: C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\resources\com\epp\BrowserDrivers\chromedriver.exe
+2021-01-10 14:16:05 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 14:16:05 DEBUG - FileName set to C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\epp\config\Logger.properties
+2021-01-10 14:16:05 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\epp\config\Logger.properties
+2021-01-10 14:16:05 DEBUG - Could not locate file C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\epp\config\Logger.properties at null: unknown protocol: c
+2021-01-10 14:16:05 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DemoBlazeAutomation\src\main\java\com\epp\config\Logger.properties
+2021-01-10 14:16:05 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DemoBlazeAutomation/src/main/java/com/epp/config/Logger.properties

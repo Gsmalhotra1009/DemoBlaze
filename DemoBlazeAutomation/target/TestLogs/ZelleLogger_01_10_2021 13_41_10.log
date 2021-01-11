@@ -1,0 +1,40 @@
+2021-01-10 13:41:10 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Loggers Instance with file name: ZelleLogger_01_10_2021 13_41_10
+2021-01-10 13:41:10 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: ZelleTestReport_01_10_2021 13_41_10
+2021-01-10 13:41:10 DEBUG - FileName set to C:\SeleniumWorkSpace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 13:41:10 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 13:41:10 DEBUG - Could not locate file C:\SeleniumWorkSpace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties at null: unknown protocol: c
+2021-01-10 13:41:10 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DigiPayZelleAutomation\src\main\resources\com\epp\properties\PropertyCache.properties
+2021-01-10 13:41:10 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DigiPayZelleAutomation/src/main/resources/com/epp/properties/PropertyCache.properties
+2021-01-10 13:41:10 INFO  - [class com.epp.config.PropertiesCache] : Created Properties Configuration Object for IO operation of Property Cache File: PropertyCache.properties
+2021-01-10 13:41:21 INFO  - [class com.epp.libraries.GenericLib] : URL launched
+2021-01-10 13:41:21 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page HomePage
+2021-01-10 13:41:21 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 13:41:22 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //div[@class='list-group']/a[text()='Laptops']
+2021-01-10 13:41:22 INFO  - [class com.epp.webelement.BaseElement] : Element//h4[@class='card-title']/a[text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 13:41:22 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkSonyVaioI5
+2021-01-10 13:41:23 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //h4[@class='card-title']/a[text()='Sony vaio i5']
+2021-01-10 13:41:23 INFO  - [class com.epp.webelement.BaseElement] : Element//h2[@class='name' and text()='Sony vaio i5'] is present/displayed in screen 
+2021-01-10 13:41:23 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnAddToCart
+2021-01-10 13:41:23 INFO  - [class com.epp.webelement.Button] : Button: Clicked Button with xpath --- //a[text()='Add to cart']
+2021-01-10 13:41:23 ERROR - [class com.epp.libraries.GenericLib] : Unable to Accept the alert no such alert
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'IXC1-LT9Y5DWT2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\e3024561\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b6370f3dd0ad4f2834f049c03d95d9c
+2021-01-10 13:41:23 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkHome
+2021-01-10 13:41:23 INFO  - [class com.epp.webelement.LinkLabel] : LabelLabel: Clicked label with xpath --- //a[@class='nav-link'][contains(text(),'Home')]
+2021-01-10 13:41:23 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element lnkLaptops
+2021-01-10 13:42:01 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2021-01-10 13:42:01 INFO  - [class com.epp.initdriver.RDPDriver] : Setup the new driver
+2021-01-10 13:42:03 INFO  - [class com.epp.initdriver.RDPDriver] : Created Chrome driver instace
+2021-01-10 13:42:03 INFO  - [class com.epp.initdriver.RDPDriver] : Maximize the explorer window
+2021-01-10 13:42:03 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 13:42:03 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2021-01-10 13:42:03 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2021-01-10 13:42:04 DEBUG - FileName set to C:\SeleniumWorkSpace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2021-01-10 13:42:04 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkSpace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2021-01-10 13:42:04 DEBUG - Could not locate file C:\SeleniumWorkSpace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties at null: unknown protocol: c
+2021-01-10 13:42:04 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkSpace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2021-01-10 13:42:04 DEBUG - Base path set to file:///C:/SeleniumWorkSpace/DigiPayZelleAutomation/src/main/java/com/epp/config/Logger.properties

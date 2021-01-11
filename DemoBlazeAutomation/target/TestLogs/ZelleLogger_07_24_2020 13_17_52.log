@@ -1,0 +1,51 @@
+2020-07-24 13:17:52 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Loggers Instance with file name: ZelleLogger_07_24_2020 13_17_52
+2020-07-24 13:17:52 INFO  - [class com.epp.executor.CukeExecutor] : Initiating Extent Reports Instance with file name: ZelleTestReport_07_24_2020 13_17_52
+2020-07-24 13:17:53 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: Create user one using services and Launch URL
+2020-07-24 13:17:53 INFO  - [class com.epp.api.executor.APIExecutor] : API Executor constructor, assigning all the values to variable of API 
+2020-07-24 13:17:53 INFO  - [class com.epp.api.executor.APIExecutor] : Closing all the instances of Excel sheets
+2020-07-24 13:17:53 INFO  - [class com.epp.api.executor.APIExecutor] : Request which need to run: AddConsumer.xml
+2020-07-24 13:17:53 INFO  - [class com.epp.api.utils.APIGenerics] : Reading the file and returing the document instance
+2020-07-24 13:17:53 INFO  - [class com.epp.api.executor.APIExecutor] : Reading XML file into Document instance is done
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=, wsse:Username=, wsse:Password=, req:MtvnSvcVer=, req:ApplID=, req:SvcID=, req:SvcVer=, req:RoutingID=, com1:addr1=, com1:city=, com1:state=, com1:postalCode=, com1:country=, com1:type=, com1:number=, com1:isPrimary=, com1:email=, com1:userId=}
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=HOME, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : keyValueData generated:  {TCName=Zelle_AddConsumer_TC01, wsse:Username=FISEPAY_DEV, wsse:Password=RaDrup5E4awreP, req:MtvnSvcVer=v1.6.0, req:ApplID=ZELLE, req:SvcID=AddConsumer, req:SvcVer=v1.6.0, req:RoutingID=fis-50202, com1:addr1=10610 Faulkner Point way, com1:city=Irving, com1:state=TX, com1:postalCode=75063-1234, com1:country=US, com1:type=HOME, com1:number=100001111189, com1:isPrimary=true, com1:email=gulabo@yahoo.com, com1:userId=xyxde9111117}
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphaNumeric generate: j2YMcK
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : Random alphabet generate: gREx
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 34911
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : Random email id generate: gREx34911@yahoo.com
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : Random number generate: 7641824
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : Random phone generate: 2017641824
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : Parcing of xml file is done
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : Getting timestamp in yyyyMMdd_HHmmss this formats 
+2020-07-24 13:17:54 INFO  - [class com.epp.api.utils.APIGenerics] : Creating the xml file at run level
+2020-07-24 13:17:54 INFO  - [class com.epp.api.executor.APIExecutor] : Hitting the request using post method
+2020-07-24 13:17:54 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Into Post Method
+2020-07-24 13:17:55 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : Base End Point URL: https://localhost:1122/services/port
+2020-07-24 13:17:55 INFO  - [class com.epp.api.soaphit.GetSoapResponse] : XML request file path: C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\api\temp\Request_Zelle_AddConsumer_TC01_20200724_131754.xml
+2020-07-24 13:17:57 DEBUG - Get connection for route {s}->https://localhost:1122
+2020-07-24 13:17:57 DEBUG - Connecting to localhost:1122
+2020-07-24 13:17:58 DEBUG - Connect to localhost:1122 timed out. Connection will be retried using another IP address
+2020-07-24 13:17:58 DEBUG - Connecting to localhost:1122
+2020-07-24 13:17:59 DEBUG - Connection org.apache.http.impl.conn.DefaultClientConnection@40729f01 closed
+2020-07-24 13:17:59 DEBUG - Connection org.apache.http.impl.conn.DefaultClientConnection@40729f01 shut down
+2020-07-24 13:17:59 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@d535a3d
+2020-07-24 13:17:59 ERROR - [class com.epp.api.soaphit.GetSoapResponse] : error: Connection refused: connect
+2020-07-24 13:17:59 ERROR - [class com.epp.api.utils.APIGenerics] : C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\api\temp\null (The system cannot find the file specified)
+2020-07-24 13:17:59 ERROR - [class com.epp.api.utils.APIGenerics] : null
+2020-07-24 13:17:59 ERROR - [class com.epp.libraries.GenericLib] : Error while fetching details: java.lang.NullPointerException
+	at com.epp.libraries.GenericLib.runServiceAndopenURLOne(GenericLib.java:61)
+	at com.zelle.stepdefinition.UniversalSteps.create_user_one_using_services_and_LaunchURL(UniversalSteps.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Sour
+2020-07-24 13:17:59 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User is on page LandingPage
+2020-07-24 13:17:59 INFO  - [class com.zelle.stepdefinition.UniversalSteps] : UniversalStep: User clicks on element btnGetStarted
+2020-07-24 13:18:50 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2020-07-24 13:18:50 INFO  - [class com.epp.initdriver.RDPDriver] : Setup the new driver
+2020-07-24 13:18:55 INFO  - [class com.epp.initdriver.RDPDriver] : Created Chrome driver instace
+2020-07-24 13:18:55 INFO  - [class com.epp.initdriver.RDPDriver] : Maximize the explorer window
+2020-07-24 13:18:55 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2020-07-24 13:18:56 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 13:18:56 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 13:18:56 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties at null: unknown protocol: c
+2020-07-24 13:18:56 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-24 13:18:56 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/java/com/epp/config/Logger.properties

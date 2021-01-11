@@ -1,0 +1,10 @@
+2020-07-27 17:40:54 INFO  - [class com.epp.executor.CukeExecutor] : Initiating drivers
+2020-07-27 17:40:54 INFO  - [class com.epp.initdriver.RDPDriver] : Setup the new driver
+2020-07-27 17:40:57 INFO  - [class com.epp.initdriver.RDPDriver] : Created Chrome driver instace
+2020-07-27 17:40:57 INFO  - [class com.epp.initdriver.RDPDriver] : Maximize the explorer window
+2020-07-27 17:40:57 INFO  - [class com.epp.executor.CukeExecutor] : Initialisation of drivers is completed successfully
+2020-07-27 17:40:57 DEBUG - FileName set to C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-27 17:40:57 DEBUG - ConfigurationUtils.locate(): base is null, name is C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-27 17:40:57 DEBUG - Could not locate file C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties at null: unknown protocol: c
+2020-07-27 17:40:57 DEBUG - Loading configuration from the absolute path C:\SeleniumWorkspace\DigiPayZelleAutomation\src\main\java\com\epp\config\Logger.properties
+2020-07-27 17:40:57 DEBUG - Base path set to file:///C:/SeleniumWorkspace/DigiPayZelleAutomation/src/main/java/com/epp/config/Logger.properties
